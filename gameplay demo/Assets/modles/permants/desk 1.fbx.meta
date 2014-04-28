@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: 81c083b763794254e98e6baca89479b2
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: cage
+    100002: cage_001
+    100004: chair
+    100006: desk
+    100008: //RootNode
+    100010: drawerBottom
+    100012: drawerTop
+    100014: glassTop
+    100016: handle
+    100018: handle_001
+    100020: lampLamp
+    100022: lampRight
+    100024: light-mesh
+    100026: light-mesh_001
+    400000: cage
+    400002: cage_001
+    400004: chair
+    400006: desk
+    400008: //RootNode
+    400010: drawerBottom
+    400012: drawerTop
+    400014: glassTop
+    400016: handle
+    400018: handle_001
+    400020: lampLamp
+    400022: lampRight
+    400024: light-mesh
+    400026: light-mesh_001
+    2300000: cage
+    2300002: cage_001
+    2300004: chair
+    2300006: desk
+    2300008: drawerBottom
+    2300010: drawerTop
+    2300012: glassTop
+    2300014: handle
+    2300016: handle_001
+    2300018: lampLamp
+    2300020: lampRight
+    2300022: light-mesh
+    2300024: light-mesh_001
+    3300000: cage
+    3300002: cage_001
+    3300004: chair
+    3300006: desk
+    3300008: drawerBottom
+    3300010: drawerTop
+    3300012: glassTop
+    3300014: handle
+    3300016: handle_001
+    3300018: lampLamp
+    3300020: lampRight
+    3300022: light-mesh
+    3300024: light-mesh_001
+    4300000: desk
+    4300002: drawerTop
+    4300004: handle
+    4300006: glassTop
+    4300008: drawerBottom
+    4300010: handle_001
+    4300012: lampLamp
+    4300014: cage
+    4300016: light-mesh
+    4300018: lampRight
+    4300020: cage_001
+    4300022: light-mesh_001
+    4300024: chair
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

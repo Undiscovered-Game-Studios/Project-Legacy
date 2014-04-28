@@ -1,0 +1,3043 @@
+fileFormatVersion: 2
+guid: 67aa3db206badb54a99b44323a58a5fb
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: AnkleIK_L
+    100002: AnkleIK_R
+    100004: Armature
+    100006: BezierCurve
+    100008: BezierCurve_001
+    100010: BezierCurve_002
+    100012: BezierCurve_003
+    100014: BezierCurve_004
+    100016: BezierCurve_005
+    100018: BezierCurve_006
+    100020: BezierCurve_007
+    100022: BezierCurve_008
+    100024: BezierCurve_009
+    100026: BezierCurve_010
+    100028: BezierCurve_011
+    100030: BezierCurve_012
+    100032: BezierCurve_013
+    100034: BezierCurve_014
+    100036: BezierCurve_015
+    100038: BezierCurve_017
+    100040: BezierCurve_018
+    100042: BezierCurve_019
+    100044: BezierCurve_020
+    100046: BezierCurve_021
+    100048: BezierCurve_022
+    100050: BezierCurve_023
+    100052: BezierCurve_024
+    100054: BezierCurve_025
+    100056: Circle
+    100058: Circle_001
+    100060: Circle_002
+    100062: Circle_003
+    100064: Circle_004
+    100066: Circle_005
+    100068: Circle_006
+    100070: Circle_008
+    100072: Circle_009
+    100074: Circle_010
+    100076: Circle_011
+    100078: Circle_012
+    100080: Circle_013
+    100082: Circle_014
+    100084: Circle_015
+    100086: Circle_016
+    100088: Circle_017
+    100090: Circle_018
+    100092: Circle_019
+    100094: Circle_020
+    100096: Circle_021
+    100098: Circle_022
+    100100: Circle_023
+    100102: Circle_024
+    100104: Circle_025
+    100106: Circle_026
+    100108: Circle_027
+    100110: Circle_028
+    100112: Circle_029
+    100114: Circle_030
+    100116: Circle_031
+    100118: Circle_032
+    100120: Circle_033
+    100122: Circle_034
+    100124: Circle_035
+    100126: Circle_036
+    100128: Circle_037
+    100130: Circle_038
+    100132: Circle_039
+    100134: Circle_040
+    100136: Circle_041
+    100138: Circle_042
+    100140: Circle_043
+    100142: Circle_044
+    100144: Circle_045
+    100146: Circle_046
+    100148: Circle_047
+    100150: Circle_048
+    100152: Circle_049
+    100154: Circle_050
+    100156: Circle_051
+    100158: Circle_053
+    100160: Circle_054
+    100162: Circle_055
+    100164: Circle_056
+    100166: Circle_057
+    100168: Circle_058
+    100170: Circle_059
+    100172: Circle_060
+    100174: Circle_061
+    100176: Circle_062
+    100178: Circle_063
+    100180: Circle_064
+    100182: Circle_065
+    100184: Circle_068
+    100186: Circle_069
+    100188: Circle_070
+    100190: Circle_071
+    100192: Circle_072
+    100194: Circle_073
+    100196: Circle_074
+    100198: Circle_075
+    100200: Circle_081
+    100202: Circle_082
+    100204: Circle_083
+    100206: Circle_084
+    100208: Circle_085
+    100210: Circle_086
+    100212: Circle_087
+    100214: Circle_088
+    100216: Circle_089
+    100218: Circle_090
+    100220: Circle_091
+    100222: Circle_092
+    100224: Circle_093
+    100226: Circle_094
+    100228: Circle_095
+    100230: Circle_096
+    100232: Circle_097
+    100234: Circle_098
+    100236: Circle_099
+    100238: Circle_100
+    100240: Circle_101
+    100242: Circle_102
+    100244: Circle_103
+    100246: Circle_105
+    100248: Circle_106
+    100250: Circle_107
+    100252: Circle_108
+    100254: Circle_109
+    100256: Circle_110
+    100258: Circle_111
+    100260: Circle_112
+    100262: Circle_113
+    100264: Circle_114
+    100266: Circle_115
+    100268: Circle_116
+    100270: Circle_117
+    100272: Circle_118
+    100274: Circle_119
+    100276: Circle_120
+    100278: Circle_121
+    100280: Circle_122
+    100282: Circle_123
+    100284: Circle_124
+    100286: Circle_125
+    100288: Circle_126
+    100290: Circle_127
+    100292: Circle_128
+    100294: Circle_129
+    100296: Circle_130
+    100298: Circle_131
+    100300: Circle_132
+    100302: Circle_133
+    100304: Circle_134
+    100306: Cube
+    100308: ElbowIK_L
+    100310: ElbowIK_R
+    100312: Empty
+    100314: Empty_001
+    100316: Empty_002
+    100318: Empty_003
+    100320: Empty_004
+    100322: Empty_005
+    100324: Empty_006
+    100326: Empty_007
+    100328: Empty_008
+    100330: Empty_009
+    100332: Empty_010
+    100334: Empty_011
+    100336: Empty_012
+    100338: Empty_013
+    100340: Empty_014
+    100342: Empty_015
+    100344: Empty_016
+    100346: Empty_017
+    100348: Empty_018
+    100350: Empty_019
+    100352: Empty_020
+    100354: Empty_021
+    100356: Empty_022
+    100358: Empty_023
+    100360: Empty_024
+    100362: Empty_025
+    100364: Empty_026
+    100366: Empty_027
+    100368: Empty_028
+    100370: Empty_029
+    100372: Empty_030
+    100374: Empty_031
+    100376: Empty_032
+    100378: Empty_033
+    100380: Empty_034
+    100382: Empty_035
+    100384: Empty_036
+    100386: Empty_037
+    100388: Empty_038
+    100390: Empty_039
+    100392: Empty_040
+    100394: Empty_041
+    100396: Empty_042
+    100398: Empty_043
+    100400: Empty_044
+    100402: Empty_045
+    100404: Empty_046
+    100406: Empty_047
+    100408: Empty_048
+    100410: Empty_049
+    100412: Empty_050
+    100414: Empty_051
+    100416: Empty_052
+    100418: Empty_053
+    100420: Empty_054
+    100422: Empty_055
+    100424: Empty_056
+    100426: Empty_057
+    100428: Empty_058
+    100430: Empty_059
+    100432: Empty_060
+    100434: Empty_061
+    100436: Empty_062
+    100438: Empty_063
+    100440: Empty_064
+    100442: Empty_065
+    100444: Empty_066
+    100446: Empty_067
+    100448: Empty_068
+    100450: Empty_069
+    100452: Empty_070
+    100454: Empty_071
+    100456: Empty_072
+    100458: Empty_073
+    100460: Empty_074
+    100462: Empty_075
+    100464: Empty_076
+    100466: Empty_077
+    100468: Empty_078
+    100470: Empty_079
+    100472: Empty_080
+    100474: Empty_081
+    100476: Empty_082
+    100478: Empty_083
+    100480: Empty_084
+    100482: Empty_085
+    100484: Empty_086
+    100486: Empty_087
+    100488: Empty_088
+    100490: Empty_089
+    100492: Empty_090
+    100494: Empty_091
+    100496: Empty_092
+    100498: Empty_093
+    100500: Empty_094
+    100502: Empty_095
+    100504: Empty_096
+    100506: Empty_097
+    100508: Empty_098
+    100510: Empty_099
+    100512: Empty_100
+    100514: Empty_101
+    100516: Empty_102
+    100518: Empty_103
+    100520: Empty_104
+    100522: Empty_105
+    100524: Empty_106
+    100526: Empty_107
+    100528: Empty_108
+    100530: Empty_109
+    100532: Empty_110
+    100534: Empty_111
+    100536: Empty_112
+    100538: Empty_113
+    100540: Foot_L
+    100542: Foot_R
+    100544: FootControl_L
+    100546: FootControl_R
+    100548: Hand_L
+    100550: Hand_R
+    100552: HandIK_L
+    100554: HandIK_R
+    100556: Head
+    100558: Hip
+    100560: KneeIK_L
+    100562: KneeIK_R
+    100564: LowerArn_L
+    100566: LowerArn_R
+    100568: LowerLeg_L
+    100570: LowerLeg_R
+    100572: Mid1_L
+    100574: Mid1_R
+    100576: Mid2_L
+    100578: Mid2_R
+    100580: Mid3_L
+    100582: Mid3_R
+    100584: Neck
+    100586: Pinky1_L
+    100588: Pinky1_R
+    100590: Pinky2_L
+    100592: Pinky2_R
+    100594: Pinky3_L
+    100596: Pinky3_R
+    100598: Plane
+    100600: Plane_001
+    100602: Plane_002
+    100604: Plane_003
+    100606: Plane_004
+    100608: Plane_005
+    100610: Plane_007
+    100612: Plane_009
+    100614: Plane_010
+    100616: Plane_011
+    100618: Plane_012
+    100620: Plane_013
+    100622: Pointer1_L
+    100624: Pointer1_R
+    100626: Pointer2_L
+    100628: Pointer2_R
+    100630: Pointer3_L
+    100632: Pointer3_R
+    100634: Shoulder_L
+    100636: Shoulder_R
+    100638: Sphere
+    100640: Sphere_001
+    100642: Sphere_002
+    100644: //RootNode
+    100646: Thumb1_L
+    100648: Thumb1_R
+    100650: Thumb2_L
+    100652: Thumb2_R
+    100654: Toe_L
+    100656: Toe_R
+    100658: Torso
+    100660: UpperArm_L
+    100662: UpperArm_R
+    100664: UpperLeg_L
+    100666: UpperLeg_R
+    400000: AnkleIK_L
+    400002: AnkleIK_R
+    400004: Armature
+    400006: BezierCurve
+    400008: BezierCurve_001
+    400010: BezierCurve_002
+    400012: BezierCurve_003
+    400014: BezierCurve_004
+    400016: BezierCurve_005
+    400018: BezierCurve_006
+    400020: BezierCurve_007
+    400022: BezierCurve_008
+    400024: BezierCurve_009
+    400026: BezierCurve_010
+    400028: BezierCurve_011
+    400030: BezierCurve_012
+    400032: BezierCurve_013
+    400034: BezierCurve_014
+    400036: BezierCurve_015
+    400038: BezierCurve_017
+    400040: BezierCurve_018
+    400042: BezierCurve_019
+    400044: BezierCurve_020
+    400046: BezierCurve_021
+    400048: BezierCurve_022
+    400050: BezierCurve_023
+    400052: BezierCurve_024
+    400054: BezierCurve_025
+    400056: Circle
+    400058: Circle_001
+    400060: Circle_002
+    400062: Circle_003
+    400064: Circle_004
+    400066: Circle_005
+    400068: Circle_006
+    400070: Circle_008
+    400072: Circle_009
+    400074: Circle_010
+    400076: Circle_011
+    400078: Circle_012
+    400080: Circle_013
+    400082: Circle_014
+    400084: Circle_015
+    400086: Circle_016
+    400088: Circle_017
+    400090: Circle_018
+    400092: Circle_019
+    400094: Circle_020
+    400096: Circle_021
+    400098: Circle_022
+    400100: Circle_023
+    400102: Circle_024
+    400104: Circle_025
+    400106: Circle_026
+    400108: Circle_027
+    400110: Circle_028
+    400112: Circle_029
+    400114: Circle_030
+    400116: Circle_031
+    400118: Circle_032
+    400120: Circle_033
+    400122: Circle_034
+    400124: Circle_035
+    400126: Circle_036
+    400128: Circle_037
+    400130: Circle_038
+    400132: Circle_039
+    400134: Circle_040
+    400136: Circle_041
+    400138: Circle_042
+    400140: Circle_043
+    400142: Circle_044
+    400144: Circle_045
+    400146: Circle_046
+    400148: Circle_047
+    400150: Circle_048
+    400152: Circle_049
+    400154: Circle_050
+    400156: Circle_051
+    400158: Circle_053
+    400160: Circle_054
+    400162: Circle_055
+    400164: Circle_056
+    400166: Circle_057
+    400168: Circle_058
+    400170: Circle_059
+    400172: Circle_060
+    400174: Circle_061
+    400176: Circle_062
+    400178: Circle_063
+    400180: Circle_064
+    400182: Circle_065
+    400184: Circle_068
+    400186: Circle_069
+    400188: Circle_070
+    400190: Circle_071
+    400192: Circle_072
+    400194: Circle_073
+    400196: Circle_074
+    400198: Circle_075
+    400200: Circle_081
+    400202: Circle_082
+    400204: Circle_083
+    400206: Circle_084
+    400208: Circle_085
+    400210: Circle_086
+    400212: Circle_087
+    400214: Circle_088
+    400216: Circle_089
+    400218: Circle_090
+    400220: Circle_091
+    400222: Circle_092
+    400224: Circle_093
+    400226: Circle_094
+    400228: Circle_095
+    400230: Circle_096
+    400232: Circle_097
+    400234: Circle_098
+    400236: Circle_099
+    400238: Circle_100
+    400240: Circle_101
+    400242: Circle_102
+    400244: Circle_103
+    400246: Circle_105
+    400248: Circle_106
+    400250: Circle_107
+    400252: Circle_108
+    400254: Circle_109
+    400256: Circle_110
+    400258: Circle_111
+    400260: Circle_112
+    400262: Circle_113
+    400264: Circle_114
+    400266: Circle_115
+    400268: Circle_116
+    400270: Circle_117
+    400272: Circle_118
+    400274: Circle_119
+    400276: Circle_120
+    400278: Circle_121
+    400280: Circle_122
+    400282: Circle_123
+    400284: Circle_124
+    400286: Circle_125
+    400288: Circle_126
+    400290: Circle_127
+    400292: Circle_128
+    400294: Circle_129
+    400296: Circle_130
+    400298: Circle_131
+    400300: Circle_132
+    400302: Circle_133
+    400304: Circle_134
+    400306: Cube
+    400308: ElbowIK_L
+    400310: ElbowIK_R
+    400312: Empty
+    400314: Empty_001
+    400316: Empty_002
+    400318: Empty_003
+    400320: Empty_004
+    400322: Empty_005
+    400324: Empty_006
+    400326: Empty_007
+    400328: Empty_008
+    400330: Empty_009
+    400332: Empty_010
+    400334: Empty_011
+    400336: Empty_012
+    400338: Empty_013
+    400340: Empty_014
+    400342: Empty_015
+    400344: Empty_016
+    400346: Empty_017
+    400348: Empty_018
+    400350: Empty_019
+    400352: Empty_020
+    400354: Empty_021
+    400356: Empty_022
+    400358: Empty_023
+    400360: Empty_024
+    400362: Empty_025
+    400364: Empty_026
+    400366: Empty_027
+    400368: Empty_028
+    400370: Empty_029
+    400372: Empty_030
+    400374: Empty_031
+    400376: Empty_032
+    400378: Empty_033
+    400380: Empty_034
+    400382: Empty_035
+    400384: Empty_036
+    400386: Empty_037
+    400388: Empty_038
+    400390: Empty_039
+    400392: Empty_040
+    400394: Empty_041
+    400396: Empty_042
+    400398: Empty_043
+    400400: Empty_044
+    400402: Empty_045
+    400404: Empty_046
+    400406: Empty_047
+    400408: Empty_048
+    400410: Empty_049
+    400412: Empty_050
+    400414: Empty_051
+    400416: Empty_052
+    400418: Empty_053
+    400420: Empty_054
+    400422: Empty_055
+    400424: Empty_056
+    400426: Empty_057
+    400428: Empty_058
+    400430: Empty_059
+    400432: Empty_060
+    400434: Empty_061
+    400436: Empty_062
+    400438: Empty_063
+    400440: Empty_064
+    400442: Empty_065
+    400444: Empty_066
+    400446: Empty_067
+    400448: Empty_068
+    400450: Empty_069
+    400452: Empty_070
+    400454: Empty_071
+    400456: Empty_072
+    400458: Empty_073
+    400460: Empty_074
+    400462: Empty_075
+    400464: Empty_076
+    400466: Empty_077
+    400468: Empty_078
+    400470: Empty_079
+    400472: Empty_080
+    400474: Empty_081
+    400476: Empty_082
+    400478: Empty_083
+    400480: Empty_084
+    400482: Empty_085
+    400484: Empty_086
+    400486: Empty_087
+    400488: Empty_088
+    400490: Empty_089
+    400492: Empty_090
+    400494: Empty_091
+    400496: Empty_092
+    400498: Empty_093
+    400500: Empty_094
+    400502: Empty_095
+    400504: Empty_096
+    400506: Empty_097
+    400508: Empty_098
+    400510: Empty_099
+    400512: Empty_100
+    400514: Empty_101
+    400516: Empty_102
+    400518: Empty_103
+    400520: Empty_104
+    400522: Empty_105
+    400524: Empty_106
+    400526: Empty_107
+    400528: Empty_108
+    400530: Empty_109
+    400532: Empty_110
+    400534: Empty_111
+    400536: Empty_112
+    400538: Empty_113
+    400540: Foot_L
+    400542: Foot_R
+    400544: FootControl_L
+    400546: FootControl_R
+    400548: Hand_L
+    400550: Hand_R
+    400552: HandIK_L
+    400554: HandIK_R
+    400556: Head
+    400558: Hip
+    400560: KneeIK_L
+    400562: KneeIK_R
+    400564: LowerArn_L
+    400566: LowerArn_R
+    400568: LowerLeg_L
+    400570: LowerLeg_R
+    400572: Mid1_L
+    400574: Mid1_R
+    400576: Mid2_L
+    400578: Mid2_R
+    400580: Mid3_L
+    400582: Mid3_R
+    400584: Neck
+    400586: Pinky1_L
+    400588: Pinky1_R
+    400590: Pinky2_L
+    400592: Pinky2_R
+    400594: Pinky3_L
+    400596: Pinky3_R
+    400598: Plane
+    400600: Plane_001
+    400602: Plane_002
+    400604: Plane_003
+    400606: Plane_004
+    400608: Plane_005
+    400610: Plane_007
+    400612: Plane_009
+    400614: Plane_010
+    400616: Plane_011
+    400618: Plane_012
+    400620: Plane_013
+    400622: Pointer1_L
+    400624: Pointer1_R
+    400626: Pointer2_L
+    400628: Pointer2_R
+    400630: Pointer3_L
+    400632: Pointer3_R
+    400634: Shoulder_L
+    400636: Shoulder_R
+    400638: Sphere
+    400640: Sphere_001
+    400642: Sphere_002
+    400644: //RootNode
+    400646: Thumb1_L
+    400648: Thumb1_R
+    400650: Thumb2_L
+    400652: Thumb2_R
+    400654: Toe_L
+    400656: Toe_R
+    400658: Torso
+    400660: UpperArm_L
+    400662: UpperArm_R
+    400664: UpperLeg_L
+    400666: UpperLeg_R
+    2300000: BezierCurve_002
+    2300002: BezierCurve_003
+    2300004: BezierCurve_004
+    2300006: BezierCurve_005
+    2300008: BezierCurve_006
+    2300010: BezierCurve_007
+    2300012: BezierCurve_008
+    2300014: BezierCurve_009
+    2300016: BezierCurve_010
+    2300018: BezierCurve_011
+    2300020: BezierCurve_012
+    2300022: BezierCurve_013
+    2300024: BezierCurve_014
+    2300026: BezierCurve_015
+    2300028: BezierCurve_017
+    2300030: BezierCurve_018
+    2300032: BezierCurve_019
+    2300034: BezierCurve_020
+    2300036: BezierCurve_021
+    2300038: BezierCurve_022
+    2300040: BezierCurve_023
+    2300042: BezierCurve_024
+    2300044: BezierCurve_025
+    2300046: Plane_004
+    3300000: BezierCurve_002
+    3300002: BezierCurve_003
+    3300004: BezierCurve_004
+    3300006: BezierCurve_005
+    3300008: BezierCurve_006
+    3300010: BezierCurve_007
+    3300012: BezierCurve_008
+    3300014: BezierCurve_009
+    3300016: BezierCurve_010
+    3300018: BezierCurve_011
+    3300020: BezierCurve_012
+    3300022: BezierCurve_013
+    3300024: BezierCurve_014
+    3300026: BezierCurve_015
+    3300028: BezierCurve_017
+    3300030: BezierCurve_018
+    3300032: BezierCurve_019
+    3300034: BezierCurve_020
+    3300036: BezierCurve_021
+    3300038: BezierCurve_022
+    3300040: BezierCurve_023
+    3300042: BezierCurve_024
+    3300044: BezierCurve_025
+    3300046: Plane_004
+    4300000: Plane_004
+    4300002: Circle_124
+    4300004: Circle_123
+    4300006: Circle_112
+    4300008: Circle_108
+    4300010: Circle_107
+    4300012: Circle_109
+    4300014: Circle_055
+    4300016: Circle_054
+    4300018: Circle_051
+    4300020: Circle_133
+    4300022: Circle_127
+    4300024: Circle_103
+    4300026: Circle_102
+    4300028: Circle_101
+    4300030: Circle_128
+    4300032: Circle_122
+    4300034: Circle_121
+    4300036: Circle_120
+    4300038: Circle_119
+    4300040: Circle_125
+    4300042: Circle_118
+    4300044: Circle_117
+    4300046: Circle_116
+    4300048: Circle_106
+    4300050: Circle_105
+    4300052: Circle_115
+    4300054: Circle_114
+    4300056: Circle_113
+    4300058: Circle_050
+    4300060: Circle_049
+    4300062: Circle_048
+    4300064: Circle_100
+    4300066: Circle_099
+    4300068: Circle_096
+    4300070: Circle_093
+    4300072: Circle_092
+    4300074: Circle_087
+    4300076: Circle_094
+    4300078: Circle_091
+    4300080: Circle_088
+    4300082: Circle_095
+    4300084: Circle_090
+    4300086: Circle_089
+    4300088: Circle_029
+    4300090: Circle_028
+    4300092: Circle_027
+    4300094: Circle_018
+    4300096: Circle_098
+    4300098: Sphere_002
+    4300100: Circle_132
+    4300102: Circle_130
+    4300104: Circle_129
+    4300106: Circle_086
+    4300108: Circle_085
+    4300110: Circle_084
+    4300112: Circle_083
+    4300114: Circle_082
+    4300116: Circle_035
+    4300118: Circle_034
+    4300120: Circle_033
+    4300122: Circle_032
+    4300124: Circle_031
+    4300126: Circle_030
+    4300128: Circle_081
+    4300130: Circle_013
+    4300132: Circle_012
+    4300134: Circle_011
+    4300136: Circle_010
+    4300138: Circle_097
+    4300140: Circle_069
+    4300142: Circle_068
+    4300144: Circle_074
+    4300146: Circle_073
+    4300148: Circle_072
+    4300150: Circle_071
+    4300152: Circle_070
+    4300154: Circle_075
+    4300156: Circle_065
+    4300158: Circle_062
+    4300160: Circle_061
+    4300162: Circle_060
+    4300164: Circle_022
+    4300166: Circle_024
+    4300168: Circle_023
+    4300170: Circle_021
+    4300172: Circle_003
+    4300174: Circle_001
+    4300176: Circle
+    4300178: Circle_025
+    4300180: Sphere_001
+    4300182: Circle_002
+    4300184: Circle_131
+    4300186: Circle_026
+    4300188: Circle_020
+    4300190: Circle_019
+    4300192: Circle_017
+    4300194: Circle_016
+    4300196: Circle_009
+    4300198: Circle_008
+    4300200: Circle_005
+    4300202: Circle_004
+    4300204: Circle_006
+    4300206: Circle_015
+    4300208: Circle_014
+    4300210: Circle_064
+    4300212: Circle_063
+    4300214: Circle_059
+    4300216: Circle_058
+    4300218: Circle_057
+    4300220: Circle_039
+    4300222: Circle_126
+    4300224: Circle_040
+    4300226: Circle_037
+    4300228: Circle_036
+    4300230: Circle_038
+    4300232: Circle_134
+    4300234: Circle_111
+    4300236: Circle_110
+    4300238: Circle_056
+    4300240: Circle_053
+    4300242: Circle_047
+    4300244: Circle_046
+    4300246: Circle_042
+    4300248: Circle_044
+    4300250: Circle_043
+    4300252: Circle_045
+    4300254: Sphere
+    4300256: Plane_013
+    4300258: Cube
+    4300260: Plane_012
+    4300262: Plane_003
+    4300264: Plane_011
+    4300266: Plane_010
+    4300268: Plane_009
+    4300270: Plane_007
+    4300272: Plane_005
+    4300274: Plane
+    4300276: Plane_002
+    4300278: Plane_001
+    4300280: BezierCurve_001
+    4300282: BezierCurve
+    4300284: Circle_041
+    4300286: BezierCurve_025
+    4300288: BezierCurve_013
+    4300290: BezierCurve_024
+    4300292: BezierCurve_012
+    4300294: BezierCurve_023
+    4300296: BezierCurve_011
+    4300298: BezierCurve_022
+    4300300: BezierCurve_021
+    4300302: BezierCurve_020
+    4300304: BezierCurve_019
+    4300306: BezierCurve_018
+    4300308: BezierCurve_017
+    4300310: BezierCurve_004
+    4300312: BezierCurve_015
+    4300314: BezierCurve_002
+    4300316: BezierCurve_014
+    4300318: BezierCurve_010
+    4300320: BezierCurve_009
+    4300322: BezierCurve_008
+    4300326: BezierCurve_003
+    4300328: BezierCurve_006
+    4300330: BezierCurve_005
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: BezierCurve
+    13700002: BezierCurve_001
+    13700004: Circle
+    13700006: Circle_001
+    13700008: Circle_002
+    13700010: Circle_003
+    13700012: Circle_004
+    13700014: Circle_005
+    13700016: Circle_006
+    13700018: Circle_008
+    13700020: Circle_009
+    13700022: Circle_010
+    13700024: Circle_011
+    13700026: Circle_012
+    13700028: Circle_013
+    13700030: Circle_014
+    13700032: Circle_015
+    13700034: Circle_016
+    13700036: Circle_017
+    13700038: Circle_018
+    13700040: Circle_019
+    13700042: Circle_020
+    13700044: Circle_021
+    13700046: Circle_022
+    13700048: Circle_023
+    13700050: Circle_024
+    13700052: Circle_025
+    13700054: Circle_026
+    13700056: Circle_027
+    13700058: Circle_028
+    13700060: Circle_029
+    13700062: Circle_030
+    13700064: Circle_031
+    13700066: Circle_032
+    13700068: Circle_033
+    13700070: Circle_034
+    13700072: Circle_035
+    13700074: Circle_036
+    13700076: Circle_037
+    13700078: Circle_038
+    13700080: Circle_039
+    13700082: Circle_040
+    13700084: Circle_041
+    13700086: Circle_042
+    13700088: Circle_043
+    13700090: Circle_044
+    13700092: Circle_045
+    13700094: Circle_046
+    13700096: Circle_047
+    13700098: Circle_048
+    13700100: Circle_049
+    13700102: Circle_050
+    13700104: Circle_051
+    13700106: Circle_053
+    13700108: Circle_054
+    13700110: Circle_055
+    13700112: Circle_056
+    13700114: Circle_057
+    13700116: Circle_058
+    13700118: Circle_059
+    13700120: Circle_060
+    13700122: Circle_061
+    13700124: Circle_062
+    13700126: Circle_063
+    13700128: Circle_064
+    13700130: Circle_065
+    13700132: Circle_068
+    13700134: Circle_069
+    13700136: Circle_070
+    13700138: Circle_071
+    13700140: Circle_072
+    13700142: Circle_073
+    13700144: Circle_074
+    13700146: Circle_075
+    13700148: Circle_081
+    13700150: Circle_082
+    13700152: Circle_083
+    13700154: Circle_084
+    13700156: Circle_085
+    13700158: Circle_086
+    13700160: Circle_087
+    13700162: Circle_088
+    13700164: Circle_089
+    13700166: Circle_090
+    13700168: Circle_091
+    13700170: Circle_092
+    13700172: Circle_093
+    13700174: Circle_094
+    13700176: Circle_095
+    13700178: Circle_096
+    13700180: Circle_097
+    13700182: Circle_098
+    13700184: Circle_099
+    13700186: Circle_100
+    13700188: Circle_101
+    13700190: Circle_102
+    13700192: Circle_103
+    13700194: Circle_105
+    13700196: Circle_106
+    13700198: Circle_107
+    13700200: Circle_108
+    13700202: Circle_109
+    13700204: Circle_110
+    13700206: Circle_111
+    13700208: Circle_112
+    13700210: Circle_113
+    13700212: Circle_114
+    13700214: Circle_115
+    13700216: Circle_116
+    13700218: Circle_117
+    13700220: Circle_118
+    13700222: Circle_119
+    13700224: Circle_120
+    13700226: Circle_121
+    13700228: Circle_122
+    13700230: Circle_123
+    13700232: Circle_124
+    13700234: Circle_125
+    13700236: Circle_126
+    13700238: Circle_127
+    13700240: Circle_128
+    13700242: Circle_129
+    13700244: Circle_130
+    13700246: Circle_131
+    13700248: Circle_132
+    13700250: Circle_133
+    13700252: Circle_134
+    13700254: Cube
+    13700256: Plane
+    13700258: Plane_001
+    13700260: Plane_002
+    13700262: Plane_003
+    13700264: Plane_005
+    13700266: Plane_007
+    13700268: Plane_009
+    13700270: Plane_010
+    13700272: Plane_011
+    13700274: Plane_012
+    13700276: Plane_013
+    13700278: Sphere
+    13700280: Sphere_001
+    13700282: Sphere_002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Hip
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Torso
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerArn_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerArn_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thumb1_L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thumb2_L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pointer1_L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pointer2_L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pointer3_L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mid1_L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mid2_L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mid3_L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pinky1_L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pinky2_L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pinky3_L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thumb1_R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thumb2_R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pointer1_R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pointer2_R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pointer3_R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mid1_R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mid2_R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mid3_R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pinky1_R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pinky2_R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pinky3_R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: STR_65(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Armature
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ElbowIK_L
+      position: {x: -1.31213474, y: .507111311, z: 2.82684851}
+      rotation: {x: 0, y: 0, z: -.707106769, w: .707106888}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ElbowIK_R
+      position: {x: 1.31213474, y: .507111311, z: 2.82684851}
+      rotation: {x: 0, y: 0, z: -.707106769, w: .707106888}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Empty
+      position: {x: -.883397877, y: .307146341, z: 2.92847395}
+      rotation: {x: -.00303843874, y: -2.75682396e-06, z: .000447189668, w: .999995291}
+      scale: {x: 1.00000012, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Empty_001
+      position: {x: -.244945556, y: .247986123, z: 3.07698774}
+      rotation: {x: -9.31322686e-10, y: 2.29920283e-09, z: 1.86264537e-09, w: 1}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: Empty_002
+      position: {x: .907026112, y: .35177663, z: 2.93981123}
+      rotation: {x: -.00303844619, y: 2.86844102e-06, z: -.000447162252, w: .999995291}
+      scale: {x: .999999702, y: .999999702, z: .999999821}
+      transformModified: 1
+    - name: Empty_003
+      position: {x: .220928133, y: .382662892, z: 3.11825657}
+      rotation: {x: 2.32830644e-09, y: -7.56699592e-09, z: 3.7252903e-09, w: 1}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Empty_004
+      position: {x: -2.09285998, y: .356382221, z: 2.72678494}
+      rotation: {x: -1.67550009e-08, y: 9.31322433e-08, z: -2.91353679e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_005
+      position: {x: -2.18616295, y: .369457006, z: 2.70973873}
+      rotation: {x: -1.21071899e-08, y: 9.6450087e-08, z: -2.23517382e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: Empty_006
+      position: {x: -2.24452019, y: .377424479, z: 2.69908404}
+      rotation: {x: -1.21071899e-08, y: 9.6450087e-08, z: -2.23517382e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: Empty_007
+      position: {x: -2.28406835, y: .382736683, z: 2.6918664}
+      rotation: {x: -1.95577687e-08, y: 5.19794412e-08, z: -2.23517382e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: Empty_008
+      position: {x: -2.33447647, y: .389444709, z: 2.6859448}
+      rotation: {x: -1.95577687e-08, y: 5.19794412e-08, z: -2.23517382e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: Empty_009
+      position: {x: -2.45053148, y: .40565607, z: 2.66623688}
+      rotation: {x: -2.74740106e-08, y: 3.38186545e-08, z: -3.35276091e-08, w: 1}
+      scale: {x: .99999994, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: Empty_010
+      position: {x: -2.08801603, y: .320056349, z: 2.72830939}
+      rotation: {x: -1.67550009e-08, y: 9.31322433e-08, z: -2.91353679e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_011
+      position: {x: -2.18223071, y: .320171088, z: 2.7112627}
+      rotation: {x: -1.42026684e-08, y: 1.30499842e-07, z: -3.07336379e-08, w: 1}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_012
+      position: {x: -2.24112916, y: .320034534, z: 2.70060754}
+      rotation: {x: -1.42026684e-08, y: 1.30499842e-07, z: -3.07336379e-08, w: 1}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_013
+      position: {x: -2.28103185, y: .31985572, z: 2.69338965}
+      rotation: {x: -1.23764012e-08, y: 1.11805633e-07, z: -2.14204157e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: Empty_014
+      position: {x: -2.33188343, y: .319565296, z: 2.68746805}
+      rotation: {x: -1.23764012e-08, y: 1.11805633e-07, z: -2.14204157e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: Empty_015
+      position: {x: -2.44906521, y: .3196567, z: 2.66776133}
+      rotation: {x: -1.21071917e-08, y: 8.97871359e-08, z: -2.24681571e-08, w: 1}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: Empty_016
+      position: {x: -2.08212519, y: .281151891, z: 2.72830892}
+      rotation: {x: -1.67550009e-08, y: 9.31322433e-08, z: -2.91353679e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_017
+      position: {x: -2.17600274, y: .273189694, z: 2.7112627}
+      rotation: {x: -1.76951271e-08, y: 1.36293224e-07, z: -2.79396737e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_018
+      position: {x: -2.23467278, y: .268004507, z: 2.70060802}
+      rotation: {x: -1.76951271e-08, y: 1.36293224e-07, z: -2.79396737e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_019
+      position: {x: -2.27441263, y: .264405698, z: 2.69339037}
+      rotation: {x: -5.12227061e-09, y: 6.58328645e-08, z: -2.23517382e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: Empty_020
+      position: {x: -2.32505274, y: .259756982, z: 2.68746853}
+      rotation: {x: -5.12227061e-09, y: 6.58328645e-08, z: -2.23517382e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: Empty_021
+      position: {x: -2.44181132, y: .24980244, z: 2.66776085}
+      rotation: {x: 3.72529296e-09, y: 1.18772725e-07, z: -1.67638028e-08, w: 1}
+      scale: {x: 1.00000024, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: Empty_022
+      position: {x: -2.09352112, y: .249731675, z: 2.68873405}
+      rotation: {x: -1.67550009e-08, y: 9.31322433e-08, z: -2.91353679e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_023
+      position: {x: -2.11009884, y: .212731719, z: 2.68801522}
+      rotation: {x: -1.67550009e-08, y: 9.31322433e-08, z: -2.91353679e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_024
+      position: {x: -2.13094878, y: .166031212, z: 2.69033408}
+      rotation: {x: -1.39698342e-08, y: 1.15483985e-07, z: -3.72528959e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_025
+      position: {x: -2.18009472, y: .0578448065, z: 2.68969297}
+      rotation: {x: -1.11758665e-08, y: 7.82310963e-08, z: -2.98023171e-08, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_026
+      position: {x: 2.09285951, y: .3563824, z: 2.72369885}
+      rotation: {x: 4.31370211e-08, y: -8.1956415e-08, z: 5.86949724e-08, w: 1}
+      scale: {x: .999999821, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: Empty_027
+      position: {x: 2.18616295, y: .369457304, z: 2.70665216}
+      rotation: {x: 4.05125427e-08, y: -7.70669573e-08, z: 5.9604659e-08, w: 1}
+      scale: {x: .999999881, y: .999999762, z: .999999821}
+      transformModified: 1
+    - name: Empty_028
+      position: {x: 2.24452019, y: .377424806, z: 2.69599795}
+      rotation: {x: 4.05125427e-08, y: -7.70669573e-08, z: 5.9604659e-08, w: 1}
+      scale: {x: .999999881, y: .999999762, z: .999999821}
+      transformModified: 1
+    - name: Empty_029
+      position: {x: 2.28406787, y: .38273707, z: 2.68878007}
+      rotation: {x: 4.56348168e-08, y: -9.56352011e-08, z: 6.51925944e-08, w: 1}
+      scale: {x: .999999881, y: .999999821, z: .999999762}
+      transformModified: 1
+    - name: Empty_030
+      position: {x: 2.33447599, y: .389445066, z: 2.68285847}
+      rotation: {x: 4.56348168e-08, y: -9.56352011e-08, z: 6.51925944e-08, w: 1}
+      scale: {x: .999999881, y: .999999821, z: .999999762}
+      transformModified: 1
+    - name: Empty_031
+      position: {x: 2.45053077, y: .405656338, z: 2.66315007}
+      rotation: {x: 3.30619585e-08, y: -4.01050855e-08, z: 6.89178847e-08, w: 1}
+      scale: {x: .999999821, y: .999999762, z: .99999994}
+      transformModified: 1
+    - name: Empty_032
+      position: {x: 2.08801556, y: .320056528, z: 2.72522283}
+      rotation: {x: 4.31370211e-08, y: -8.1956415e-08, z: 5.86949724e-08, w: 1}
+      scale: {x: .999999821, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: Empty_033
+      position: {x: 2.18223, y: .320171386, z: 2.70817637}
+      rotation: {x: 4.07162659e-08, y: -8.93461589e-08, z: 6.01867356e-08, w: 1}
+      scale: {x: .999999821, y: .999999762, z: .99999994}
+      transformModified: 1
+    - name: Empty_034
+      position: {x: 2.24112844, y: .320034802, z: 2.69752169}
+      rotation: {x: 4.07162659e-08, y: -8.93461589e-08, z: 6.01867356e-08, w: 1}
+      scale: {x: .999999821, y: .999999762, z: .99999994}
+      transformModified: 1
+    - name: Empty_035
+      position: {x: 2.28103137, y: .319855928, z: 2.69030356}
+      rotation: {x: 4.019968e-08, y: -1.00549713e-07, z: 5.36092699e-08, w: 1}
+      scale: {x: .99999994, y: .999999702, z: .999999821}
+      transformModified: 1
+    - name: Empty_036
+      position: {x: 2.33188295, y: .319565505, z: 2.68438172}
+      rotation: {x: 4.019968e-08, y: -1.00549713e-07, z: 5.36092699e-08, w: 1}
+      scale: {x: .99999994, y: .999999702, z: .999999821}
+      transformModified: 1
+    - name: Empty_037
+      position: {x: 2.44906473, y: .319656879, z: 2.66467452}
+      rotation: {x: 3.53902649e-08, y: -8.18686416e-08, z: 4.61004781e-08, w: 1}
+      scale: {x: .999999762, y: .999999762, z: .999999762}
+      transformModified: 1
+    - name: Empty_038
+      position: {x: 2.08212471, y: .281152129, z: 2.72522283}
+      rotation: {x: 4.31370211e-08, y: -8.1956415e-08, z: 5.86949724e-08, w: 1}
+      scale: {x: .999999821, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: Empty_039
+      position: {x: 2.1760025, y: .273189962, z: 2.7081759}
+      rotation: {x: 4.00468778e-08, y: -1.13388552e-07, z: 5.9604659e-08, w: 1}
+      scale: {x: .999999821, y: .999999762, z: .999999821}
+      transformModified: 1
+    - name: Empty_040
+      position: {x: 2.23467255, y: .268004775, z: 2.69752145}
+      rotation: {x: 4.00468778e-08, y: -1.13388552e-07, z: 5.9604659e-08, w: 1}
+      scale: {x: .999999821, y: .999999762, z: .999999821}
+      transformModified: 1
+    - name: Empty_041
+      position: {x: 2.27441263, y: .264405936, z: 2.69030428}
+      rotation: {x: 3.35276198e-08, y: -1.20606288e-07, z: 5.21540748e-08, w: 1}
+      scale: {x: .999999881, y: .999999821, z: .999999821}
+      transformModified: 1
+    - name: Empty_042
+      position: {x: 2.32505274, y: .259757221, z: 2.6843822}
+      rotation: {x: 3.35276198e-08, y: -1.20606288e-07, z: 5.21540748e-08, w: 1}
+      scale: {x: .999999881, y: .999999821, z: .999999821}
+      transformModified: 1
+    - name: Empty_043
+      position: {x: 2.44181108, y: .249802783, z: 2.66467476}
+      rotation: {x: 3.44589495e-08, y: -4.6042274e-08, z: 3.16649782e-08, w: 1}
+      scale: {x: .999999762, y: .999999583, z: .999999821}
+      transformModified: 1
+    - name: Empty_044
+      position: {x: 2.09352064, y: .249731943, z: 2.68564796}
+      rotation: {x: 4.31370211e-08, y: -8.1956415e-08, z: 5.86949724e-08, w: 1}
+      scale: {x: .999999821, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: Empty_045
+      position: {x: 2.11009836, y: .212732017, z: 2.68492913}
+      rotation: {x: 4.31370211e-08, y: -8.1956415e-08, z: 5.86949724e-08, w: 1}
+      scale: {x: .999999821, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: Empty_046
+      position: {x: 2.13094831, y: .166031435, z: 2.68724775}
+      rotation: {x: 4.00468743e-08, y: -1.19209318e-07, z: 7.45058202e-08, w: 1}
+      scale: {x: .999999821, y: .999999762, z: .999999821}
+      transformModified: 1
+    - name: Empty_047
+      position: {x: 2.18009424, y: .0578452647, z: 2.68660641}
+      rotation: {x: 6.05359816e-08, y: -1.15484021e-07, z: 5.21540713e-08, w: 1}
+      scale: {x: .99999994, y: .999999762, z: .999999821}
+      transformModified: 1
+    - name: Empty_048
+      position: {x: 1.6204474, y: .327692568, z: 2.79108524}
+      rotation: {x: -.0027566615, y: -3.3492247e-06, z: .0016351213, w: .999994874}
+      scale: {x: .999999821, y: .999999583, z: .999999821}
+      transformModified: 1
+    - name: Empty_049
+      position: {x: 2.01680136, y: .272487074, z: 2.71021652}
+      rotation: {x: 4.31370211e-08, y: -8.1956415e-08, z: 5.86949724e-08, w: 1}
+      scale: {x: .999999821, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: Empty_050
+      position: {x: -.907026291, y: .3517766, z: 2.93981099}
+      rotation: {x: -.00303843874, y: -2.75682396e-06, z: .000447189668, w: .999995291}
+      scale: {x: 1.00000012, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Empty_051
+      position: {x: -1.62044787, y: .32769236, z: 2.79108548}
+      rotation: {x: -.00275665382, y: 3.43460943e-06, z: -.00163506682, w: .999994874}
+      scale: {x: 1.00000012, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: Empty_052
+      position: {x: -2.01680183, y: .272486836, z: 2.71021605}
+      rotation: {x: -1.67550009e-08, y: 9.31322433e-08, z: -2.91353679e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_053
+      position: {x: -.491867036, y: .369874477, z: 3.04973388}
+      rotation: {x: -9.31322686e-10, y: 2.29920283e-09, z: 1.86264537e-09, w: 1}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: Empty_054
+      position: {x: -1.62250268, y: .266078293, z: 2.74998283}
+      rotation: {x: -.00275665382, y: 3.43460943e-06, z: -.00163506682, w: .999994874}
+      scale: {x: 1.00000012, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: Empty_055
+      position: {x: -2.10326648, y: .342066765, z: 2.72686362}
+      rotation: {x: -1.67550009e-08, y: 9.31322433e-08, z: -2.91353679e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_056
+      position: {x: -.919920683, y: .263389796, z: 2.83251858}
+      rotation: {x: -.00303843874, y: -2.75682396e-06, z: .000447189668, w: .999995291}
+      scale: {x: 1.00000012, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Empty_057
+      position: {x: -.250671953, y: .285118639, z: 2.98026657}
+      rotation: {x: -9.31322686e-10, y: 2.29920283e-09, z: 1.86264537e-09, w: 1}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: Empty_058
+      position: {x: 2.103266, y: .342066944, z: 2.7268641}
+      rotation: {x: 4.31370211e-08, y: -8.1956415e-08, z: 5.86949724e-08, w: 1}
+      scale: {x: .999999821, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: Empty_059
+      position: {x: 1.62250221, y: .266078472, z: 2.74998307}
+      rotation: {x: -.0027566615, y: -3.3492247e-06, z: .0016351213, w: .999994874}
+      scale: {x: .999999821, y: .999999583, z: .999999821}
+      transformModified: 1
+    - name: Empty_060
+      position: {x: .919920564, y: .263389856, z: 2.83251929}
+      rotation: {x: -.00303844619, y: 2.86844102e-06, z: -.000447162252, w: .999995291}
+      scale: {x: .999999702, y: .999999702, z: .999999821}
+      transformModified: 1
+    - name: Empty_061
+      position: {x: .250671953, y: .285118639, z: 2.98026657}
+      rotation: {x: 2.32830644e-09, y: -7.56699592e-09, z: 3.7252903e-09, w: 1}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Empty_062
+      position: {x: 2.01680136, y: .272487074, z: 2.71021652}
+      rotation: {x: 4.31370211e-08, y: -8.1956415e-08, z: 5.86949724e-08, w: 1}
+      scale: {x: .999999821, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: Empty_063
+      position: {x: 1.6204474, y: .327692568, z: 2.79108524}
+      rotation: {x: -.0027566615, y: -3.3492247e-06, z: .0016351213, w: .999994874}
+      scale: {x: .999999821, y: .999999583, z: .999999821}
+      transformModified: 1
+    - name: Empty_064
+      position: {x: .907026112, y: .35177663, z: 2.93981123}
+      rotation: {x: -.00303844619, y: 2.86844102e-06, z: -.000447162252, w: .999995291}
+      scale: {x: .999999702, y: .999999702, z: .999999821}
+      transformModified: 1
+    - name: Empty_065
+      position: {x: .220928133, y: .382662892, z: 3.11825657}
+      rotation: {x: 2.32830644e-09, y: -7.56699592e-09, z: 3.7252903e-09, w: 1}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Empty_066
+      position: {x: -.671509385, y: .221920058, z: 2.97571182}
+      rotation: {x: -.00303843874, y: -2.75682396e-06, z: .000447189668, w: .999995291}
+      scale: {x: 1.00000012, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Empty_067
+      position: {x: -.260186374, y: .224796787, z: 2.99381924}
+      rotation: {x: -9.31322686e-10, y: 2.29920283e-09, z: 1.86264537e-09, w: 1}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: Empty_068
+      position: {x: .671509266, y: .221920148, z: 2.97571254}
+      rotation: {x: -.00303844619, y: 2.86844102e-06, z: -.000447162252, w: .999995291}
+      scale: {x: .999999702, y: .999999702, z: .999999821}
+      transformModified: 1
+    - name: Empty_069
+      position: {x: .260186374, y: .224796787, z: 2.99381924}
+      rotation: {x: 2.32830644e-09, y: -7.56699592e-09, z: 3.7252903e-09, w: 1}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Empty_070
+      position: {x: -.345781147, y: .0222702119, z: .795620918}
+      rotation: {x: -5.68852483e-05, y: -.000301468797, z: -.00111226761, w: .999999344}
+      scale: {x: .999999702, y: 1.00000024, z: .999999106}
+      transformModified: 1
+    - name: Empty_071
+      position: {x: -.366123915, y: .01514119, z: .304486752}
+      rotation: {x: 7.4505806e-09, y: 1.33517687e-15, z: -8.90117913e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Empty_072
+      position: {x: -.322060496, y: .21245721, z: 1.56425655}
+      rotation: {x: -3.24398461e-05, y: .000265659997, z: -.000755692308, w: .999999702}
+      scale: {x: .999999821, y: 1.00000012, z: .999999464}
+      transformModified: 1
+    - name: Empty_073
+      position: {x: -.316359073, y: .38036716, z: 2.27540946}
+      rotation: {x: -4.45058957e-16, y: 8.90117913e-16, z: -3.5517451e-15, w: 1}
+      scale: {x: 1, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_074
+      position: {x: -.164331406, y: .422541618, z: 2.79656982}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Empty_075
+      position: {x: -.0235333871, y: .156727701, z: 3.44773817}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_076
+      position: {x: .341766953, y: -.0819937363, z: .943188906}
+      rotation: {x: -5.68032847e-05, y: .000301347405, z: .0011122576, w: .999999344}
+      scale: {x: .999999821, y: .999999821, z: .999999464}
+      transformModified: 1
+    - name: Empty_077
+      position: {x: .361999035, y: .0870459154, z: .369813114}
+      rotation: {x: 7.4505806e-09, y: -2.66162718e-15, z: 1.98306678e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Empty_078
+      position: {x: .322060347, y: .212457389, z: 1.56425631}
+      rotation: {x: -3.23951426e-05, y: -.000265747978, z: .000755701622, w: .999999702}
+      scale: {x: .999999821, y: .99999994, z: .999999583}
+      transformModified: 1
+    - name: Empty_079
+      position: {x: .316359073, y: .38036716, z: 2.27540946}
+      rotation: {x: -4.45058957e-16, y: 8.90117913e-16, z: -3.5517451e-15, w: 1}
+      scale: {x: 1, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_080
+      position: {x: .164331406, y: .422541618, z: 2.79656982}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Empty_081
+      position: {x: .0235333871, y: .156727701, z: 3.44773817}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_082
+      position: {x: -.3236956, y: .259279788, z: 1.94516301}
+      rotation: {x: -3.24398461e-05, y: .000265659997, z: -.000755692308, w: .999999702}
+      scale: {x: .999999821, y: 1.00000012, z: .999999464}
+      transformModified: 1
+    - name: Empty_083
+      position: {x: -.180630118, y: .254927069, z: 2.49688935}
+      rotation: {x: -4.45058957e-16, y: 8.90117913e-16, z: -3.5517451e-15, w: 1}
+      scale: {x: 1, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_084
+      position: {x: -.156963989, y: .214310408, z: 2.83735061}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Empty_085
+      position: {x: -.0727947652, y: .105375968, z: 3.33112431}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_086
+      position: {x: .32369554, y: .259279877, z: 1.94516301}
+      rotation: {x: -3.23951426e-05, y: -.000265747978, z: .000755701622, w: .999999702}
+      scale: {x: .999999821, y: .99999994, z: .999999583}
+      transformModified: 1
+    - name: Empty_087
+      position: {x: .218540668, y: .313734442, z: 2.37102365}
+      rotation: {x: -4.45058957e-16, y: 8.90117913e-16, z: -3.5517451e-15, w: 1}
+      scale: {x: 1, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_088
+      position: {x: .156963989, y: .214310408, z: 2.83735061}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Empty_089
+      position: {x: .0727947652, y: .105375968, z: 3.33112431}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_090
+      position: {x: -.334588677, y: .204132944, z: 1.72585964}
+      rotation: {x: -3.24398461e-05, y: .000265659997, z: -.000755692308, w: .999999702}
+      scale: {x: .999999821, y: 1.00000012, z: .999999464}
+      transformModified: 1
+    - name: Empty_091
+      position: {x: -.224817991, y: .290747821, z: 2.16072655}
+      rotation: {x: -4.45058957e-16, y: 8.90117913e-16, z: -3.5517451e-15, w: 1}
+      scale: {x: 1, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_092
+      position: {x: -.114159197, y: .28122288, z: 2.81763554}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Empty_093
+      position: {x: .334588557, y: .204133093, z: 1.72585952}
+      rotation: {x: -3.23951426e-05, y: -.000265747978, z: .000755701622, w: .999999702}
+      scale: {x: .999999821, y: .99999994, z: .999999583}
+      transformModified: 1
+    - name: Empty_094
+      position: {x: .224817991, y: .290747821, z: 2.16072655}
+      rotation: {x: -4.45058957e-16, y: 8.90117913e-16, z: -3.5517451e-15, w: 1}
+      scale: {x: 1, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_095
+      position: {x: .114159197, y: .28122288, z: 2.81763554}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Empty_096
+      position: {x: -.118006706, y: .130942687, z: 3.09893155}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Empty_097
+      position: {x: -.0618102476, y: .00280567282, z: 3.3883605}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_098
+      position: {x: .0618102476, y: .00280567282, z: 3.3883605}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_099
+      position: {x: .118006706, y: .130942687, z: 3.09893155}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Empty_100
+      position: {x: -.136502728, y: .207658052, z: 2.22229242}
+      rotation: {x: -4.45058957e-16, y: 8.90117913e-16, z: -3.5517451e-15, w: 1}
+      scale: {x: 1, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_101
+      position: {x: -.132742926, y: .0609948263, z: 2.9464922}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Empty_102
+      position: {x: .136502728, y: .207658052, z: 2.22229242}
+      rotation: {x: -4.45058957e-16, y: 8.90117913e-16, z: -3.5517451e-15, w: 1}
+      scale: {x: 1, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_103
+      position: {x: .132742926, y: .0609948263, z: 2.9464922}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Empty_104
+      position: {x: -.163892537, y: .347893357, z: 3.18413472}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Empty_105
+      position: {x: -.0722819939, y: .15094696, z: 3.49595332}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_106
+      position: {x: .163892537, y: .347893357, z: 3.18413472}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Empty_107
+      position: {x: .0722819939, y: .15094696, z: 3.49595332}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Empty_108
+      position: {x: .883397758, y: .3071464, z: 2.92847443}
+      rotation: {x: -.00303844619, y: 2.86844102e-06, z: -.000447162252, w: .999995291}
+      scale: {x: .999999702, y: .999999702, z: .999999821}
+      transformModified: 1
+    - name: Empty_109
+      position: {x: .244945541, y: .247986123, z: 3.07698774}
+      rotation: {x: 2.32830644e-09, y: -7.56699592e-09, z: 3.7252903e-09, w: 1}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Empty_110
+      position: {x: -.220928147, y: .382662892, z: 3.11825657}
+      rotation: {x: -9.31322686e-10, y: 2.29920283e-09, z: 1.86264537e-09, w: 1}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: Empty_111
+      position: {x: -.907026291, y: .3517766, z: 2.93981099}
+      rotation: {x: -.00303843874, y: -2.75682396e-06, z: .000447189668, w: .999995291}
+      scale: {x: 1.00000012, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Empty_112
+      position: {x: -1.62044787, y: .32769236, z: 2.79108548}
+      rotation: {x: -.00275665382, y: 3.43460943e-06, z: -.00163506682, w: .999994874}
+      scale: {x: 1.00000012, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: Empty_113
+      position: {x: -2.01680183, y: .272486836, z: 2.71021605}
+      rotation: {x: -1.67550009e-08, y: 9.31322433e-08, z: -2.91353679e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: FootControl_L
+      position: {x: -.379716098, y: .434600204, z: .011177497}
+      rotation: {x: 0, y: 0, z: .707106888, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Foot_L
+      position: {x: -.485404968, y: -2.59666688e-08, z: .0325889587}
+      rotation: {x: 2.52115608e-08, y: .884159446, z: -3.86478547e-08, w: .467185259}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: AnkleIK_L
+      position: {x: -.543994546, y: 3.88464088e-08, z: 1.85902884e-08}
+      rotation: {x: .884159446, y: -7.13496651e-10, z: -.467185289, w: -4.84933445e-08}
+      scale: {x: 1.00000024, y: 1, z: .999999881}
+      transformModified: 1
+    - name: KneeIK_L
+      position: {x: -.642136991, y: -.0249003991, z: -.952034593}
+      rotation: {x: 2.71484595e-08, y: .884159446, z: -3.96713027e-08, w: -.467185259}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Toe_L
+      position: {x: 1.19310656e-07, y: -2.22402896e-09, z: 1.82648496e-09}
+      rotation: {x: 5.94950844e-09, y: .899069309, z: -7.65580737e-08, w: -.437806308}
+      scale: {x: .999999881, y: 1, z: .999999881}
+      transformModified: 1
+    - name: FootControl_R
+      position: {x: .379716098, y: .434600204, z: .011177497}
+      rotation: {x: 0, y: 0, z: .707106888, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Foot_R
+      position: {x: -.485404968, y: 9.3242619e-08, z: .0325889587}
+      rotation: {x: 9.34426083e-08, y: .884159446, z: 6.67522002e-08, w: .467185259}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: AnkleIK_R
+      position: {x: -.543994546, y: 4.86674807e-08, z: 1.68023391e-08}
+      rotation: {x: .884159446, y: -8.76060753e-08, z: -.467185289, w: 7.77979494e-08}
+      scale: {x: 1.00000024, y: 1, z: .999999881}
+      transformModified: 1
+    - name: KneeIK_R
+      position: {x: -.642136991, y: .0249005612, z: -.952034593}
+      rotation: {x: 9.43216421e-08, y: .884159446, z: 6.62877184e-08, w: -.467185259}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Toe_R
+      position: {x: 1.19251467e-07, y: 7.59700214e-09, z: 3.85400011e-11}
+      rotation: {x: 7.76155318e-08, y: .899069309, z: 2.65371387e-08, w: -.437806308}
+      scale: {x: .999999881, y: 1, z: .999999881}
+      transformModified: 1
+    - name: Hip
+      position: {x: -0, y: .333864361, z: 1.97000325}
+      rotation: {x: -.483891368, y: .483891577, z: .51560545, w: .515605569}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: Torso
+      position: {x: -.553325057, y: 4.17748787e-08, z: 2.98023224e-08}
+      rotation: {x: 1.85268814e-08, y: -.138050318, z: -1.86858315e-08, w: .990425229}
+      scale: {x: .999999821, y: 1, z: .999999821}
+      transformModified: 1
+    - name: HandIK_L
+      position: {x: -.2070501, y: 1.92260003, z: .0804286599}
+      rotation: {x: -.131168857, y: .107182667, z: -.763164461, w: .623607755}
+      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: HandIK_R
+      position: {x: -.207050368, y: -1.92260003, z: .0804283023}
+      rotation: {x: .131168872, y: .107182495, z: .763164461, w: .623607874}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Neck
+      position: {x: -.647255957, y: 4.88664469e-08, z: 1.49011612e-08}
+      rotation: {x: 1.07797057e-07, y: .199873388, z: 5.61660674e-09, w: .979821742}
+      scale: {x: .99999994, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Head
+      position: {x: -.255368412, y: 1.92797831e-08, z: 1.49011612e-08}
+      rotation: {x: -1.11317163e-07, y: -.273043483, z: -4.45243264e-09, w: .962001681}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Shoulder_L
+      position: {x: -.486798525, y: .253983766, z: .152706444}
+      rotation: {x: -.100025475, y: .132166103, z: -.769756556, w: .616442919}
+      scale: {x: 1.00000024, y: 1, z: 1}
+      transformModified: 1
+    - name: UpperArm_L
+      position: {x: -.308629096, y: -1.36015794e-08, z: 1.49011612e-08}
+      rotation: {x: -.002632068, y: -.040895611, z: .0641758367, w: .997096896}
+      scale: {x: 1, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: LowerArn_L
+      position: {x: -.77032274, y: -3.16859541e-07, z: 2.49415635e-08}
+      rotation: {x: -8.00834314e-08, y: -7.58637952e-09, z: .0255355611, w: .999673903}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hand_L
+      position: {x: -.616029382, y: -8.33789855e-08, z: -3.7617589e-09}
+      rotation: {x: 2.23491767e-08, y: -4.7311679e-09, z: -.0330362283, w: .999454141}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mid1_L
+      position: {x: -.238648042, y: -.0243634973, z: .0144598857}
+      rotation: {x: 5.9535173e-06, y: .00244143675, z: -.00242954842, w: .999994099}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mid2_L
+      position: {x: -.101524234, y: -4.4287566e-07, z: 2.49128789e-08}
+      rotation: {x: -1.59750613e-07, y: -.00130093331, z: 2.21542541e-05, w: .999999166}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mid3_L
+      position: {x: -.0933253244, y: 1.61295048e-07, z: -2.3865141e-08}
+      rotation: {x: .00821164995, y: .00351872621, z: .0125491284, w: .999881387}
+      scale: {x: 1, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: Pinky1_L
+      position: {x: -.235883802, y: -.0238014571, z: .0626747981}
+      rotation: {x: .000196501962, y: .0611411966, z: -.00320744887, w: .998123944}
+      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: Pinky2_L
+      position: {x: -.10152404, y: -1.39088428e-07, z: 7.4505806e-09}
+      rotation: {x: -6.56728662e-06, y: -.00129971816, z: 5.43801762e-05, w: .999999166}
+      scale: {x: .999999821, y: 1, z: .999999821}
+      transformModified: 1
+    - name: Pinky3_L
+      position: {x: -.0933250785, y: -3.09476434e-07, z: -7.4505806e-09}
+      rotation: {x: 1.2430708e-05, y: .0024054409, z: -.000101735073, w: .999997139}
+      scale: {x: 1, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: Pointer1_L
+      position: {x: -.228246078, y: -.0222484842, z: -.0328824744}
+      rotation: {x: -.000256449508, y: -.0360594578, z: .00101667899, w: .999349117}
+      scale: {x: 1, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: Pointer2_L
+      position: {x: -.10152413, y: -7.43707602e-08, z: -3.35276127e-08}
+      rotation: {x: -1.67844831e-07, y: -.00130119105, z: -1.21749997e-06, w: .999999166}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: Pointer3_L
+      position: {x: -.0933250636, y: -7.80279663e-08, z: 0}
+      rotation: {x: 2.29093345e-07, y: .00240781694, z: 1.04641447e-06, w: .999997139}
+      scale: {x: .999999821, y: 1, z: .999999821}
+      transformModified: 1
+    - name: Thumb1_L
+      position: {x: -.192100987, y: .0096388096, z: -.0944629908}
+      rotation: {x: .00169483072, y: -.425771058, z: .0310803317, w: .904295385}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: Thumb2_L
+      position: {x: -.0921940431, y: 6.17998239e-08, z: 2.23517418e-08}
+      rotation: {x: .0063188239, y: .0235538688, z: .00319463271, w: .999697506}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Shoulder_R
+      position: {x: -.486798584, y: -.253983766, z: .152706385}
+      rotation: {x: .10002555, y: .132166073, z: .769756556, w: .616442919}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: UpperArm_R
+      position: {x: -.308629036, y: -1.6578133e-07, z: 4.84287739e-08}
+      rotation: {x: .0026320999, y: -.0408956148, z: -.0641758442, w: .997096896}
+      scale: {x: 1, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: LowerArn_R
+      position: {x: -.77032268, y: 2.41661837e-07, z: 1.48660462e-08}
+      rotation: {x: -3.68512332e-08, y: -4.59941818e-09, z: -.0255355649, w: .999673903}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hand_R
+      position: {x: -.616029501, y: 9.68169456e-09, z: 7.76374165e-09}
+      rotation: {x: -4.10922532e-08, y: -5.78877524e-09, z: .033036232, w: .999454141}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mid1_R
+      position: {x: -.238647893, y: .0243634991, z: .0144598186}
+      rotation: {x: -5.81751101e-06, y: .00244143745, z: .00242954865, w: .999994099}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mid2_R
+      position: {x: -.101524331, y: 2.94125158e-07, z: 4.6566101e-10}
+      rotation: {x: 1.59524191e-07, y: -.00130093296, z: -2.21541268e-05, w: .999999166}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mid3_R
+      position: {x: -.0933249444, y: -4.19644337e-08, z: 2.21189089e-09}
+      rotation: {x: 7.16588984e-05, y: .00341464835, z: -.0125778457, w: .999915063}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Pinky1_R
+      position: {x: -.235883906, y: .023801446, z: .0626747608}
+      rotation: {x: -.000196356908, y: .0611411594, z: .00320745702, w: .998123944}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Pinky2_R
+      position: {x: -.10152407, y: 2.96605634e-07, z: 2.23517418e-08}
+      rotation: {x: 6.5659292e-06, y: -.0012997163, z: -5.43771203e-05, w: .999999166}
+      scale: {x: .999999821, y: 1, z: .999999821}
+      transformModified: 1
+    - name: Pinky3_R
+      position: {x: -.0933251083, y: 4.657837e-07, z: -7.4505806e-09}
+      rotation: {x: -1.24304852e-05, y: .00240543904, z: .00010173444, w: .999997139}
+      scale: {x: 1, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: Pointer1_R
+      position: {x: -.228245929, y: .022248501, z: -.0328825116}
+      rotation: {x: .000256539613, y: -.0360585451, z: -.00101758097, w: .999349177}
+      scale: {x: 1, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: Pointer2_R
+      position: {x: -.10152398, y: -3.16997046e-07, z: -1.11758709e-08}
+      rotation: {x: 1.68952212e-07, y: -.00130118756, z: 1.21156393e-06, w: .999999166}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Pointer3_R
+      position: {x: -.0933252722, y: 1.64092583e-07, z: -3.72529008e-09}
+      rotation: {x: -2.29667094e-07, y: .00240781694, z: -1.0523313e-06, w: .999997139}
+      scale: {x: .999999881, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: Thumb1_R
+      position: {x: -.192100838, y: -.00963880774, z: -.094463028}
+      rotation: {x: -.00169480045, y: -.425769448, z: -.0310797263, w: .90429616}
+      scale: {x: 1.00000012, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Thumb2_R
+      position: {x: -.0921938717, y: 3.88460535e-08, z: -8.19563866e-08}
+      rotation: {x: -.00631881366, y: .0235538781, z: -.00319463853, w: .999697506}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: UpperLeg_L
+      position: {x: -.111817107, y: .303570628, z: -.0148176393}
+      rotation: {x: -.029823143, y: .987509251, z: -.0285468455, w: -.152056471}
+      scale: {x: .99999994, y: 1, z: .99999994}
+      transformModified: 1
+    - name: LowerLeg_L
+      position: {x: -1.04169834, y: 4.74974513e-08, z: -3.53902578e-08}
+      rotation: {x: -.00535108568, y: -.410539448, z: .0253601316, w: .911474407}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: UpperLeg_R
+      position: {x: -.111817151, y: -.303570628, z: -.0148177305}
+      rotation: {x: .0188269559, y: .987009764, z: -.0424409583, w: -.153805569}
+      scale: {x: .999999821, y: .999999821, z: .999999762}
+      transformModified: 1
+    - name: LowerLeg_R
+      position: {x: -1.04169881, y: 5.77419996e-08, z: -5.77419996e-08}
+      rotation: {x: -.0403179005, y: -.41111213, z: .0131328143, w: .91059804}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BezierCurve
+      position: {x: 8.00000003e-15, y: -1.04308128e-07, z: -4.76837158e-07}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: BezierCurve_001
+      position: {x: 8.00000003e-15, y: -1.04308128e-07, z: -4.76837158e-07}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: BezierCurve_002
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BezierCurve_003
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BezierCurve_004
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: .707106888, y: 0, z: 0, w: .707106769}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    - name: BezierCurve_005
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BezierCurve_006
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BezierCurve_007
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BezierCurve_008
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BezierCurve_009
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BezierCurve_010
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BezierCurve_011
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BezierCurve_012
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BezierCurve_013
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BezierCurve_014
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: .707106888, y: 0, z: 0, w: .707106769}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    - name: BezierCurve_015
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: .707106888, y: 0, z: 0, w: .707106769}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    - name: BezierCurve_017
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BezierCurve_018
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: .707106888, y: 0, z: 0, w: .707106769}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    - name: BezierCurve_019
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: .707106888, y: 0, z: 0, w: .707106769}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    - name: BezierCurve_020
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: .707106888, y: 0, z: 0, w: .707106769}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    - name: BezierCurve_021
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: .707106888, y: 0, z: 0, w: .707106769}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    - name: BezierCurve_022
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: .707106888, y: 0, z: 0, w: .707106769}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    - name: BezierCurve_023
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: .707106888, y: 0, z: 0, w: .707106769}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    - name: BezierCurve_024
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: .707106888, y: 0, z: 0, w: .707106769}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    - name: BezierCurve_025
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: .707106888, y: 0, z: 0, w: .707106769}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    - name: Circle
+      position: {x: 4.99999991e-15, y: -2.98023224e-08, z: 0}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_001
+      position: {x: 4.99999991e-15, y: -2.98023224e-08, z: 0}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_002
+      position: {x: 0, y: 5.96046448e-08, z: 0}
+      rotation: {x: 2.32830644e-09, y: -7.56699592e-09, z: 3.7252903e-09, w: 1}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Circle_003
+      position: {x: 4.99999991e-15, y: -2.98023224e-08, z: 0}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_004
+      position: {x: -.0364929438, y: -.0137996376, z: .00851130486}
+      rotation: {x: -.00406227587, y: .00520882802, z: -.00897292048, w: .999937952}
+      scale: {x: .99999994, y: .999999821, z: 1}
+      transformModified: 1
+    - name: Circle_005
+      position: {x: -.0364929438, y: -.0137996376, z: .00851130486}
+      rotation: {x: -.00406227587, y: .00520882802, z: -.00897292048, w: .999937952}
+      scale: {x: .99999994, y: .999999821, z: 1}
+      transformModified: 1
+    - name: Circle_006
+      position: {x: -.0364929438, y: -.0137996376, z: .00851130486}
+      rotation: {x: -.00406227587, y: .00520882802, z: -.00897292048, w: .999937952}
+      scale: {x: .99999994, y: .999999821, z: 1}
+      transformModified: 1
+    - name: Circle_008
+      position: {x: -.0364929438, y: -.0137996376, z: .00851130486}
+      rotation: {x: -.00406227587, y: .00520882802, z: -.00897292048, w: .999937952}
+      scale: {x: .99999994, y: .999999821, z: 1}
+      transformModified: 1
+    - name: Circle_009
+      position: {x: -.0364929438, y: -.0137996376, z: .00851130486}
+      rotation: {x: -.00406227587, y: .00520882802, z: -.00897292048, w: .999937952}
+      scale: {x: .99999994, y: .999999821, z: 1}
+      transformModified: 1
+    - name: Circle_010
+      position: {x: -.00105595589, y: -.0214105248, z: .00172901154}
+      rotation: {x: -.00275665382, y: 3.43460943e-06, z: -.00163506682, w: .999994874}
+      scale: {x: 1.00000012, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Circle_011
+      position: {x: -.00105595589, y: -.0214105248, z: .00172901154}
+      rotation: {x: -.00275665382, y: 3.43460943e-06, z: -.00163506682, w: .999994874}
+      scale: {x: 1.00000012, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Circle_012
+      position: {x: -.00105595589, y: -.0214105248, z: .00172901154}
+      rotation: {x: -.00275665382, y: 3.43460943e-06, z: -.00163506682, w: .999994874}
+      scale: {x: 1.00000012, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Circle_013
+      position: {x: -.00105595589, y: -.0214105248, z: .00172901154}
+      rotation: {x: -.00275665382, y: 3.43460943e-06, z: -.00163506682, w: .999994874}
+      scale: {x: 1.00000012, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Circle_014
+      position: {x: -0, y: -2.98023224e-08, z: -4.76837158e-07}
+      rotation: {x: 4.09781968e-08, y: -4.65661287e-08, z: 9.6857562e-08, w: 1}
+      scale: {x: 1, y: .999999762, z: 1}
+      transformModified: 1
+    - name: Circle_015
+      position: {x: 3.57627869e-06, y: 1.78813934e-07, z: -9.53674316e-07}
+      rotation: {x: 4.31370211e-08, y: -8.1956415e-08, z: 5.86949724e-08, w: 1}
+      scale: {x: .999999821, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: Circle_016
+      position: {x: -.0364929438, y: -.0137996376, z: .00851130486}
+      rotation: {x: -.00406227587, y: .00520882802, z: -.00897292048, w: .999937952}
+      scale: {x: .99999994, y: .999999821, z: 1}
+      transformModified: 1
+    - name: Circle_017
+      position: {x: -.0364929438, y: -.0137996376, z: .00851130486}
+      rotation: {x: -.00406227587, y: .00520882802, z: -.00897292048, w: .999937952}
+      scale: {x: .99999994, y: .999999821, z: 1}
+      transformModified: 1
+    - name: Circle_018
+      position: {x: .0440692902, y: -.0574317873, z: -.0234267712}
+      rotation: {x: .999900341, y: .0123856394, z: .00649864413, w: .00191314076}
+      scale: {x: -.999999762, y: -.999999881, z: -.99999994}
+      transformModified: 1
+    - name: Circle_019
+      position: {x: -.0364929438, y: -.0137996376, z: .00851130486}
+      rotation: {x: -.00406227587, y: .00520882802, z: -.00897292048, w: .999937952}
+      scale: {x: .99999994, y: .999999821, z: 1}
+      transformModified: 1
+    - name: Circle_020
+      position: {x: -.0364929438, y: -.0137996376, z: .00851130486}
+      rotation: {x: -.00406227587, y: .00520882802, z: -.00897292048, w: .999937952}
+      scale: {x: .99999994, y: .999999821, z: 1}
+      transformModified: 1
+    - name: Circle_021
+      position: {x: 4.99999991e-15, y: -2.98023224e-08, z: 0}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_022
+      position: {x: 4.99999991e-15, y: -2.98023224e-08, z: 0}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_023
+      position: {x: 4.99999991e-15, y: -2.98023224e-08, z: 0}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_024
+      position: {x: 4.99999991e-15, y: -2.98023224e-08, z: 0}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_025
+      position: {x: 4.99999991e-15, y: -2.98023224e-08, z: 0}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_026
+      position: {x: -.0364929438, y: -.0137996376, z: .00851130486}
+      rotation: {x: -.00406227587, y: .00520882802, z: -.00897292048, w: .999937952}
+      scale: {x: .99999994, y: .999999821, z: 1}
+      transformModified: 1
+    - name: Circle_027
+      position: {x: .0440692902, y: -.0574317873, z: -.0234267712}
+      rotation: {x: .999900341, y: .0123856394, z: .00649864413, w: .00191314076}
+      scale: {x: -.999999762, y: -.999999881, z: -.99999994}
+      transformModified: 1
+    - name: Circle_028
+      position: {x: .0440692902, y: -.0574317873, z: -.0234267712}
+      rotation: {x: .999900341, y: .0123856394, z: .00649864413, w: .00191314076}
+      scale: {x: -.999999762, y: -.999999881, z: -.99999994}
+      transformModified: 1
+    - name: Circle_029
+      position: {x: .0440692902, y: -.0574317873, z: -.0234267712}
+      rotation: {x: .999900341, y: .0123856394, z: .00649864413, w: .00191314076}
+      scale: {x: -.999999762, y: -.999999881, z: -.99999994}
+      transformModified: 1
+    - name: Circle_030
+      position: {x: -3.57627869e-06, y: -2.38418579e-07, z: -1.66893005e-06}
+      rotation: {x: -1.76951271e-08, y: 1.36293224e-07, z: -2.79396737e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Circle_031
+      position: {x: -3.57627869e-06, y: -1.78813934e-07, z: -9.53674316e-07}
+      rotation: {x: -5.12227061e-09, y: 6.58328645e-08, z: -2.23517382e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: Circle_032
+      position: {x: -3.33786011e-06, y: -1.19209282e-07, z: -1.43051147e-06}
+      rotation: {x: 3.72529296e-09, y: 1.18772725e-07, z: -1.67638028e-08, w: 1}
+      scale: {x: 1.00000024, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: Circle_033
+      position: {x: -3.33786011e-06, y: -2.98023224e-07, z: -1.90734863e-06}
+      rotation: {x: -1.42026684e-08, y: 1.30499842e-07, z: -3.07336379e-08, w: 1}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Circle_034
+      position: {x: -3.81469727e-06, y: -1.78813934e-07, z: -1.66893005e-06}
+      rotation: {x: -1.23764012e-08, y: 1.11805633e-07, z: -2.14204157e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: Circle_035
+      position: {x: -3.81469727e-06, y: -2.38418579e-07, z: -1.1920929e-06}
+      rotation: {x: -1.21071917e-08, y: 8.97871359e-08, z: -2.24681571e-08, w: 1}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: Circle_036
+      position: {x: .00157758594, y: -.000592410564, z: -.000139832497}
+      rotation: {x: -3.23951426e-05, y: -.000265747978, z: .000755701622, w: .999999702}
+      scale: {x: .999999821, y: .999999881, z: .999999642}
+      transformModified: 1
+    - name: Circle_037
+      position: {x: .000272423029, y: -.000900149345, z: .00025832653}
+      rotation: {x: -5.68032847e-05, y: .000301347405, z: .0011122576, w: .999999344}
+      scale: {x: .999999881, y: .999999762, z: .999999404}
+      transformModified: 1
+    - name: Circle_038
+      position: {x: .00157758594, y: -.000592410564, z: -.000139832497}
+      rotation: {x: -3.23951426e-05, y: -.000265747978, z: .000755701622, w: .999999702}
+      scale: {x: .999999821, y: .999999881, z: .999999642}
+      transformModified: 1
+    - name: Circle_039
+      position: {x: -7.00000013e-15, y: 2.98023224e-08, z: -2.38418579e-07}
+      rotation: {x: -4.45058957e-16, y: 8.90117913e-16, z: -3.5517451e-15, w: 1}
+      scale: {x: 1, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: Circle_040
+      position: {x: .00157758594, y: -.000592410564, z: -.000139832497}
+      rotation: {x: -3.23951426e-05, y: -.000265747978, z: .000755701622, w: .999999702}
+      scale: {x: .999999821, y: .999999881, z: .999999642}
+      transformModified: 1
+    - name: Circle_041
+      position: {x: .000272363424, y: -.000900149462, z: .00025832656}
+      rotation: {x: .999999344, y: .0011122576, z: -.000301347463, w: -5.68415999e-05}
+      scale: {x: -.999999881, y: -.999999821, z: -.999999464}
+      transformModified: 1
+    - name: Circle_042
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 7.4505806e-09, y: -2.66162718e-15, z: 1.98306678e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_043
+      position: {x: 0, y: 0, z: 1.86264504e-09}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_044
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 7.4505806e-09, y: -2.66162718e-15, z: 1.98306678e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_045
+      position: {x: 0, y: 0, z: 1.86264504e-09}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_046
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 7.4505806e-09, y: -2.66162718e-15, z: 1.98306678e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_047
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 7.4505806e-09, y: -2.66162718e-15, z: 1.98306678e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_048
+      position: {x: -.00157803297, y: -.000592947006, z: -.000139355659}
+      rotation: {x: -3.24398461e-05, y: .000265659997, z: -.000755692308, w: .999999702}
+      scale: {x: .999999821, y: 1.00000012, z: .999999523}
+      transformModified: 1
+    - name: Circle_049
+      position: {x: -.00157803297, y: -.000592947006, z: -.000139355659}
+      rotation: {x: -3.24398461e-05, y: .000265659997, z: -.000755692308, w: .999999702}
+      scale: {x: .999999821, y: 1.00000012, z: .999999523}
+      transformModified: 1
+    - name: Circle_050
+      position: {x: -.00157803297, y: -.000592947006, z: -.000139355659}
+      rotation: {x: -3.24398461e-05, y: .000265659997, z: -.000755692308, w: .999999702}
+      scale: {x: .999999821, y: 1.00000012, z: .999999523}
+      transformModified: 1
+    - name: Circle_051
+      position: {x: .00157758594, y: -.000592410564, z: -.000139832497}
+      rotation: {x: -3.23951426e-05, y: -.000265747978, z: .000755701622, w: .999999702}
+      scale: {x: .999999821, y: .999999881, z: .999999642}
+      transformModified: 1
+    - name: Circle_053
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 7.4505806e-09, y: -2.66162718e-15, z: 1.98306678e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_054
+      position: {x: .00157758594, y: -.000592410564, z: -.000139832497}
+      rotation: {x: -3.23951426e-05, y: -.000265747978, z: .000755701622, w: .999999702}
+      scale: {x: .999999821, y: .999999881, z: .999999642}
+      transformModified: 1
+    - name: Circle_055
+      position: {x: .00157758594, y: -.000592410564, z: -.000139832497}
+      rotation: {x: -3.23951426e-05, y: -.000265747978, z: .000755701622, w: .999999702}
+      scale: {x: .999999821, y: .999999881, z: .999999642}
+      transformModified: 1
+    - name: Circle_056
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 7.4505806e-09, y: -2.66162718e-15, z: 1.98306678e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_057
+      position: {x: -7.00000013e-15, y: 2.98023224e-08, z: -2.38418579e-07}
+      rotation: {x: -4.45058957e-16, y: 8.90117913e-16, z: -3.5517451e-15, w: 1}
+      scale: {x: 1, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: Circle_058
+      position: {x: -7.00000013e-15, y: 2.98023224e-08, z: -2.38418579e-07}
+      rotation: {x: -4.45058957e-16, y: 8.90117913e-16, z: -3.5517451e-15, w: 1}
+      scale: {x: 1, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: Circle_059
+      position: {x: -7.00000013e-15, y: 2.98023224e-08, z: -2.38418579e-07}
+      rotation: {x: -4.45058957e-16, y: 8.90117913e-16, z: -3.5517451e-15, w: 1}
+      scale: {x: 1, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: Circle_060
+      position: {x: 4.99999991e-15, y: -2.98023224e-08, z: 0}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_061
+      position: {x: 4.99999991e-15, y: -2.98023224e-08, z: 0}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_062
+      position: {x: 4.99999991e-15, y: -2.98023224e-08, z: 0}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_063
+      position: {x: -7.00000013e-15, y: 2.98023224e-08, z: -2.38418579e-07}
+      rotation: {x: -4.45058957e-16, y: 8.90117913e-16, z: -3.5517451e-15, w: 1}
+      scale: {x: 1, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: Circle_064
+      position: {x: -7.00000013e-15, y: 2.98023224e-08, z: -2.38418579e-07}
+      rotation: {x: -4.45058957e-16, y: 8.90117913e-16, z: -3.5517451e-15, w: 1}
+      scale: {x: 1, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: Circle_065
+      position: {x: 4.99999991e-15, y: -2.98023224e-08, z: 0}
+      rotation: {x: 1.5846198e-30, y: -8.90117913e-16, z: 1.78023583e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_068
+      position: {x: .000297307968, y: -.0175397992, z: .001912117}
+      rotation: {x: -.00303843874, y: -2.75682396e-06, z: .000447189668, w: .999995291}
+      scale: {x: 1.00000024, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Circle_069
+      position: {x: .000297307968, y: -.0175397992, z: .001912117}
+      rotation: {x: -.00303843874, y: -2.75682396e-06, z: .000447189668, w: .999995291}
+      scale: {x: 1.00000024, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Circle_070
+      position: {x: .000297307968, y: -.0175397992, z: .001912117}
+      rotation: {x: -.00303843874, y: -2.75682396e-06, z: .000447189668, w: .999995291}
+      scale: {x: 1.00000024, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Circle_071
+      position: {x: .000297307968, y: -.0175397992, z: .001912117}
+      rotation: {x: -.00303843874, y: -2.75682396e-06, z: .000447189668, w: .999995291}
+      scale: {x: 1.00000024, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Circle_072
+      position: {x: .000297307968, y: -.0175397992, z: .001912117}
+      rotation: {x: -.00303843874, y: -2.75682396e-06, z: .000447189668, w: .999995291}
+      scale: {x: 1.00000024, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Circle_073
+      position: {x: .000297307968, y: -.0175397992, z: .001912117}
+      rotation: {x: -.00303843874, y: -2.75682396e-06, z: .000447189668, w: .999995291}
+      scale: {x: 1.00000024, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Circle_074
+      position: {x: .000297307968, y: -.0175397992, z: .001912117}
+      rotation: {x: -.00303843874, y: -2.75682396e-06, z: .000447189668, w: .999995291}
+      scale: {x: 1.00000024, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Circle_075
+      position: {x: .000297307968, y: -.0175397992, z: .001912117}
+      rotation: {x: -.00303843874, y: -2.75682396e-06, z: .000447189668, w: .999995291}
+      scale: {x: 1.00000024, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Circle_081
+      position: {x: -3.57627869e-06, y: -2.98023224e-07, z: -1.90734863e-06}
+      rotation: {x: -1.67550009e-08, y: 9.31322433e-08, z: -2.91353679e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Circle_082
+      position: {x: -3.33786011e-06, y: -2.98023224e-07, z: -1.66893005e-06}
+      rotation: {x: -1.21071899e-08, y: 9.6450087e-08, z: -2.23517382e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: Circle_083
+      position: {x: -3.57627869e-06, y: -3.57627869e-07, z: -1.1920929e-06}
+      rotation: {x: -1.95577687e-08, y: 5.19794412e-08, z: -2.23517382e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: Circle_084
+      position: {x: -3.57627869e-06, y: -3.87430191e-07, z: -1.1920929e-06}
+      rotation: {x: -2.74740106e-08, y: 3.38186545e-08, z: -3.35276091e-08, w: 1}
+      scale: {x: .99999994, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: Circle_085
+      position: {x: -3.57627869e-06, y: -2.98023224e-07, z: -1.43051147e-06}
+      rotation: {x: -1.39698342e-08, y: 1.15483985e-07, z: -3.72528959e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Circle_086
+      position: {x: -3.81469727e-06, y: -1.93715096e-07, z: -1.43051147e-06}
+      rotation: {x: -1.11758665e-08, y: 7.82310963e-08, z: -2.98023171e-08, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Circle_087
+      position: {x: -2.38418579e-07, y: 1.49011612e-07, z: -7.15255737e-07}
+      rotation: {x: 4.00468778e-08, y: -6.46396074e-08, z: 5.58793616e-08, w: 1}
+      scale: {x: 1, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: Circle_088
+      position: {x: 0, y: 1.49011612e-07, z: -1.1920929e-06}
+      rotation: {x: 4.2928157e-08, y: -1.37768424e-07, z: 6.23986125e-08, w: 1}
+      scale: {x: 1.00000012, y: .999999762, z: 1}
+      transformModified: 1
+    - name: Circle_089
+      position: {x: 0, y: 1.78813934e-07, z: -7.15255737e-07}
+      rotation: {x: 4.79631197e-08, y: -1.17928721e-07, z: 5.40167164e-08, w: 1}
+      scale: {x: 1, y: .999999821, z: .999999881}
+      transformModified: 1
+    - name: Circle_090
+      position: {x: 4.76837158e-07, y: 1.49011612e-07, z: 2.38418579e-07}
+      rotation: {x: 3.8649894e-08, y: -7.72997879e-08, z: 6.1467297e-08, w: 1}
+      scale: {x: .99999994, y: .999999881, z: .999999702}
+      transformModified: 1
+    - name: Circle_091
+      position: {x: 2.38418579e-07, y: 1.78813934e-07, z: -4.76837158e-07}
+      rotation: {x: 3.83079239e-08, y: -9.68253318e-08, z: 4.4237833e-08, w: 1}
+      scale: {x: .99999994, y: .999999702, z: .99999994}
+      transformModified: 1
+    - name: Circle_092
+      position: {x: 0, y: 2.08616257e-07, z: 2.38418579e-07}
+      rotation: {x: 4.09782075e-08, y: -6.84231125e-08, z: 5.58793651e-08, w: 1}
+      scale: {x: 1, y: .999999702, z: .999999821}
+      transformModified: 1
+    - name: Circle_093
+      position: {x: 0, y: 1.63912773e-07, z: 2.38418579e-07}
+      rotation: {x: 3.39932846e-08, y: -1.0200894e-07, z: 6.33299493e-08, w: 1}
+      scale: {x: 1.00000012, y: .999999583, z: .999999762}
+      transformModified: 1
+    - name: Circle_094
+      position: {x: 2.38418579e-07, y: 1.78813934e-07, z: -7.15255737e-07}
+      rotation: {x: 3.55648879e-08, y: -1.15391018e-07, z: 3.81842327e-08, w: 1}
+      scale: {x: .99999994, y: .999999762, z: .99999994}
+      transformModified: 1
+    - name: Circle_095
+      position: {x: 0, y: 5.96046448e-08, z: -2.38418579e-07}
+      rotation: {x: 3.49246037e-08, y: -7.75326185e-08, z: 5.40167129e-08, w: 1}
+      scale: {x: 1, y: .999999881, z: .999999762}
+      transformModified: 1
+    - name: Circle_096
+      position: {x: 0, y: 4.47034836e-08, z: -4.76837158e-07}
+      rotation: {x: 3.91155552e-08, y: -7.07805228e-08, z: 8.19564079e-08, w: 1}
+      scale: {x: .99999994, y: .999999702, z: .99999994}
+      transformModified: 1
+    - name: Circle_097
+      position: {x: .000297307968, y: -.0175397992, z: .001912117}
+      rotation: {x: -.00303843874, y: -2.75682396e-06, z: .000447189668, w: .999995291}
+      scale: {x: 1.00000024, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Circle_098
+      position: {x: 0, y: 2.98023224e-08, z: 2.38418579e-07}
+      rotation: {x: -9.31322686e-10, y: 2.29920283e-09, z: 1.86264537e-09, w: 1}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: Circle_099
+      position: {x: -7.00000013e-15, y: 2.98023224e-08, z: -2.38418579e-07}
+      rotation: {x: -4.45058957e-16, y: 8.90117913e-16, z: -3.5517451e-15, w: 1}
+      scale: {x: 1, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: Circle_100
+      position: {x: -.00157803297, y: -.000592947006, z: -.000139355659}
+      rotation: {x: -3.24398461e-05, y: .000265659997, z: -.000755692308, w: .999999702}
+      scale: {x: .999999821, y: 1.00000012, z: .999999523}
+      transformModified: 1
+    - name: Circle_101
+      position: {x: -.000272840261, y: -.000900566578, z: .000258922577}
+      rotation: {x: -5.68852483e-05, y: -.000301468797, z: -.00111226761, w: .999999344}
+      scale: {x: .999999762, y: 1.00000024, z: .999999046}
+      transformModified: 1
+    - name: Circle_102
+      position: {x: -.000272840261, y: -.000900566578, z: .000258922577}
+      rotation: {x: -5.68852483e-05, y: -.000301468797, z: -.00111226761, w: .999999344}
+      scale: {x: .999999762, y: 1.00000024, z: .999999046}
+      transformModified: 1
+    - name: Circle_103
+      position: {x: -.000272840261, y: -.000900566578, z: .000258922577}
+      rotation: {x: -5.68852483e-05, y: -.000301468797, z: -.00111226761, w: .999999344}
+      scale: {x: .999999762, y: 1.00000024, z: .999999046}
+      transformModified: 1
+    - name: Circle_105
+      position: {x: 0, y: 0, z: -5.96046448e-08}
+      rotation: {x: 7.4505806e-09, y: 1.33517687e-15, z: -8.90117913e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_106
+      position: {x: 0, y: 0, z: -5.96046448e-08}
+      rotation: {x: 7.4505806e-09, y: 1.33517687e-15, z: -8.90117913e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_107
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 7.4505806e-09, y: -2.66162718e-15, z: 1.98306678e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_108
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 7.4505806e-09, y: -2.66162718e-15, z: 1.98306678e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_109
+      position: {x: .000272423029, y: -.000900149345, z: .00025832653}
+      rotation: {x: -5.68032847e-05, y: .000301347405, z: .0011122576, w: .999999344}
+      scale: {x: .999999881, y: .999999762, z: .999999404}
+      transformModified: 1
+    - name: Circle_110
+      position: {x: .000272423029, y: -.000900149345, z: .00025832653}
+      rotation: {x: -5.68032847e-05, y: .000301347405, z: .0011122576, w: .999999344}
+      scale: {x: .999999881, y: .999999762, z: .999999404}
+      transformModified: 1
+    - name: Circle_111
+      position: {x: .000272423029, y: -.000900149345, z: .00025832653}
+      rotation: {x: -5.68032847e-05, y: .000301347405, z: .0011122576, w: .999999344}
+      scale: {x: .999999881, y: .999999762, z: .999999404}
+      transformModified: 1
+    - name: Circle_112
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 7.4505806e-09, y: -2.66162718e-15, z: 1.98306678e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_113
+      position: {x: -.00157803297, y: -.000592947006, z: -.000139355659}
+      rotation: {x: -3.24398461e-05, y: .000265659997, z: -.000755692308, w: .999999702}
+      scale: {x: .999999821, y: 1.00000012, z: .999999523}
+      transformModified: 1
+    - name: Circle_114
+      position: {x: -.00157803297, y: -.000592947006, z: -.000139355659}
+      rotation: {x: -3.24398461e-05, y: .000265659997, z: -.000755692308, w: .999999702}
+      scale: {x: .999999821, y: 1.00000012, z: .999999523}
+      transformModified: 1
+    - name: Circle_115
+      position: {x: -.00157803297, y: -.000592947006, z: -.000139355659}
+      rotation: {x: -3.24398461e-05, y: .000265659997, z: -.000755692308, w: .999999702}
+      scale: {x: .999999821, y: 1.00000012, z: .999999523}
+      transformModified: 1
+    - name: Circle_116
+      position: {x: 0, y: 0, z: -5.96046448e-08}
+      rotation: {x: 7.4505806e-09, y: 1.33517687e-15, z: -8.90117913e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_117
+      position: {x: 0, y: 0, z: -5.96046448e-08}
+      rotation: {x: 7.4505806e-09, y: 1.33517687e-15, z: -8.90117913e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_118
+      position: {x: 0, y: 0, z: -5.96046448e-08}
+      rotation: {x: 7.4505806e-09, y: 1.33517687e-15, z: -8.90117913e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_119
+      position: {x: 0, y: 0, z: 1.86264504e-09}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_120
+      position: {x: 0, y: 0, z: 1.86264504e-09}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_121
+      position: {x: 0, y: 0, z: 1.86264504e-09}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_122
+      position: {x: 0, y: 0, z: 1.86264504e-09}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_123
+      position: {x: 0, y: 0, z: 1.86264504e-09}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_124
+      position: {x: 0, y: 0, z: 1.86264504e-09}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_125
+      position: {x: 0, y: 0, z: -5.96046448e-08}
+      rotation: {x: 7.4505806e-09, y: 1.33517687e-15, z: -8.90117913e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_126
+      position: {x: 0, y: 0, z: -5.96046448e-08}
+      rotation: {x: 7.4505806e-09, y: 1.33517687e-15, z: -8.90117913e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_127
+      position: {x: -.000272840261, y: -.000900566578, z: .000258922577}
+      rotation: {x: -5.68852483e-05, y: -.000301468797, z: -.00111226761, w: .999999344}
+      scale: {x: .999999762, y: 1.00000024, z: .999999046}
+      transformModified: 1
+    - name: Circle_128
+      position: {x: 0, y: 0, z: -5.96046448e-08}
+      rotation: {x: 7.4505806e-09, y: 1.33517687e-15, z: -8.90117913e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Circle_129
+      position: {x: .000297307968, y: -.0175397992, z: .001912117}
+      rotation: {x: -.00303843874, y: -2.75682396e-06, z: .000447189668, w: .999995291}
+      scale: {x: 1.00000024, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Circle_130
+      position: {x: .000297307968, y: -.0175397992, z: .001912117}
+      rotation: {x: -.00303843874, y: -2.75682396e-06, z: .000447189668, w: .999995291}
+      scale: {x: 1.00000024, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Circle_131
+      position: {x: -.0364929438, y: -.0137996376, z: .00851130486}
+      rotation: {x: -.00406227587, y: .00520882802, z: -.00897292048, w: .999937952}
+      scale: {x: .99999994, y: .999999821, z: 1}
+      transformModified: 1
+    - name: Circle_132
+      position: {x: .000297307968, y: -.0175397992, z: .001912117}
+      rotation: {x: -.00303843874, y: -2.75682396e-06, z: .000447189668, w: .999995291}
+      scale: {x: 1.00000024, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Circle_133
+      position: {x: -.000272840261, y: -.000900566578, z: .000258922577}
+      rotation: {x: -5.68852483e-05, y: -.000301468797, z: -.00111226761, w: .999999344}
+      scale: {x: .999999762, y: 1.00000024, z: .999999046}
+      transformModified: 1
+    - name: Circle_134
+      position: {x: .000272363424, y: -.000900149462, z: .00025832656}
+      rotation: {x: .999999344, y: .0011122576, z: -.000301347463, w: -5.68415999e-05}
+      scale: {x: -.999999881, y: -.999999821, z: -.999999464}
+      transformModified: 1
+    - name: Cube
+      position: {x: 8.00000003e-15, y: -1.04308128e-07, z: -4.76837158e-07}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Plane
+      position: {x: 8.00000003e-15, y: -1.04308128e-07, z: -4.76837158e-07}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Plane_001
+      position: {x: 8.00000003e-15, y: -1.04308128e-07, z: -4.76837158e-07}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Plane_002
+      position: {x: 8.00000003e-15, y: -1.04308128e-07, z: -4.76837158e-07}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Plane_003
+      position: {x: 8.00000003e-15, y: -1.04308128e-07, z: -4.76837158e-07}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Plane_005
+      position: {x: 8.00000003e-15, y: -1.04308128e-07, z: -4.76837158e-07}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Plane_007
+      position: {x: 8.00000003e-15, y: -1.04308128e-07, z: -4.76837158e-07}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Plane_009
+      position: {x: 8.00000003e-15, y: -1.04308128e-07, z: -4.76837158e-07}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Plane_010
+      position: {x: 8.00000003e-15, y: -1.04308128e-07, z: -4.76837158e-07}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Plane_011
+      position: {x: 8.00000003e-15, y: -1.04308128e-07, z: -4.76837158e-07}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Plane_012
+      position: {x: 8.00000003e-15, y: -1.04308128e-07, z: -4.76837158e-07}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Plane_013
+      position: {x: 8.00000003e-15, y: -1.04308128e-07, z: -4.76837158e-07}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Sphere
+      position: {x: 8.00000003e-15, y: -1.04308128e-07, z: -4.76837158e-07}
+      rotation: {x: -7.45057793e-09, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Sphere_001
+      position: {x: 0, y: 5.96046448e-08, z: 0}
+      rotation: {x: 2.32830644e-09, y: -7.56699592e-09, z: 3.7252903e-09, w: 1}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Sphere_002
+      position: {x: 0, y: 2.98023224e-08, z: 2.38418579e-07}
+      rotation: {x: -9.31322686e-10, y: 2.29920283e-09, z: 1.86264537e-09, w: 1}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  userData: 

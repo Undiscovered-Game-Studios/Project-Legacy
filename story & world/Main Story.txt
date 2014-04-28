@@ -1,0 +1,389 @@
+﻿?
+
+	Game Stories (opening and end cut-scene scripts and brief story ‘bulletpoints’)
+	Camera movements will be in brackets [ ]. Spoken lines will be in quotes “ ” and will have the speaker’s name before it. 
+	Character actions will be in parenthesis ( ) with the character’s name first, unless with a spoken line. 
+	Any time ‘you’ is used outside spoken lines, it is referring to the player.
+
+Prologue: 
+		Scars cut deep. So deep that in order to heal, all scars must be opened again. Only a bleeding scar may heal, 
+	and only a healing scar may bleed, but we must be wary of our scars. Opened scars do bleed profusely, and that blood 
+	rent from scars stains all that come in contact with it, becoming more scars. In this way, it may seem that the only 
+	way to heal a scar is to cover the world in so many that one may be smothered by the rest. As such, only a scared world
+	may hold a scared man, and only a scared man may live in this scared world.	
+	
+Hero:
+		[Fade in] on a slowly panning shot over a small city only about two square miles, comprised mostly of stone buildings, 
+	arranged in a star shaped pattern around a central park with five small dirt roads reaching out to the ‘points’ of the 
+	star, only one leading to the simple wooden gates of the city all surrounded by farmland, and a huge, random mountain 
+	about a mile behind the city. The weather is dreary at best with rain pouring down in sheets, and howling wind causing 
+	the trees to sway and bend to the point where they resemble rubber with some of the smaller ones snapped in half and 
+	blowing around the town.
+	
+		[Quickly zoom in] to a long, narrow, single story house with a plain, tile roof, half-log walls, and a tall brick-and-motor 
+	chimney. Suddenly a flash of lightning hits the base of the chimney, with a return flash from the center of the house, setting 
+	the house ablaze.
+	
+		[Cut to a scene of] two shadowy figures running past a baby of about 18 months of age, slowing only enough to pick him up on
+	their way. 
+	
+		[Cut to an open doorway framed in flame] peering into a room engulfed in this inferno. Just enough visibility is left to see 
+	a dining room table and fireplace on the right, a small staircase to the left, and a large, flaming beam above. The silhouettes,
+	one masculine and one feminine, are rushing down the stairs, the woman clearly holding a small child while trailing the man. 
+	Just as it seems they would make it to safety, the beam falls on the woman, pinning her from the waist down. The man grabs the 
+	baby and throws him out the door.
+	
+		[Cut to a shot behind the child, just over his shoulder, still able to see into the doorway] the little one stands up 
+	resiliently to the left of the frame, with just enough of an angle to see the corner of his eye. The man quickly turns back 
+	to the pinned woman, and attempts to pull her out. Before either could hope to escape, the chimney falls on the house, 
+	crushing everything except the left, front corner of the house, leaving nothing but some rubble, a few stairs, a small bench, 
+	and just enough of the roof to span over the spared bench.
+	
+		The child begins to dottle toward the demolished house, with the camera slowly panning to keep up with him. He climbs over 
+	the rubble that fills the old doorway, walks past a dieing flame left in the rubble, and sits on the bench, solemnly. Sounds of
+	people rusing to the scene can be heard in the background.
+	
+		[Fade into the same shot] about twenty years into the future, the child in now grown, but is sitting instead on a bench in 
+	the local tavern. His chin is on his hands and he is staring off into the distance.
+		
+		(C=connor;D=dustin;BT=bar tender)
+		(Setting: Tavern in upper street of ______)
+		D: Connor? Connor! *D waves his hand in front of C's face*
+		C: Hm? Oh, what? *Looks around confused*
+		D: You were dozing off again. Finish your food, we need to go to the arena to practice, the next hand-to-hand competition is
+		   next month.
+		C: Why should we practice? There's no one stupid enough to challenge us in this town. 
+		   How are we expected to battle like this?
+		D: It's not the towns fault you refuse to travel.
+		C: Why should I?
+		D: Just get your stuff and head to the arena. I'll be waiting there.
+		C: Fine.
+		[Dustin walks to door, about to exit]
+		D: And pay the bill for me while you're at it.
+		C: Hold up-
+		[Dustin Exits]
+		BT: I'll put it on your tab.
+		C: Thanks. {smiles meekly}
+		[Connor is now free to move around tavern]
+				Possible dialouges
+			(C=connor;BT=Bartender)
+			BT: I expect you to pay that back someday.
+			C: Of course! What do you see me as, a crook?
+			BT: Yes.
+			C: Well no need to be so straight foreward.
+
+			(C=COnnor;DM=Drunk Man)
+			DM: I'll take one more server!
+			C: I'm not a server.
+			C: ...
+			C: Are you alseep?
+			BM: Huh- hm? Oh, one more please server!
+			C: You should probably just go back to sleep...
+
+			(C=Connor; Ch=Cook)-On entering kitchen
+			C: So, what's being made back here?
+			Ch: Get out of here ya' weasel.
+			C: What did I do?
+
+			(C=Connor;GP=Guitar Player)
+			GP: Any requests?
+			C: Know anything from the north?
+			GP: Norht o' here? Why there ain't anotha town fer at least thirty kilometers!
+			C: How about "A Bartenders Song"
+			GP: Alright.
+			[Music changes]
+
+			(C=Connor;W=Waitress)
+			W: Anything I can get you?
+			C: I'm fine.
+			W: You sure? We've got a lovely brew from the West in.
+			C: Maybe later.
+
+		When you exit, a small map of the town appears, higlighting the way to the colleseum.
+
+				Possible Dialouges
+			(Setting: Streets of ________ on day 1)
+
+			(C=Connor;M=Mother;Ch=Child)
+			Ch: HI!
+			C: Uh...
+			Ch: You're Connor, right?
+			C: Yes...
+			Ch: My daddy is going to fight you next month! He'll crush you. *Smiles*
+			M: Clair, stop bothering that man this instant. *to C* I'm so sorry.
+			C: It's okay. Just, don't take her to the next match, she may not want to
+  			   See her father get hurt.
+			M: *Offended* Well I'll see you next month.
+			[M and Ch walk away.]
+
+			(C=Connor;V=Vendor 1)
+			V1: You! COme on over! I'm sure we have just what you're looking for!
+			C: I'm fine, thanks.
+			V1: Oh no! You're missing-
+			C: I' fine.
+			V1: Of course, please do come back!
+
+			(C=Connor;V2=Vendor 2)
+			C: What's this?
+			V2: One of our new leather armor peices. Just came with the most resent shipment from
+  			    _______.
+			C: Look fantastic!
+			V2: It is! LIghtweight and great protection, it's one of the best leather works I've
+    			    seen. Are you intersted?
+			C: Do you guys take I-O-U's?
+			V2: *Annoyed* No. *Turns in other direction* You, Sir! You look like the kind of man
+			    who loves to fight!
+
+			(Kids)
+			Kids: *Chorus* You're it! No, You're it! Can't catch me! *Running past*
+			(Assorted people on street: P1= person 1;etc.)
+
+			P1: Good afternoon.
+
+			P2: Nice day, isn't it?
+
+			P3: Look where you're walking.
+
+			P4: Afternoon, Connor.
+
+			P5: Off to the arena, Connor?
+
+			P6: What do you want?
+
+			P7: Need something?			
+
+		Dialouge 1.2 will go here.
+
+
+
+		[Fade in] With the two men walking through the streets of the town, in front of the armorer. 
+		
+		Connor:”Thanks, I needed something to get my head out of the clouds.”
+		
+		Dustin:”Ya, it was a nice warm-up.”
+		
+		Connor:”You know what? We should go do something before the season starts, but what?”
+		
+		Dustin:”I hear there’s this new ‘treasure hunting’ fad, why not try that?”
+		
+		Connor:”That’s a good idea!!! I know just the place to!”
+		
+		Dustin:”wait, you’re serious?”
+		
+		Connor:”Of course I’m serious. That sounds like fun. I heard of this place down in Theera. Supposedly, there’s a cave in the
+	side of this huge mountain with some amassing treasure deep inside.  I’ve even heard rumor that whoever enters that cave had 
+	never returned.”
+		
+		Dustin:”and you still want to go? … Well, I guess there’s no way I can convince you just how insane this is. *sigh* fine, 
+	grab whatever it is that you need. I’ll be waiting by the city gates. Let me know when you’re ready to go.”
+		
+		You are now able to wander around the town as long as you would like, and access all the shops to purchase whatever you may
+	need for the up-coming journey.
+		
+		Dustin is standing by the city gates. When you speak to him…
+		
+		Dustin: “all ready? It’s a long hike out to where your planning.”
+		
+		Connor: “We’ll be fine, I got all the stuff we need. Now let’s get going!”
+		
+		Dustin: “Fine After You.”
+		
+		(The screen fades to white as both walk out of the city gates.)
+
+/**************not-finalized*****************/
+
+Villain:
+		[Fade in] on a slowly panning shot over a small city only about two square miles, comprised mostly of stone buildings, arranged 
+	in a star shaped pattern around a central park with five small dirt roads reaching out to the ‘points’ of the star, only one leading to the
+	simple wooden gates of the city all surrounded by farmland, and a huge, random mountain about a mile behind the city. The weather is dreary at
+ 	best with rain pouring down in sheets, and howling wind causing the trees to sway and bend to the point where they resemble rubber with some of the 
+	smaller ones snapped in half and blowing around the town.
+
+		[Quickly zoom in] to a long, narrow, single story house with a plain, tile roof, half-log walls, and a tall brick-and-motor 
+	chimney. Suddenly a flash of lightning hits the base of the chimney, with a return flash from the center of the house, setting 
+	the house ablaze.
+		
+		[Cut to a wide shot showing] a closed door in the side of the house, and an old man in a dusty, stained lab coat, slowly 
+	walking towards the door. [zoom in to see over the old man’s left shoulder] as he opens the door, to see a young child of about
+	3 years sitting up in his bed in this tiny room, the size of a walk-in closet.
+		
+		[Cut to the same view from over the child’s shoulder] 
+		
+		Dr. Wilson:  (reaches out and offers the child he hand.) “Come on, I’ll bring you somewhere better.”
+		
+		Eric: “ok” (stands up and walks out the door)
+		
+		[Cut to a scene of the two getting into an old, rusty pickup with the burning house still close in the background.] 
+	(The old man stops for a moment, and looks back at the house,) just then the house collapses. (He gets in and promptly drives off)
+		
+		[Cut to a shot from inside the car, cutting between looking at the child and looking at the old man, depending on who’s 
+	talking]
+		
+		Dr. Wilson: “so, what’s your name?”
+		
+		Eric: “I’m Eric, What’s your name?”
+		
+		Dr. Wilson “Well, you can call me Doctor Wilson.”
+		
+		Eric: *short pause* “Mr. Wilson, does this mean we’re friends now?”
+		
+		Dr. Wilson: “Yes… We’re friends now, now and forever.”
+		
+		[Cut to a clip of Eric smiling, looking out through the window. Then, slowly fade to about twenty years in the future]
+		
+		Eric: “how long till we get there doc?”
+		
+		Dr. Wilson: “Well, if you must know, we’re here.”
+		
+		Eric: (look up from the window to see out of windshield) “and where would ‘here’ be?”
+		
+		Dr. Wilson: “The new lab, since I was kicked out of my old one.”
+		
+		(Dr. Wilson parks the truck, now sporting a canopy, in front of this rickety, old warehouse, and walks around to the back)
+		
+		Eric: “may I ask why this new lab must be out in the middle of nowhere?”
+		
+		Dr. Wilson: “privacy, I was tired of thieves constantly ruining my work. Don’t worry; you’ll still get cable out here.”
+		
+		Eric: (rolls eyes) *sarcastically* “yay”
+		
+		Dr. Wilson: “Benjamin, would you mind helping me unload some of this stuff?”
+		
+		(Ben jumps out of the back of the truck.)
+		
+		Ben: “shure ting bosss.”
+		
+		Eric: “Oh, great, you brought the lumbering buffoon. And here I thought I’d finally get to hear something other than 
+	breaking glass and breached gas lines. I’ll be inside if anyone wants me.”
+		
+		(Eric then walks inside the warehouse holding his katana.)
+		
+		Ben: “That wasn’t very nice.” (Begins to tear up)
+		
+		Dr. Wilson: “It’s alright Ben, he’ just tired from the ride. Ben, why don’t you get to unloading, I could use a nap.”
+		
+		Ben: “ok doc, I’ll get workin’.”
+		
+		(Dr. Wilson walks inside the warehouse while Ben begins unloading a stack of boxes from the back of the truck.) 
+	[Cut to a wide shot inside the warehouse showing Dr. Wilson walking through the door with the camera looking over Eric’s 
+	shoulder. The camera slowly pans out as Dr. Wilson walks closer to Eric, who is reclining on a small sofa in front of a tiny 
+	TV with a heavily static-ed picture. Eric’s katana is leaning against the arm of the sofa.] 
+		
+		Dr. Wilson: “So, what are you watching?”
+		
+		Eric: “Static, mostly”
+		
+		(Dr. Wilson leans on the back of the sofa once he approaches it.)
+		
+		Dr. Wilson: “Oh! I love that show, so consistent.” (Now sporting a big smile)
+		
+		Eric: (glances over at Dr. Wilson, completely unimpressed) “really?” (Looks back at the TV, and flips the channel to a 
+	news report that’s coming in better than most of the stations up until that point, but still very static-laden. The shot is of
+	a reporter standing in front of the smoldering remains of a burnt building).
+		
+		Reporter: We are here at the Porter residence in Canterbury, speaking with Professor Porter who was out on a research 
+	expedition when this tragedy occurred.
+		
+		Dr. Wilson: “Professor Porter! Do they mean Eustace? I’ve always wondered what he was doing after he retired. Old habits 
+	die hard, apparently.”
+		
+		Reporter: “So how do you plan to cope with this calamity?”
+		
+		Prof. Porter: “I plan to continue my research, my research with my daughter.”
+		
+		Reporter: “I see...” (turns toward the camera) “unfortunately, the Professor’s daughter has already denied an interview.” 
+	(Puts his finger in his ear) “This just in, a bystander has delivered a video tape to the station, claiming that it is a 
+	recording of this incident. Hold on as we play the clip.”
+		
+		(The TV screen cuts to a washed-out scene where stands a building, quite off in the distance, but can still be clearly 
+	seen to be engulfed in massive, rolling flame. Even from the great distance faint, screams of people inside the inferno can 
+	be heard.) [The camera cuts to Eric’s face, and quickly zooms in on his eye where the building can be clearly seen in reflection.] 
+	(The building then collapses and the screen quickly fades to white. A few pictures and sound clips from when Eric was a little boy 
+	in the burning house then fade over the white screen.)[After a few snapshots, in a flash of white, the camera cuts to an overhead 
+	view of Eric and Dr. Wilson.] (Eric silently stands, grabs his katana, and walks out of the warehouse, with Dr. Wilson silently 
+	following.) [Cut to a shot of Eric walking away from the warehouse, looking over his shoulder to see Dr. Wilson close behind] 
+	(Dr. Wilson stops walking and leans on the old truck as Eric walks out of frame to reveal Ben returning for his next load of boxes.)
+		
+		Ben: “What’s wrong wit ‘im?”
+		
+		Dr. Wilson: “Looks like another flash-back, and from what I can see, there’s a dead man still roaming amongst us. Come on
+	Ben, pack up the truck.”
+		
+		Ben: “But Doc I jist finished UN-loadin’ it.”
+		
+		Dr. Wilson: “Benjamin, we haven’t time to dawdle. Get the truck loaded.”
+		
+		Ben: “ok doc”
+		
+		(Ben goes back to re-load all of the boxes he just unloaded. Dr. Wilson looks up to the sky, and the camera pans up to the 
+	sky, and fades out.)
+
+
+/****************open to change*********************/
+Hero:
+		Fade in to a live, bird's eye clip of Conner and Dustin walking out of the town with the cammera slowly panning down to it's standard gameplay 
+	possition. Just befor the cammera settles:
+		
+		Dustin: Well, we'd best be off.
+		Conner: Right.
+
+		player now gains control of play in a large, flat, and grassy plain with the opening town behind them. The player may go back into the town if they
+	desire, but nothing special of note is there*.
+
+		Ahead of the player is a vast openness with lilting, adventurous music playing softly behind them. On the first tile there are no enemys, but there
+	are some small farms and shacks around to peak the player's curiosity, and familiarze them with exploration. Many of these farms have interesting dialouge
+	opptions, and small treasures usually hidden in shacks. One weapon upgrade for Dustin is hidden in the far reaches of the tile, and well hidden, but if found this
+	weapon is better than what can be found for at least two story segments. There is a save point upon leaving this area.
+
+		The next tile is sparcly populated, but does contain enemys. These enemys include: [rabbit] [wolf or spider]. The strongest of which
+	being a wolf (or spider), but these only appear near the enterance to an optional tile. This area is intended to familiarize the player with the combat 
+	mechanics, not to present any real challenge. tile 2
+
+			The optional tile consists of a tiered terrain down to a treasure chest containing a weapon upgrade for Conner at the bottom, third tier. the first tier
+		holds two wolfs, only to comunicate that this area is not as easy as the last, don't get compfy. The next teir, there. then at the base, a mini-boss appears.
+		this mini-boss is the venus dude trap. He is quite difficult, but not unbeatable. He can be fleed from by simply running out of the area. upon defeat,
+		He flees from the party, up the cliff in the back of the area, nocking the treasure chest within reach of the player. tile a
+
+		The next required tile is quite similar, containing the same enemys, only the wolfs are no longer bound to one area of the map. There is only one wolf
+	in this tile though. The population of [rabbits] is also more dence, to where now it is quite easy to get into a fight with more than one at a time. This is
+	intended to alow the player to get comfortable with hadaling multipe enemys at once. tile 3
+
+		The next tile holds slightly more dence [rabbit] population, along with a [wolf] population about equivilent to the tile 2's [rabbit] population.
+	This is simply ment to hone the player's combat skill, as well as how to handle multiple types of apponents at once. total populations are still quite sparce.
+	tile 4
+	
+		The next tile holds about the same population as the previous, but also holds about 5 [bison]. These enemys are docile, but are agroed at the sight of
+	any combat. At this point they charge, doing MASSIVE damage, then de-agro after one hit. IMPORTENT: these enemys are too strong to be beaten in a fight at this
+	point in the game. This is intended to show the player that sometimes, combat is not the best opption. This tile ends with either a tightrope walk, or by climbing
+	a ladder. tile 5
+
+		 It is packed like a sardine can with [wolves] and [bison] after a short, protecting valley. There are many treasure chests in this area full of late(er) 
+	game items. There is also no preciveable way for the player to ge through that area, but there is either a tightrope, or ladder (depending on what was used in the
+	previous tile) that leads to a different are of the tile. This area skirts the perimiter of the tile, and ends at the tile's exit. Thereare a few [rabbits] around 
+	the area, but it's no more difficult than the tile 2. This is intended to show the player that observence is required to survive at times, you are not god!
+	tile 6
+
+		The final tile untill the next town. the enemy population is very similar to tile 3. there is a sound of muffled chants and yelling in the background that
+	starts out neerly inoudable, but grows to a roar by the time you reach the other side of the tile. The background music has also stopped about half way across, it 
+	becomes vissible that a tall, thin, tree-looking object is burning. more detail is gained as you approach. no real secrets of note here. Once you get to the walls 
+	of the town, there is a save point, and combat music becomes distinct after slowly fading in about half way through the tile. When you enter the doors, the chants
+	become clear "Burn her!" "Heratic!" and the like, with faint fire crackle in the background.
+
+		A short cut scene then plays where Conner and Dustin take note that someone is being burned at the stake. They decide to save whoever it is, and trigger the
+ 	first Boss fight.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

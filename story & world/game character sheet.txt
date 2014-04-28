@@ -1,0 +1,51 @@
+﻿Character sheet: main hero
+
+Connor Pulte, Height: 5’10”, Weight: 220lb, age: 25, weapon group: heavy-melee, mystic: fire.		
+	Connor is a tall man with broad shoulders. He is known well as an arena fighter in The Empire, but never really had, or wanted, 
+	much recognition outside of his home town of Barabösa. His bulk has him lend well to large weapons very easily, but don’t 
+	underestimate him with light weaponry.
+
+Dustin Trémmor, Height: 6’0”, Weight: 180lb, age: 28, weapon group: light-ranged, mystic: lightning.
+	Connor’s lifelong friend, they grew up together since their parents died, living off winnings from the arena matches. He is very
+	quiet, and prefers to reserve his words for special occasions. Dustin is rather tall and thin lending him well to small weaponry 
+	with his high agility, but is equally capable of using large, mass weapons
+
+Penelope Vargas, Height: 5’4”, Weight: 160lb, age: 23, weapon group: light-melee, mystic: healing. 	
+	Penelope is a small woman from where she describes as "a town of nobodys who do nothing", her wings have caused her some problems 
+	with being shunned, exiled and sometimes imprisoned on account of people’s superstition. Due to her many hours of exile she has
+	become indepentant and resents the duo when first found, only joinging after they take her map. Her wings also give her great
+	agility on the battle field, making up for her light hits and hesitance to use mass weapons.
+
+Michal von Therrisbürg, Height: 5’8”, Weight: 200lb, age: 45, weapon group: heavy-ranged, mystic: ???.    
+    	An old shipsman admittedly past his prime with quite a “henkerin’ fer Bier”, and a belly to match. He is proven to be rather sparatic and
+	crazy after a close call with blowing up the group. His ship gives him inclusion in the party. Although a little out of practice 
+	Michal is still skilled with a trowing axe, though he contains general knowledge of most weapons.
+ 
+Character sheet: main villain
+
+Eric Pulte, Height: 5’ 9”, Weight: 190lb, age: 32, weapon group: light-melee, mystic: water
+	Conner’s brother thought to have died in the fire that killed their parents. He is a cocky, through ass-hole around his brother,
+	but a collected, ingenious strategist otherwise. Often in the corner instead of being with the group, his mind plays in his own 
+	little world, sometimes almost appearing mildly autistic. While strange, this cool minded warrior will wreak havoc on the battle 
+	field at close range with quick strikes and small weapons, but lacks the patience or steady hand to properly use heavy or ranged 
+	weapons.
+
+Benjamin Darce, Height: 6’ 6”, Weight: 275lb, age: 29, weapon group: heavy-ranged, mystic: stone
+	A brute if you ever saw one, rippling with muscle to the ludicrous degree, Ben, as he is usually called, is not very bright, 
+	even once breaking down his door because he couldn’t find his keys. Always oblivious to the plan he “just follows the flow”, 
+	often causing problems for the team. Ben likes to stick with what he knows, brute force and explosions, and trends toward weapons 
+	that offer both.
+
+Samantha Porter, Height: 4’ 10”, Weight: 120, age: 12, weapon group: heavy-melee, mystic: void
+	 A little girl with a massive inferiority complex, so much so that she insists on using weapons larger than her. She is also 
+	 very sensitive, especially about her wings which were injured in an accident, with these she can fly but can’t stay aloft for 
+	 very long. This doesn’t mean she is weak though, equally acrobatic on the ground as in the air, she often dances circles around
+	 her opponents before killing them.
+
+Dr. Magus Wilson, Height: 5’8”, Weight: 170, age: 64, weapon group: light-ranged, mystic: ???.
+	An old inventor who just refuses to stop. Nearly everything of technological value is based off of his work with neutronic
+	power. He has recently been exiled from the lab he was working in when word got out that he was working on time travel. His 
+	colleges swear he’s gone mad. Dr. Wilson is certain he is, “so very close, there’s only a few bugs to work out.” Despite his 
+	feeble frame, this man is not a stranger to combat. Often, before being fired for insanity, thieves would try to burglarize his
+	lab. In efforts to protect his work he has gotten surprisingly effective with small weaponry from a distance, but lacks the 
+	sturdiness to handle anything much larger.

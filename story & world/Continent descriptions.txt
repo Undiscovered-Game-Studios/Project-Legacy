@@ -1,0 +1,40 @@
+Continent descriptions
+Present:
+	Hallava:		
+		a large group of islands, similar to Hawaii only many more and with greater variety of sizes. Smaller islands are tourist 
+		attractions, while the larger ones are littered factories and mines, most are off-limits to the public. Despite the factories
+		and mines the effect on the landscape is minimal, and still looks out-right beautiful, with only small hints of the existence 
+		of these facilities. It is situated east of Erimoss and south-west of Werhrimm.
+
+	Erimoss:	
+		a large C-shaped continent holding The Great Gulf. The gulf’s coast line is Mediterranean in nature, while the northern coast 
+		is icy and cold, with a small strip of pristine beach on the south-western most edge. The eastern half of the interior is 
+		harsh desert with little life between the few metropolises. The western half is dense forest with tall trees towering over 
+		the many small villages in the area. Most of the continent is controlled by ____ with the western 1/3 controlled by ___.
+
+	Theera:		
+		a rather small continent shaped in nearly a perfect ellipse with a massive mountain rising out of one of the foci of the 
+		continent. This mountain, Mt. Theera, has a river flowing out of the peak that spirals around the mountain as it slowly 
+		descends to the ocean at the base of the mountain. Mt. Theera is studded with many ruins of an, apparently, advanced ancient
+		civilization. No major country claims to own Mt. Theera, but there is a mysterious tribe that lives there, not much is known
+		about them.  The other half of the continent is nearly all savanna-like plains with one huge city in the center and three 
+		other large cities in a triangle centered on the massive city in the middle. One of these three large cities is situated on 
+		the thin strip of land connecting Theera to Erimoss’s western shore. This half of Theera and the western third of Erimoss is 
+		controlled by ___.
+
+	Werhrimm:	
+		A MASSIVE chunk of land that is shaped much like a whale, with the larger “head” north and slightly east of Hallava. The land 
+		mass slowly tapers down, wrapping around until the last third curves up to be just north-west of Mt. Theera. The larger 2/3 of
+		the continent is split laterally into the northern ice caps, which are uninhabited, with huge, dangerous glaciers and mountains,
+		and the great desert, which is sparsely inhabited with one large ___ settlement on one of the only navigable bays on the 
+		continent. The center of the desert is home to many massive, tyrannical reptiles and is totally devoid of all other life. The
+		final third is dense, almost impassible jungle. The floor of the jungle remains unmapped, and all who have tried to map it 
+		never came back to show for the effort, it is often regarded as the most dangerous place in the world, even worse than the 
+		ground in the center of the coliseums.  In sharp contrast, the canopy of the jungle is well developed with a virgining city 
+		high in its reaches, and a complex network of bridges connecting it to many tiny villages in the area and the land on either 
+		end of the jungle.
+
+Past:
+
+
+Future:

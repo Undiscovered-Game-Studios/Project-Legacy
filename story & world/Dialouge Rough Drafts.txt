@@ -1,0 +1,123 @@
+Dialouges
+
+Chapter 1
+
+Dialouge 1.1
+(C=connor;D=dustin;BT=bar tender)
+(Setting: Tavern in upper street of ______)
+D: Connor? Connor!
+C: Hm? Oh, what?
+D: You were dozing off again. Finish your food, we need to go to the arena to practice, the next hand-to-hand competition is
+   next month.
+C: Why should we practice? There's no one stupid enough to challenge us in this town. 
+How are we expected to live like this?
+D: It's not the towns fault you refuse to travel.
+C: Why should I?
+D: Just get your stuff and head to the arena. I'll be waiting.
+C: Fine.
+[Dustin walks to door, about to exit]
+D: And pay the bill for me while you're at it.
+C: Hold up-
+[Dustin Exits]
+BT: I'll put on your tab.
+C:Thanks. {smiles meekly}
+[Connor is now free to move around tavern]
+		Possible dialouges
+	(C=connor;BT=Bartender)
+	BT: I expect you to pay that back someday.
+	C: Of course! What do you see me as, a crook?
+	BT: Yes.
+	C: Well no need to be so straight foreward.
+	(C=COnnor;DM=Drunk Man)
+	DM: I'll take one more server!
+	C: I'm not a server.
+	C: ...
+	C: Are you alseep?
+	BM: Huh- hm? Oh, one more please server!
+	C: You should probably just go back ot sleep...
+	(C=Connor; Ch=Cook)-On entering kitchen
+	C: So, what's being made back here?
+	Ch: Get out of here ya' weasel.
+	C: What did I do?
+	(C=Connor;GP=Guitar Player)
+	GP: Any requests?
+	C: Know anything from the north?
+	GP: Norht o' here? Why there ain't anotha town fer at least thirty kilometers!
+	C: How about "A Bartenders Song"
+	GP: Alright.
+	[Music changes]
+	(C=Connor;W=Waitress)
+	W: Anything I can get you?
+	C: I'm fine.
+	W: You sure? We've got a lovelybrew from the West in.
+	C: Maybe later.
+
+Dialouge 1.15
+(Setting: Streets of ________ on day 1)
+(C=Connor;M=Mother;Ch=Child)
+Ch: HI!
+C: Uh...
+Ch: You're Connor, right?
+C: Yes...
+Ch: My daddy is going to fight you next month! He'll crush you. *Smiles*
+M: Clair, stop bothering that man this instant. *to C* I'm so sorry.
+C: It's okay. Just, don't take her to the next match, she may not want to
+   See her father loose.
+M: *Offended* Well I'll see you next month.
+[M and Ch walk away.]
+(C=Connor;V=Vendor 1)
+V1: You! COme on over! I'm sure we have just what you're looking for!
+C: I'm fine, thanks.
+V1: Oh no! You're missing-
+C: I' fine.
+V1: Of course, please do come back!
+(C=Connor;V2=Vendor 2)
+C: What's this?
+V2: One of our new leather armor peices. Just came with the most resent shipment from
+    _______.
+C: Look fantastic!
+V2: It is! LIghtweight and great protection, it's one of the best leather works I've
+    seen. Are you intersted?
+C: Do you guys take I-O-U's?
+V2: *Annoyed* No. *Turns in other direction* You, Sir! You look like the kind of man
+    who loves to fight!
+(Kids)
+Kids: *Chorus* You're it! No, You're it! Can't catch me! *Running past*
+(Assorted people on street: P1= person 1;etc.)
+P1: Good afternoon.
+P2: Nice day, isn't it?
+P3: Look where you're walking.
+P4: Afternoon, Connor.
+P5: Off to the arena, Connor?
+P6: What do you want?
+P7: Need something?
+
+
+-Show Connor walking into Arena-
+
+Dialouge 1.2
+(C=Connor;D=Dustin)
+(Setting: Lone corner of arena)
+D: Finally, you made it.
+C: You owe me for the bill.
+D: You owe me for the beer.
+C: Whetever, lets just get to this.
+[Enter Tutorial]
+[Tutorial Ends, Cut to Dustin with a practice sword in hand]
+C: You ready to fight me now?
+D: Don't think I'll go easy on you.
+C: Well I don't want to to be bored.
+[Dustin takes first lunge and duel begins]
+[Duel ends when Connor defeats Dustin, Dustin lies on ground. Connor turns away.]
+C: All in a days work. I was barely even try-
+[Dustin trips connor and oins him with sword pointed at throat.]
+D: Shouldn't let your guard down.
+C: That was cheap.
+D: That was perfectly fair. You let your guard down.
+C: *mumbled* I still think it's cheap.
+D: Come on, let go down through the forest, perhaps you'll be in a less sour mood.
+
+
+
+
+

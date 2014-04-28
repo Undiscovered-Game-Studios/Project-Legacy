@@ -1,0 +1,47 @@
+﻿Fade to hero
+	start at city gates
+		area is a grass land
+			fades from farmed to wild
+	
+	walks to another town
+		finds Penelope
+			tied to a stake
+			surrounded by a mob about to burn her
+		party rushes to save her
+			enemy crawl working up by ones
+			ending to cutting Penelope off of the stake
+			party runs to safety
+		ends up in a town basement
+		fades to villian
+
+
+	
+Fade to villian
+	starts in high deasert
+		in a raviene
+	walks through
+
+	
+	find Prof. Poster in an old shack by a cave
+		walk through long hall in the shack, the door is locked
+		Prof. Porter is in room at end of hall, talking to himself
+		when monolouge is over rest of party shows up
+		Prof. Porter freaks out and fires on the party
+			engage in mini-boss fight
+			Porter is armed with a pistol
+	when over point player to cave
+		inside find Samantha and the mystic bracers
+		Prof. Porter rushes in and the true boss fight begins
+		Porter now have the void bracer on
+	when over Porter is dead
+		quick clip of villian party walking out, Samantha joins party
+		Fade to Hero
+
+Fade to hero
+	still in cut scene, in basement
+	mob dies down
+	Penelope puts on a cowl, and the party exits to the town
+		now free to shop
+	when leave the town
+	
+...
