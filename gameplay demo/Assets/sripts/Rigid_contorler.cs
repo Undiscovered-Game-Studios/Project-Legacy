@@ -4,12 +4,12 @@ using System.Collections;
 public class Rigid_contorler : MonoBehaviour {
 	
 	public float maxSpeedForward = 20, maxSpeedBack = 15, jumpSpeed = 7, vertSwimSpeed = 5, 
-				horSwimSpeed = 10, climbSpeed = 2;
+				horSwimSpeed = 10, climbSpeed = 2, strafeSpeed = 50;
 
 	public float maxSprintMultiplier = 3, maxSprintTime = 5, 
 				maxJumpDuration = 5;
 
-	public float curRunSpeed, curTurnSpeed, curJumpDuration, curSprintTime,	curSprintMultiplier;
+    public float curRunSpeed, curTurnSpeed, curJumpDuration, curSprintTime, curSprintMultiplier, strafeTimer = .5;
 
 	public bool canMove, isSprinting, isAirBorn, isJumping, isSwimming, isSliding, isClimbing,
 				isWalkingRope, needToBeVertical;
@@ -39,6 +39,14 @@ public class Rigid_contorler : MonoBehaviour {
 		
 		myTrans.position = lo.startingArea;
 	}
+
+    public void Strafe()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            myTrans.position += myTrans.right * strafeSpeed;
+        }
+    }
 	
 	private void Move(){
 
