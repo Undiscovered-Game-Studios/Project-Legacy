@@ -7,12 +7,12 @@ public class Rigid_contorler : MonoBehaviour {
 				horSwimSpeed = 10, climbSpeed = 2, strafeSpeed = 50;
 
 	public float maxSprintMultiplier = 3, maxSprintTime = 5, 
-				maxJumpDuration = 5;
+		maxJumpDuration = 5, maxStrafeTimer = 1.5f;
 
-    public float curRunSpeed, curTurnSpeed, curJumpDuration, curSprintTime, curSprintMultiplier, strafeTimer = .5;
+	public float curRunSpeed, curTurnSpeed, curJumpDuration, curSprintTime, curSprintMultiplier, curStrafeTimer;
 
 	public bool canMove, isSprinting, isAirBorn, isJumping, isSwimming, isSliding, isClimbing,
-				isWalkingRope, needToBeVertical;
+				isWalkingRope, isStrafingRight, isStrafingLeft, needToBeVertical;
 
 	public Quaternion oldRot;
 
@@ -42,10 +42,34 @@ public class Rigid_contorler : MonoBehaviour {
 
     public void Strafe()
     {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            myTrans.position += myTrans.right * strafeSpeed;
-        }
+		if (isStrafingLeft == true || isStrafingRight == true) {
+			curStrafeTimer--;
+		} else {
+			curStrafeTimer = maxStrafeTimer;
+		}
+		if (curStrafeTimer <= 0f) {
+			isStrafingLeft = false;
+			isStrafingRight = false;
+			canMove = true;
+		}
+		if (Input.GetKeyDown(KeyCode.E))
+		{
+			isStrafingLeft = false;
+			isStrafingRight = true;
+			canMove = false;
+		}
+		if (Input.GetKeyDown(KeyCode.Q))
+		{
+			isStrafingRight = false;
+			isStrafingLeft = true;
+			canMove = false;
+		}
+		if (isStrafingLeft == true) {
+			myTrans.position -= myTrans.right * strafeSpeed;
+		}
+		if (isStrafingRight == true) {
+			myTrans.position += myTrans.right * strafeSpeed;
+		}
     }
 	
 	private void Move(){
@@ -232,6 +256,8 @@ public class Rigid_contorler : MonoBehaviour {
 		CheckButtons();
 		
 		FindMovement();
+
+		Strafe ();
 		
 		if(canMove == true){
 			Move();

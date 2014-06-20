@@ -1,10 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\inclusionObjectCulling.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\sripts\Rigid_contorler.cs">
     <Files>
-      <File FileName="Assets\inclusionObjectCulling.cs" Line="8" Column="36" />
-      <File FileName="Assets\sripts\SwingDoor.cs" Line="5" Column="26" />
-      <File FileName="Assets\sripts\LoadNewScene.cs" Line="64" Column="25" />
+      <File FileName="Assets\sripts\Rigid_contorler.cs" Line="7" Column="48" />
+      <File FileName="Assets\sripts\animationScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\sripts\triggers\TightRopeTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\sripts\triggers\SwimTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\sripts\triggers\ladderTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\sripts\InventoryControl.cs" Line="600" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

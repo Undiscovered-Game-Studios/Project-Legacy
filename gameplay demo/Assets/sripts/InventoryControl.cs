@@ -587,16 +587,13 @@ public class InventoryControl : MonoBehaviour {
 	
 	void Update(){
 		Rigid_contorler ri = (Rigid_contorler) GetComponent ("Rigid_contorler");
-		if(isDisplayingInventory == true){
-			ri.canMove = false;
-		}else{
-			ri.canMove = true;	
-		}
 		if(Input.GetButtonDown("open inventory")){
 			if(isDisplayingInventory == true){
 				isDisplayingInventory = false;
+				ri.canMove = true;
 			}else if(isDisplayingInventory == false){
 				isDisplayingInventory = true;
+				ri.canMove = false;
 			}
 		}
 	}
