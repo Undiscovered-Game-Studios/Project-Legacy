@@ -40,7 +40,7 @@ public class ally_targeting : MonoBehaviour {
 		
 		Player_Combat pc = (Player_Combat) GetComponent ("Player_Combat");
 		
-		pc.target = activeTarget.gameObject;
+		//pc.target = activeTarget.gameObject;
 	}
 	
 	// Update is called once per frame

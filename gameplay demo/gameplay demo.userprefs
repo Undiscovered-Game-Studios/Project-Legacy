@@ -1,13 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\sripts\Rigid_contorler.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\sripts\Enemy_health_tracking.cs">
     <Files>
-      <File FileName="Assets\sripts\Rigid_contorler.cs" Line="7" Column="48" />
-      <File FileName="Assets\sripts\animationScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\sripts\triggers\TightRopeTrigger.cs" Line="1" Column="1" />
-      <File FileName="Assets\sripts\triggers\SwimTrigger.cs" Line="1" Column="1" />
-      <File FileName="Assets\sripts\triggers\ladderTrigger.cs" Line="1" Column="1" />
-      <File FileName="Assets\sripts\InventoryControl.cs" Line="600" Column="2" />
+      <File FileName="Assets\sripts\Player_Combat.cs" Line="46" Column="25" />
+      <File FileName="Assets\sripts\ally_targeting.cs" Line="41" Column="3" />
+      <File FileName="Assets\sripts\Enemy_health_tracking.cs" Line="45" Column="4" />
+      <File FileName="Assets\sripts\GUIBase.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

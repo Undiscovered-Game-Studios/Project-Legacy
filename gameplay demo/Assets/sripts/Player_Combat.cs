@@ -3,7 +3,56 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class Player_Combat : MonoBehaviour {
-	
+	public List<Transform> targets;
+	public float timer, coolDown1 = 5, curCool1, coolDown2 = 5, curCool2, range1, tempDamage = 15;
+	private float I;
+
+		void Start(){
+			GameObject[] go = GameObject.FindGameObjectsWithTag("Enemy");
+		
+			foreach(GameObject enemy in go){
+				targets.Add(enemy.transform);
+			}
+		}
+
+		void Update(){
+				SortByDistance ();
+
+				if (Input.GetKeyDown (KeyCode.F) && curCool1 <= 0f) {
+						attackP ();
+				}
+
+				if (curCool1 < 0f) {
+						curCool1 = 0;
+				}
+		curCool1--;
+		}
+
+		public void SortByDistance(){
+			targets.Sort(delegate (Transform t1, Transform t2) {
+				return (Vector3.Distance(t1.position,transform.position).CompareTo(Vector3.Distance(t2.position,transform.position)));	
+			});
+		}
+
+		public void attackP(){
+				curCool1 = coolDown1;
+
+				foreach (Transform trans in targets) {
+						Enemy_health_tracking eh = (Enemy_health_tracking)trans.GetComponent ("Enemy_health_tracking");
+						float dist = Vector3.Distance(transform.position, trans.transform.position);
+
+			Debug.Log(dist);
+
+						if (dist <= range1) {
+								eh.curHealth -= (int) tempDamage;
+						} else if (tempDamage - (dist - range1) <= 0) {
+								eh.curHealth -= (int) (tempDamage - (dist - range1));
+						}
+				}
+		}
+
+	/*old combat
+	 * 
 	public GameObject target;
 	public float timer, coolDown, range = 3;
 	// Use this for initialization
@@ -56,4 +105,5 @@ public class Player_Combat : MonoBehaviour {
 			}
 		}
 	}
+	*/
 }
