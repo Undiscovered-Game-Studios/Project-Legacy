@@ -4,8 +4,9 @@ using System.Collections.Generic;
 
 public class Player_Combat : MonoBehaviour {
 	public List<Transform> targets;
-	public float timer, coolDown1 = 5, curCool1, coolDown2 = 5, curCool2, range1, tempDamage = 15;
-	private float I;
+	public float timer, coolDown1 = 5, coolDown2 = 5, range1, range2, angle1, angle2, tempDamage = 15;
+	public Vector3 dir;
+	private float direction, curCool1, curCool2;
 
 		void Start(){
 			GameObject[] go = GameObject.FindGameObjectsWithTag("Enemy");
@@ -16,16 +17,25 @@ public class Player_Combat : MonoBehaviour {
 		}
 
 		void Update(){
-				SortByDistance ();
+			SortByDistance ();
+			
+			if (Input.GetKeyDown (KeyCode.F) && curCool1 <= 0f) {
+				attackP ();
+			}
 
-				if (Input.GetKeyDown (KeyCode.F) && curCool1 <= 0f) {
-						attackP ();
-				}
+			if (Input.GetKeyDown (KeyCode.C) && curCool1 <= 0f) {
+				attackS ();
+			}
+		
+			if (curCool1 < 0f) {
+				curCool1 = 0;
+			}
 
-				if (curCool1 < 0f) {
-						curCool1 = 0;
-				}
-		curCool1--;
+			curCool1--;
+			curCool2--;
+		
+
+			Debug.Log (direction);
 		}
 
 		public void SortByDistance(){
@@ -38,19 +48,41 @@ public class Player_Combat : MonoBehaviour {
 				curCool1 = coolDown1;
 
 				foreach (Transform trans in targets) {
-						Enemy_health_tracking eh = (Enemy_health_tracking)trans.GetComponent ("Enemy_health_tracking");
-						float dist = Vector3.Distance(transform.position, trans.transform.position);
+					Enemy_health_tracking eh = (Enemy_health_tracking)trans.GetComponent ("Enemy_health_tracking");
+					float dist = Vector3.Distance(transform.position, trans.transform.position);
+		
+					dir = (targets[0].transform.position - transform.position).normalized;
+					direction = Vector3.Dot(dir, transform.forward);
 
-			Debug.Log(dist);
-
+					if(direction >= angle1){
 						if (dist <= range1) {
 								eh.curHealth -= (int) tempDamage;
 						} else if (tempDamage - (dist - range1) <= 0) {
-								eh.curHealth -= (int) (tempDamage - (dist - range1));
+								eh.curHealth -= (int) (tempDamage - (dist - range1)/2);
 						}
+					}
 				}
 		}
-
+		public void attackS(){
+			curCool2 = coolDown2;
+			
+			foreach (Transform trans in targets) {
+				Enemy_health_tracking eh = (Enemy_health_tracking)trans.GetComponent ("Enemy_health_tracking");
+				float dist = Vector3.Distance(transform.position, trans.transform.position);
+				
+				dir = (targets[0].transform.position - transform.position).normalized;
+				direction = Vector3.Dot(dir, transform.forward);
+				
+				if(direction >= angle2){
+					if (dist <= range2) {
+						eh.curHealth -= (int) tempDamage;
+					} else if (tempDamage - (dist - range2) <= 0) {
+						eh.curHealth -= (int) (tempDamage - (dist - range2)/2);
+					}
+				}
+			}
+		}
+	
 	/*old combat
 	 * 
 	public GameObject target;

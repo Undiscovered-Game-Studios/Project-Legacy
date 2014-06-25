@@ -108,7 +108,6 @@
      <Compile Include="Assets\AstarPathfindingProject\Utilities\UnityReferenceHelper.cs" />
      <Compile Include="Assets\AstarPathfindingProject\changelog.cs" />
      <Compile Include="Assets\character stats\characterA base.cs" />
-     <Compile Include="Assets\inclusionObjectCulling.cs" />
      <Compile Include="Assets\sripts\Ally_Health_Tracking.cs" />
      <Compile Include="Assets\sripts\DestroyDestroyables.cs" />
      <Compile Include="Assets\sripts\EmenyTriggers\EnemySightTrigger.cs" />
@@ -128,9 +127,11 @@
      <Compile Include="Assets\sripts\SwingDoor.cs" />
      <Compile Include="Assets\sripts\ally_targeting.cs" />
      <Compile Include="Assets\sripts\animationScript.cs" />
+     <Compile Include="Assets\sripts\audioFollow.cs" />
      <Compile Include="Assets\sripts\cutTest.cs" />
      <Compile Include="Assets\sripts\equipment.cs" />
      <Compile Include="Assets\sripts\hover.cs" />
+     <Compile Include="Assets\sripts\inclusionObjectCulling.cs" />
      <Compile Include="Assets\sripts\item behaviors\BombBehavior.cs" />
      <Compile Include="Assets\sripts\item behaviors\ParentBombEffects.cs" />
      <Compile Include="Assets\sripts\itemControl.cs" />
