@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 48320c999c4eea8468e0afd119d20ef3
+guid: b43f2e380cf1822449ea5708373777e5
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
@@ -15,24 +15,21 @@ ModelImporter:
     400006: gate
     400008: stair01
     400010: stair02
-    2300000: //RootNode
-    2300002: cut
-    2300004: floor_1_020
-    2300006: gate
-    2300008: stair01
-    2300010: stair02
-    3300000: //RootNode
-    3300002: cut
-    3300004: floor_1_020
-    3300006: gate
-    3300008: stair01
-    3300010: stair02
-    4300000: floor_1
-    4300002: cut
-    4300004: gate
-    4300006: stair02
-    4300008: floor_1_020
-    4300010: stair01
+    2300000: cut
+    2300002: floor_1_020
+    2300004: gate
+    2300006: stair01
+    2300008: stair02
+    3300000: cut
+    3300002: floor_1_020
+    3300004: gate
+    3300006: stair01
+    3300008: stair02
+    4300000: cut
+    4300002: gate
+    4300004: stair02
+    4300006: floor_1_020
+    4300008: stair01
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -54,7 +51,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: .00999999978
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
