@@ -13,8 +13,9 @@ public class Enemy_AI : MonoBehaviour {
 	public bool isFollowing;
 	
 	/*idle behavior variables*/
-	public string idleBehavior = "BoundWander", traversionStyle = "walk";
+	public string idleBehavior = "BoundWander";
 	private float curDisRand, curRotRand, rotRandUpdate, updateRand, curFloatRand;
+	public bool isFloating = false;
 	
 	/*Pathfinding variables*/
 	public bool needFindPath;
@@ -75,7 +76,7 @@ public class Enemy_AI : MonoBehaviour {
 		
 		updateRand = UnityEngine.Random.Range(0,5);
 		
-		if(traversionStyle == "walk"){
+		if(isFloating == false){
 			if(updateRand == 0){
 				curDisRand = UnityEngine.Random.Range(0,moveSpeed);
 				rotRandUpdate = UnityEngine.Random.Range(-360, 360);
@@ -91,7 +92,7 @@ public class Enemy_AI : MonoBehaviour {
 			
 			myTrans.rotation = Quaternion.Slerp(myTrans.rotation, Quaternion.Euler(myTrans.up * curRotRand), Time.deltaTime);
 		}
-		if(traversionStyle == "float"){
+		if(isFloating == true){
 			
 			if(updateRand == 0){
 				curDisRand = UnityEngine.Random.Range(0,moveSpeed);
@@ -154,7 +155,7 @@ public class Enemy_AI : MonoBehaviour {
 		if (isFollowing == true){
 			if (Vector3.Distance(target.position, myTrans.position) > minDistance){
 				//Look at target
-				myTrans.rotation = Quaternion.Slerp (myTrans.rotation, Quaternion.LookRotation(target.position - myTrans.position), rotSpeed * Time.deltaTime);
+				myTrans.rotation = Quaternion.Slerp (myTrans.rotation, Quaternion.LookRotation(target.position - myTrans.position, Vector3.up), rotSpeed * Time.deltaTime);
 				
 				//move towards target
 				myTrans.position += myTrans.forward * moveSpeed * Time.deltaTime;

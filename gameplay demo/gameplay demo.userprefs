@@ -1,13 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\sripts\Player_Combat.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\sripts\EnemyAI.cs">
     <Files>
-      <File FileName="..\..\..\Desktop\Dropbox.lnk" Line="1" Column="1" />
-      <File FileName="Assets\sripts\Player_Combat.cs" Line="1" Column="1" />
-      <File FileName="Assets\sripts\ally_targeting.cs" Line="1" Column="1" />
-      <File FileName="Assets\sripts\Enemy_health_tracking.cs" Line="1" Column="1" />
-      <File FileName="Assets\sripts\GUIBase.cs" Line="1" Column="1" />
-      <File FileName="Assets\sripts\audioFollow.cs" Line="1" Column="1" />
+      <File FileName="Assets\sripts\Enemy_AI.cs" Line="34" Column="3" />
+      <File FileName="Assets\sripts\EnemyAI.cs" Line="26" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

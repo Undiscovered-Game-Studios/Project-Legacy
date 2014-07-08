@@ -112,6 +112,7 @@
      <Compile Include="Assets\sripts\DestroyDestroyables.cs" />
      <Compile Include="Assets\sripts\EmenyTriggers\EnemySightTrigger.cs" />
      <Compile Include="Assets\sripts\EmenyTriggers\EnemyTouchTrigger.cs" />
+     <Compile Include="Assets\sripts\EnemyAI.cs" />
      <Compile Include="Assets\sripts\Enemy_AI.cs" />
      <Compile Include="Assets\sripts\Enemy_combat.cs" />
      <Compile Include="Assets\sripts\Enemy_health_tracking.cs" />
@@ -136,6 +137,7 @@
      <Compile Include="Assets\sripts\item behaviors\ParentBombEffects.cs" />
      <Compile Include="Assets\sripts\itemControl.cs" />
      <Compile Include="Assets\sripts\itemUse.cs" />
+     <Compile Include="Assets\sripts\lookat.cs" />
      <Compile Include="Assets\sripts\newPlayerCombat.cs" />
      <Compile Include="Assets\sripts\sailBehavior.cs" />
      <Compile Include="Assets\sripts\triggers\SwimTrigger.cs" />
