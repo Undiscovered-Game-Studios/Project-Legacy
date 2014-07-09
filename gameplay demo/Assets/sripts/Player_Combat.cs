@@ -35,7 +35,6 @@ public class Player_Combat : MonoBehaviour {
 			curCool2--;
 		
 
-			Debug.Log (direction);
 		}
 
 		public void SortByDistance(){

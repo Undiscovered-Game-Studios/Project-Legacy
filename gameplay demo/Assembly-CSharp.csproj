@@ -108,6 +108,7 @@
      <Compile Include="Assets\AstarPathfindingProject\Utilities\UnityReferenceHelper.cs" />
      <Compile Include="Assets\AstarPathfindingProject\changelog.cs" />
      <Compile Include="Assets\character stats\characterA base.cs" />
+     <Compile Include="Assets\orbit.cs" />
      <Compile Include="Assets\sripts\Ally_Health_Tracking.cs" />
      <Compile Include="Assets\sripts\DestroyDestroyables.cs" />
      <Compile Include="Assets\sripts\EmenyTriggers\EnemySightTrigger.cs" />
@@ -144,6 +145,7 @@
      <Compile Include="Assets\sripts\triggers\TightRopeTrigger.cs" />
      <Compile Include="Assets\sripts\triggers\ladderTrigger.cs" />
      <Compile Include="Assets\sripts\triggers\toggleTriggerScript.cs" />
+     <Compile Include="Assets\test.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh2.shader" />
