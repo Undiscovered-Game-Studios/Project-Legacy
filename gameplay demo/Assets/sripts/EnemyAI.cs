@@ -9,13 +9,17 @@ public class EnemyAI : MonoBehaviour {
 
 	public List<GameObject> targets;
 	public List<int> targetHate;
-	public GameObject activeTarget;
+	public GameObject activeTarget, orbiter;
 
 	public bool isFollowing, isBlocked;
 	public Ray testRay;
 	public float testDist;
 
-	public GameObject testTarget;
+	public Vector3 walkTo;
+
+	private orbit orb;
+	public Vector3 orbPlace;
+	public bool lastFrame = new bool(), thisFrame = new bool();
 
 
 
@@ -23,6 +27,7 @@ public class EnemyAI : MonoBehaviour {
 void Start () {
 	FillTargets ();
 	InitiateHateIndex ();
+	orb = (orbit)orbiter.GetComponent ("orbit");
 }
 
 	public void FillTargets(){
@@ -41,6 +46,7 @@ void Start () {
 // Update is called once per frame
 void FixedUpdate () {
 	findHighestHate ();
+	orbPlace = orb.gameObject.transform.position;
 	Follow ();
 }
 	
@@ -60,19 +66,30 @@ void FixedUpdate () {
 		}
 	}
 
+	#region PathFinding
 		public void FindPath(){
-			
+			CheckOrbiter ();
+			transform.LookAt (walkTo);
+			transform.position += transform.forward * moveSpeed * Time.deltaTime;
 		}
 		
-			public void TargetOrbit(){
-				
+			public void CheckOrbiter(){
+				thisFrame = orb.isIntersecting;
+				//false means way is clear
+				if (thisFrame != lastFrame && thisFrame == false) {
+					walkTo = orbPlace;
+				}
+				//Debug.Log ("lastFrame" + lastFrame.ToString ());
+				//Debug.Log ("thisFrame" + thisFrame.ToString ());
+				lastFrame = orb.isIntersecting;
 			}
+	#endregion
 
 		public void checkBlockages(){
 			Ray testRay = new Ray (transform.position + Vector3.up, activeTarget.transform.position - transform.position);
 			RaycastHit hit;
 			if (Physics.Raycast (testRay, out hit, testDist)) {
-			Debug.Log(hit.collider.gameObject.name);
+//			Debug.Log(hit.collider.gameObject.name);
 				if(hit.collider.tag != "Player") isBlocked = true;
 			} else {
 				isBlocked = false;

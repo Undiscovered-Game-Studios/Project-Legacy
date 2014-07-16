@@ -145,6 +145,7 @@
      <Compile Include="Assets\sripts\triggers\TightRopeTrigger.cs" />
      <Compile Include="Assets\sripts\triggers\ladderTrigger.cs" />
      <Compile Include="Assets\sripts\triggers\toggleTriggerScript.cs" />
+     <Compile Include="Assets\temp_test.cs" />
      <Compile Include="Assets\test.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
