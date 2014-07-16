@@ -13,7 +13,7 @@ public class EnemyAI : MonoBehaviour {
 
 	public bool isFollowing, isBlocked;
 	public Ray testRay;
-	public float testDist;
+	public float testDist, attackDistance = 5;
 
 	public Vector3 walkTo;
 
@@ -60,7 +60,21 @@ void FixedUpdate () {
 		checkBlockages ();
 		if (isBlocked == false) {
 			transform.LookAt (activeTarget.transform.position);
-			transform.position += transform.forward * moveSpeed * Time.deltaTime;
+			if(Vector3.Distance(transform.position, activeTarget.transform.position) > attackDistance + 1){
+				transform.position += transform.forward * moveSpeed * Time.deltaTime;
+			}else{
+				if(Vector3.Distance(transform.position, activeTarget.transform.position) > attackDistance){
+					transform.position += transform.forward * 
+						(Vector3.Distance(transform.position, activeTarget.transform.position) - attackDistance)
+							* Time.deltaTime;
+				}
+				if(Vector3.Distance(transform.position, activeTarget.transform.position) > attackDistance){
+					transform.position -= transform.forward * 
+						(attackDistance - Vector3.Distance(transform.position, activeTarget.transform.position))
+							* Time.deltaTime;
+				}
+			}
+			//Debug.Log(Vector3.Distance(transform.position, activeTarget.transform.position));
 		} else if (isBlocked == true) {
 			FindPath();
 		}
@@ -90,10 +104,11 @@ void FixedUpdate () {
 			RaycastHit hit;
 			if (Physics.Raycast (testRay, out hit, testDist)) {
 //			Debug.Log(hit.collider.gameObject.name);
-				if(hit.collider.tag != "Player") isBlocked = true;
+			if(hit.collider.tag != "Player" && hit.collider.tag != "Enemy" && hit.collider.tag != "Ground"){ isBlocked = true;
+				//Debug.Log(hit.collider.tag);}	
 			} else {
 				isBlocked = false;
 			}
-			Debug.DrawRay (testRay.origin, testRay.direction);
+		//	Debug.DrawRay (testRay.origin, testRay.direction);
 		}
 }
