@@ -73,6 +73,7 @@ void FixedUpdate () {
 						(attackDistance - Vector3.Distance(transform.position, activeTarget.transform.position))
 							* Time.deltaTime;
 				}
+				//Quaternion toRot = Quaternion.Euler(0, 0, 0);
 			}
 			//Debug.Log(Vector3.Distance(transform.position, activeTarget.transform.position));
 		} else if (isBlocked == true) {
@@ -90,25 +91,35 @@ void FixedUpdate () {
 			public void CheckOrbiter(){
 				thisFrame = orb.isIntersecting;
 				//false means way is clear
-				if (thisFrame != lastFrame && thisFrame == false) {
-					walkTo = orbPlace;
+				if (thisFrame != lastFrame && thisFrame == false && orb.collidedWith.tag != "Player"
+		    	&& orb.collidedWith.tag != "Floor" && orb.collidedWith.tag != "Ground") {
+					if(walkTo != null || walkTo != new Vector3()){
+						Vector3 temp1 = walkTo, temp2 = orbPlace, temp3;
+						temp3 = new Vector3(
+							(temp1.x - temp2.x),
+							(temp1.y
+						walkTo = orbPlace 
+					}else{
+						walkTo = orbPlace;
+					}
 				}
-				//Debug.Log ("lastFrame" + lastFrame.ToString ());
-				//Debug.Log ("thisFrame" + thisFrame.ToString ());
 				lastFrame = orb.isIntersecting;
 			}
 	#endregion
 
 		public void checkBlockages(){
-			Ray testRay = new Ray (transform.position + Vector3.up, activeTarget.transform.position - transform.position);
-			RaycastHit hit;
-			if (Physics.Raycast (testRay, out hit, testDist)) {
+				Ray testRay = new Ray (transform.position + Vector3.up, activeTarget.transform.position - transform.position);
+				RaycastHit hit;
+				if (Physics.Raycast (testRay, out hit, testDist)) {
 //			Debug.Log(hit.collider.gameObject.name);
-			if(hit.collider.tag != "Player" && hit.collider.tag != "Enemy" && hit.collider.tag != "Ground"){ isBlocked = true;
-				//Debug.Log(hit.collider.tag);}	
-			} else {
-				isBlocked = false;
-			}
-		//	Debug.DrawRay (testRay.origin, testRay.direction);
+						if (hit.collider.tag != "Player" && hit.collider.tag != "Enemy" && hit.collider.tag != "Ground") {
+							isBlocked = true;
+							//Debug.Log(hit.collider.tag);}	
+						}
+				}else {
+					isBlocked = false;
+				}
+				//	Debug.DrawRay (testRay.origin, testRay.direction);
 		}
+
 }

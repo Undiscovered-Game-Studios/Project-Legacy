@@ -2,10 +2,10 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\sripts\EnemyAI.cs">
     <Files>
-      <File FileName="Assets\sripts\EnemyAI.cs" Line="68" Column="2" />
+      <File FileName="Assets\sripts\EnemyAI.cs" Line="103" Column="5" />
       <File FileName="Assets\sripts\Player_Combat.cs" Line="1" Column="1" />
-      <File FileName="Assets\orbit.cs" Line="1" Column="1" />
-      <File FileName="Assets\temp_test.cs" Line="12" Column="34" />
+      <File FileName="Assets\orbit.cs" Line="23" Column="33" />
+      <File FileName="Assets\temp_test.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
