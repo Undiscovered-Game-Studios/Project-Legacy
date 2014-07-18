@@ -2,129 +2,125 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Pathfinding;
 
 public class EnemyAI : MonoBehaviour {
 
-	public float moveSpeed;
-
+	#region targeting varibales
 	public List<GameObject> targets;
-	public List<int> targetHate;
-	public GameObject activeTarget, orbiter;
-
-	public bool isFollowing, isBlocked;
-	public Ray testRay;
-	public float testDist, attackDistance = 5;
-
-	public Vector3 walkTo;
-
-	private orbit orb;
-	public Vector3 orbPlace;
-	public bool lastFrame = new bool(), thisFrame = new bool();
-
-
-
-// Use this for initialization
-void Start () {
-	FillTargets ();
-	InitiateHateIndex ();
-	orb = (orbit)orbiter.GetComponent ("orbit");
-}
-
-	public void FillTargets(){
-		GameObject[] go = (GameObject.FindGameObjectsWithTag ("Player"));
-		foreach (GameObject obj in go) {
-			targets.Add(obj);
-		}
-	}
-
-	public void InitiateHateIndex(){
-		foreach (GameObject obj in targets) {
-			targetHate.Add(1);
-		}
-	}
-
-// Update is called once per frame
-void FixedUpdate () {
-	findHighestHate ();
-	orbPlace = orb.gameObject.transform.position;
-	Follow ();
-}
-	
-	public void findHighestHate(){
-		int max = targetHate.Max ();
-		int index = targetHate.IndexOf (max);
-		activeTarget = targets [index];
-	}
-
-	public void Follow(){
-		checkBlockages ();
-		if (isBlocked == false) {
-			transform.LookAt (activeTarget.transform.position);
-			if(Vector3.Distance(transform.position, activeTarget.transform.position) > attackDistance + 1){
-				transform.position += transform.forward * moveSpeed * Time.deltaTime;
-			}else{
-				if(Vector3.Distance(transform.position, activeTarget.transform.position) > attackDistance){
-					transform.position += transform.forward * 
-						(Vector3.Distance(transform.position, activeTarget.transform.position) - attackDistance)
-							* Time.deltaTime;
-				}
-				if(Vector3.Distance(transform.position, activeTarget.transform.position) > attackDistance){
-					transform.position -= transform.forward * 
-						(attackDistance - Vector3.Distance(transform.position, activeTarget.transform.position))
-							* Time.deltaTime;
-				}
-				//Quaternion toRot = Quaternion.Euler(0, 0, 0);
-			}
-			//Debug.Log(Vector3.Distance(transform.position, activeTarget.transform.position));
-		} else if (isBlocked == true) {
-			FindPath();
-		}
-	}
-
-	#region PathFinding
-		public void FindPath(){
-			CheckOrbiter ();
-			transform.LookAt (walkTo);
-			transform.position += transform.forward * moveSpeed * Time.deltaTime;
-		}
-		
-			public void CheckOrbiter(){
-				thisFrame = orb.isIntersecting;
-				//false means way is clear
-				if (thisFrame != lastFrame && thisFrame == false && orb.collidedWith.tag != "Player"
-		    	&& orb.collidedWith.tag != "Floor" && orb.collidedWith.tag != "Ground") {
-					if(walkTo != null || walkTo != new Vector3()){
-						Vector3 temp1 = walkTo, temp2 = orbPlace, temp3;
-						temp3 = new Vector3(
-							(temp1.x - temp2.x),
-							(temp1.y
-						walkTo = orbPlace 
-					}else{
-						walkTo = orbPlace;
-					}
-				}
-				lastFrame = orb.isIntersecting;
-			}
+	public List<float> targetHate;
+	public GameObject activeTarget;
+	public float detectionRange = 200;
+	private Vector3 targetedVector;
 	#endregion
 
-		public void checkBlockages(){
-				Ray testRay = new Ray (transform.position + Vector3.up, activeTarget.transform.position - transform.position);
-				RaycastHit hit;
-				if (Physics.Raycast (testRay, out hit, testDist)) {
-//			Debug.Log(hit.collider.gameObject.name);
-						if (hit.collider.tag != "Player" && hit.collider.tag != "Enemy" && hit.collider.tag != "Ground") {
-							isBlocked = true;
-							//Debug.Log(hit.collider.tag);}	
-						}
-				}else {
-					isBlocked = false;
-				}
-				//	Debug.DrawRay (testRay.origin, testRay.direction);
-		}
-<<<<<<< HEAD
+	#region A* Variables
+	//The point to move to
+	private Seeker seeker;
+	private CharacterController controller;
+	//The calculated path
+	public Path path;
+	//The AI's speed per second
+	public float speed = 100;
+	//The max distance from the AI to a waypoint for it to continue to the next waypoint
+	public float nextWaypointDistance = 3;
+	//The waypoint we are currently moving towards
+	private int currentWaypoint = 0;
+	//delays path update
+	public float maxDelay = 5, refreshFrequency = 1, curDelay;
+	#endregion
+	
+	public void Start () {
+		seeker = GetComponent<Seeker>();
+		controller = GetComponent<CharacterController>();
 
-}
-=======
+
+
+		LoadTargets ();
+		FindTarget ();
+	}
+
+	#region targeting
+		public void LoadTargets(){
+			GameObject[] temp = GameObject.FindGameObjectsWithTag ("Player");
+			foreach (GameObject obj in temp) {
+				targets.Add(obj);
+			}
+			foreach (GameObject obj in targets) {
+				targetHate.Add(100 - Vector3.Distance(obj.transform.position,transform.position));
+			}
+		}
+
+		public void FindTarget(){
+			float highestHate;
+			int index;
+			highestHate = targetHate.Max ();
+			index = targetHate.IndexOf (highestHate);
+			activeTarget = targets [index];
+		}
+	#endregion
+
+	#region PathFinding
+	
+		public void OnPathComplete (Path p) {
+			Debug.Log ("Yay, we got a path back. Did it have an error? "+p.error);
+			if (!p.error) {
+				path = p;
+				//Reset the waypoint counter
+				currentWaypoint = 0;
+			}
+		}
+
+		public void FollowPath(){
+			if (path == null) {
+				//We have no path to move after yet
+				return;
+			}
+			
+			if (currentWaypoint >= path.vectorPath.Count) {
+				Debug.Log ("End Of Path Reached");
+				return;
+			}
+			
+			//Direction to the next waypoint
+			Vector3 dir = (path.vectorPath[currentWaypoint]-transform.position).normalized;
+			dir *= speed * Time.fixedDeltaTime;
+			controller.SimpleMove (dir);
+			//Check if we are close enough to the next waypoint
+			//If we are, proceed to follow the next waypoint
+			currentWaypoint++;
+			return;
+		}
+		
+		public void RefreshPath(){
+			DetermineTargetVector ();
+			if (curDelay <= 0) {
+				//Start a new path to the targetPosition, return the result to the OnPathComplete function
+				seeker.StartPath (transform.position, targetedVector, OnPathComplete);
+				curDelay = maxDelay;
+			} else {
+				curDelay -= refreshFrequency * Time.deltaTime;
+			}
+		if (curDelay > maxDelay)
+			curDelay = maxDelay;
+		}
+		
+		public void DetermineTargetVector(){
+			if (Vector3.Distance (transform.position, activeTarget.transform.position) > detectionRange) {
+				targetedVector = new Vector3(
+					Random.Range(-detectionRange,detectionRange)+transform.position.x,
+					Random.Range(-detectionRange,detectionRange)+transform.position.y,
+					transform.position.z
+				);
+			} else {
+				targetedVector = activeTarget.transform.position;
+			}
+		}
+	#endregion
+	
+	public void FixedUpdate () {
+		FollowPath();
+		FindTarget();
+		RefreshPath ();
 	}
 }
->>>>>>> 8971a2f16fd673213068496eb8990b6c748349a5
