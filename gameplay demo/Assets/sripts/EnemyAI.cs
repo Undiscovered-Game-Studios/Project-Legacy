@@ -11,7 +11,7 @@ public class EnemyAI : MonoBehaviour {
 	public List<float> targetHate;
 	public GameObject activeTarget;
 	public float detectionRange = 200;
-	private Vector3 targetedVector;
+	public Vector3 targetedVector;
 	#endregion
 
 	#region A* Variables
@@ -38,6 +38,12 @@ public class EnemyAI : MonoBehaviour {
 
 		LoadTargets ();
 		FindTarget ();
+
+		targetedVector = new Vector3(
+			Random.Range(-detectionRange,detectionRange)+transform.position.x,
+			Random.Range(-detectionRange,detectionRange)+transform.position.y,
+			transform.position.z
+			);
 	}
 
 	#region targeting
@@ -93,10 +99,23 @@ public class EnemyAI : MonoBehaviour {
 		}
 		
 		public void RefreshPath(){
-			DetermineTargetVector ();
+			//DetermineTargetVector ();
 			if (curDelay <= 0) {
-				//Start a new path to the targetPosition, return the result to the OnPathComplete function
-				seeker.StartPath (transform.position, targetedVector, OnPathComplete);
+				if (Vector3.Distance (transform.position, activeTarget.transform.position) < detectionRange) {
+					//Start a new path to the targetPosition, return the result to the OnPathComplete function
+					seeker.StartPath (transform.position, activeTarget.transform.position, OnPathComplete);
+				}else{
+					Vector3 temp;
+					temp = new Vector3(
+						Random.Range(-5,5)+targetedVector.x,
+						Random.Range(-5,5)+targetedVector.y,
+						targetedVector.z
+					);
+					targetedVector += temp;
+					targetedVector *= speed * Time.fixedDeltaTime;
+					transform.LookAt(targetedVector);
+					controller.SimpleMove (targetedVector);
+				}
 				curDelay = maxDelay;
 			} else {
 				curDelay -= refreshFrequency * Time.deltaTime;
@@ -105,13 +124,13 @@ public class EnemyAI : MonoBehaviour {
 			curDelay = maxDelay;
 		}
 		
-		public void DetermineTargetVector(){
+		public void DetermineTarget(){
 			if (Vector3.Distance (transform.position, activeTarget.transform.position) > detectionRange) {
-				targetedVector = new Vector3(
-					Random.Range(-detectionRange,detectionRange)+transform.position.x,
-					Random.Range(-detectionRange,detectionRange)+transform.position.y,
-					transform.position.z
-				);
+					targetedVector = new Vector3(
+						Random.Range(-detectionRange,detectionRange)+transform.position.x,
+						Random.Range(-detectionRange,detectionRange)+transform.position.y,
+						transform.position.z
+					);
 			} else {
 				targetedVector = activeTarget.transform.position;
 			}
