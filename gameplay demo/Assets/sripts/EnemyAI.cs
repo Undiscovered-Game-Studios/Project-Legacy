@@ -11,7 +11,7 @@ public class EnemyAI : MonoBehaviour {
 	public List<float> targetHate;
 	public GameObject activeTarget;
 	public float detectionRange = 200;
-	public Vector3 targetedVector;
+	public bool isFollowing, isReturning;
 	#endregion
 
 	#region A* Variables
@@ -29,12 +29,17 @@ public class EnemyAI : MonoBehaviour {
 	//delays path update
 	public float maxDelay = 5, refreshFrequency = 1, curDelay;
 	#endregion
+
+	#region wander variables
+		public Vector3 targetedVector, startingVector;
+		public float wanderRange = 100;
+	#endregion
 	
 	public void Start () {
 		seeker = GetComponent<Seeker>();
 		controller = GetComponent<CharacterController>();
 
-
+		startingVector = transform.position;
 
 		LoadTargets ();
 		FindTarget ();
@@ -75,6 +80,7 @@ public class EnemyAI : MonoBehaviour {
 				//Reset the waypoint counter
 				currentWaypoint = 0;
 			}
+			RefreshPath ();
 		}
 
 		public void FollowPath(){
@@ -87,7 +93,7 @@ public class EnemyAI : MonoBehaviour {
 				Debug.Log ("End Of Path Reached");
 				return;
 			}
-			
+			/* old path folling logic
 			//Direction to the next waypoint
 			Vector3 dir = (path.vectorPath[currentWaypoint]-transform.position).normalized;
 			dir *= speed * Time.fixedDeltaTime;
@@ -96,25 +102,25 @@ public class EnemyAI : MonoBehaviour {
 			//If we are, proceed to follow the next waypoint
 			currentWaypoint++;
 			return;
+			*/
+			
+			if (Vector3.Distance (transform.position, path.vectorPath [currentWaypoint]) < 1) {
+				currentWaypoint += 1;
+			}
+			transform.rotation = Quaternion.Slerp (transform.rotation, Quaternion.LookRotation(path.vectorPath[currentWaypoint] - transform.position, Vector3.up), speed * Time.deltaTime);
+			transform.position += transform.forward * speed * Time.deltaTime;
 		}
 		
 		public void RefreshPath(){
-			//DetermineTargetVector ();
 			if (curDelay <= 0) {
 				if (Vector3.Distance (transform.position, activeTarget.transform.position) < detectionRange) {
 					//Start a new path to the targetPosition, return the result to the OnPathComplete function
 					seeker.StartPath (transform.position, activeTarget.transform.position, OnPathComplete);
+					isFollowing = true;
+					isReturning = false;
 				}else{
-					Vector3 temp;
-					temp = new Vector3(
-						Random.Range(-5,5)+targetedVector.x,
-						Random.Range(-5,5)+targetedVector.y,
-						targetedVector.z
-					);
-					targetedVector += temp;
-					targetedVector *= speed * Time.fixedDeltaTime;
-					transform.LookAt(targetedVector);
-					controller.SimpleMove (targetedVector);
+					isFollowing = false;
+					Wander();
 				}
 				curDelay = maxDelay;
 			} else {
@@ -123,19 +129,33 @@ public class EnemyAI : MonoBehaviour {
 		if (curDelay > maxDelay)
 			curDelay = maxDelay;
 		}
-		
-		public void DetermineTarget(){
-			if (Vector3.Distance (transform.position, activeTarget.transform.position) > detectionRange) {
-					targetedVector = new Vector3(
-						Random.Range(-detectionRange,detectionRange)+transform.position.x,
-						Random.Range(-detectionRange,detectionRange)+transform.position.y,
-						transform.position.z
-					);
-			} else {
-				targetedVector = activeTarget.transform.position;
-			}
-		}
 	#endregion
+
+	public void Wander(){
+		if(Vector3.Distance(transform.position, startingVector) > wanderRange){
+			isReturning = true;
+		}
+		if(Vector3.Distance(transform.position, startingVector) < 5){
+			isReturning = false;
+		}
+		
+		if(isReturning == false){
+			Vector3 temp;
+			temp = new Vector3(
+				Random.Range(-15f,15f),
+				0,
+				Random.Range(-15f,15f)
+				);
+			targetedVector += temp;
+			targetedVector.y = transform.position.y +5;
+			transform.rotation = Quaternion.Slerp (transform.rotation, Quaternion.LookRotation(targetedVector - transform.position, Vector3.up), speed * Time.deltaTime);
+			transform.position += transform.forward * speed * Time.deltaTime;
+		}else{
+			transform.rotation = Quaternion.Slerp (transform.rotation, Quaternion.LookRotation(startingVector - transform.position, Vector3.up), speed * Time.deltaTime);
+			transform.position += transform.forward * speed * Time.deltaTime;
+			targetedVector = startingVector;
+		}
+	}
 	
 	public void FixedUpdate () {
 		FollowPath();
