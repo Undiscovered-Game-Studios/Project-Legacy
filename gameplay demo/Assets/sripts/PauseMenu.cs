@@ -73,7 +73,7 @@ public class PauseMenu : MonoBehaviour
 	
 	void OnGUI()
 	{
-		menuFunction();
+		if(menuFunction != null)	menuFunction();
 	}
 
 	// Shows the main menu and all of it's subcategories.

@@ -11,10 +11,14 @@ public class itemUse : MonoBehaviour {
 	void Start(){
 		eq = (equipment) gameObject.GetComponent ("equipment");
 		WeaponReference();
-		GameObject.Instantiate(leftHandWeapon);
-		GameObject.Instantiate(rightHandWeapon);
-		rightHandWeapon.transform.position = rightHand.position;
-		leftHandWeapon.transform.position = leftHand.position;
+		if (rightHandWeapon != null) {
+			GameObject.Instantiate (rightHandWeapon);
+			rightHandWeapon.transform.position = rightHand.position;
+		}
+		if (leftHandWeapon != null) {
+			GameObject.Instantiate (leftHandWeapon);
+			leftHandWeapon.transform.position = leftHand.position;
+		}
 	}
 
 	public void WeaponReference(){
@@ -38,8 +42,8 @@ public class itemUse : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		rightHandWeapon.transform.position = rightHand.position;
-		leftHandWeapon.transform.position = leftHand.position;
+		if(rightHandWeapon != null)	rightHandWeapon.transform.position = rightHand.position;
+		if(leftHandWeapon != null)	leftHandWeapon.transform.position = leftHand.position;
 		lastWeaponPreset = curWeaponPreset;
 	}
 }

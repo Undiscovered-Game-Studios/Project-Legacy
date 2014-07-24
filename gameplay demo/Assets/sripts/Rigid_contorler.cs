@@ -36,8 +36,10 @@ public class Rigid_contorler : MonoBehaviour {
 		myTrans = transform;
 		
 		LoadNewScene lo = (LoadNewScene) GetComponent ("LoadNewScene");
-		
-		myTrans.position = lo.startingArea;
+
+		if (lo != null) {
+			myTrans.position = lo.startingArea;
+		}
 	}
 
     public void Strafe()

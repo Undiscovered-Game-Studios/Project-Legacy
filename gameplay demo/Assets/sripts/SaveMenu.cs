@@ -73,7 +73,7 @@ public class SaveMenu : MonoBehaviour
 	
 	void OnGUI()
 	{
-		menuFunction();
+		if(menuFunction != null)	menuFunction();
 	}
 	
 	void mainMenu()
