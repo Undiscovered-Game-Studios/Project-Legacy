@@ -10,12 +10,10 @@ public class Enemy_health_tracking : MonoBehaviour {
 	
 	public int healthBarPlace;
 	
-	public GameObject me;
-	
 	public Texture2D horizontalHealthBar, verticalHeathBar, healthBarColor;
 	
 	void Start(){
-		me = gameObject;
+
 	}
 	
 	// Update is called once per frame
@@ -23,21 +21,24 @@ public class Enemy_health_tracking : MonoBehaviour {
 		AddjustCurentHealth(0);
 		
 		if(curHealth <= 0){
+			EnemyAI ai = (EnemyAI) GetComponent ("EnemyAI");
+			
+			Player_Combat pc = (Player_Combat) ai.activeTarget.GetComponent ("Player_Combat");
+
+			pc.targets.Remove(transform);
 			Destroy(gameObject);		
 		}
 	}
 	
 	void OnGUI(){
 		
-		GameObject go = GameObject.FindGameObjectWithTag("Player");
+		EnemyAI ai = (EnemyAI) GetComponent ("EnemyAI");
 		
-		Player_Combat pc = (Player_Combat) go.GetComponent ("Player_Combat");
-		
-		Enemy_AI ea = (Enemy_AI) me.GetComponent ("Enemy_AI");
+		Player_Combat pc = (Player_Combat) ai.activeTarget.GetComponent ("Player_Combat");
 
-		int myIndex = pc.targets.IndexOf(me.transform);
+		int myIndex = pc.targets.IndexOf(gameObject.transform);
 
-		if(Vector3.Distance(me.transform.position, pc.gameObject.transform.position) <= ea.maxDistance * 2){
+		if(Vector3.Distance(transform.position, pc.gameObject.transform.position) <= ai.detectionRange){
 
 			if(myIndex == 0){
 				healthBarLength = (Screen.width/2) * (curHealth / (float)maxHealth);
