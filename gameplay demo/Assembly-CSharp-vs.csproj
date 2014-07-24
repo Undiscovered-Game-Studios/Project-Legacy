@@ -135,6 +135,7 @@
      <Compile Include="Assets\sripts\animationScript.cs" />
      <Compile Include="Assets\sripts\audioFollow.cs" />
      <Compile Include="Assets\sripts\cutTest.cs" />
+     <Compile Include="Assets\sripts\enemyHealthTracking.cs" />
      <Compile Include="Assets\sripts\equipment.cs" />
      <Compile Include="Assets\sripts\hover.cs" />
      <Compile Include="Assets\sripts\inclusionObjectCulling.cs" />

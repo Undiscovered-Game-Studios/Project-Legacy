@@ -47,7 +47,7 @@ public class Player_Combat : MonoBehaviour {
 				curCool1 = coolDown1;
 
 				foreach (Transform trans in targets) {
-					Enemy_health_tracking eh = (Enemy_health_tracking)trans.GetComponent ("Enemy_health_tracking");
+					enemyHealthTracking eh = (enemyHealthTracking)trans.GetComponent ("enemyHealthTracking");
 					float dist = Vector3.Distance(transform.position, trans.transform.position);
 		
 					dir = (targets[0].transform.position - transform.position).normalized;
@@ -66,7 +66,7 @@ public class Player_Combat : MonoBehaviour {
 			curCool2 = coolDown2;
 			
 			foreach (Transform trans in targets) {
-				Enemy_health_tracking eh = (Enemy_health_tracking)trans.GetComponent ("Enemy_health_tracking");
+				enemyHealthTracking eh = (enemyHealthTracking)trans.GetComponent ("enemyHealthTracking");
 				float dist = Vector3.Distance(transform.position, trans.transform.position);
 				
 				dir = (targets[0].transform.position - transform.position).normalized;
@@ -125,7 +125,7 @@ public class Player_Combat : MonoBehaviour {
 			if (direction > 0){
 				
 				Enemy_AI ea = (Enemy_AI) target.GetComponent("Enemy_AI");
-				Enemy_health_tracking eh = (Enemy_health_tracking)target.GetComponent("Enemy_health_tracking");
+				enemyHealthTracking eh = (enemyHealthTracking)target.GetComponent("enemyHealthTracking");
 				
 				if(ea.isFollowing == false){
 					eh.curHealth = 0;
