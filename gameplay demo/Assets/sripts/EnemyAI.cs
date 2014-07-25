@@ -63,6 +63,14 @@ public class EnemyAI : MonoBehaviour {
 		}
 
 		public void FindTarget(){
+			foreach (GameObject temp in targets) {
+				if(temp == null){
+					int ind = targets.IndexOf(temp);
+					float tmp = targetHate[ind];
+					targetHate.Remove(tmp);
+					targets.Remove(temp);
+				}
+			}
 			float highestHate;
 			int index;
 			highestHate = targetHate.Max ();
@@ -93,16 +101,6 @@ public class EnemyAI : MonoBehaviour {
 				Debug.Log ("End Of Path Reached");
 				return;
 			}
-			/* old path folling logic
-			//Direction to the next waypoint
-			Vector3 dir = (path.vectorPath[currentWaypoint]-transform.position).normalized;
-			dir *= speed * Time.fixedDeltaTime;
-			controller.SimpleMove (dir);
-			//Check if we are close enough to the next waypoint
-			//If we are, proceed to follow the next waypoint
-			currentWaypoint++;
-			return;
-			*/
 			
 			if (Vector3.Distance (transform.position, path.vectorPath [currentWaypoint]) < 1) {
 				currentWaypoint += 1;
