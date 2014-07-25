@@ -2,7 +2,11 @@ fileFormatVersion: 2
 guid: fa64b6f3a61b1db4aaad9071203e4c71
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - horizontalHealthBar: {fileID: 2800000, guid: f2b0e118079a5a947914db8f892e29af,
+      type: 3}
+  - verticalHeathBar: {fileID: 2800000, guid: 7818e04f1b9558943abe86a73598e1e6, type: 3}
+  - healthBarColor: {fileID: 2800000, guid: 331be93836c5bcd428759db08196369a, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
