@@ -17,7 +17,6 @@ public class EnemyAI : MonoBehaviour {
 	#region A* Variables
 	//The point to move to
 	private Seeker seeker;
-	private CharacterController controller;
 	//The calculated path
 	public Path path;
 	//The AI's speed per second
@@ -37,7 +36,6 @@ public class EnemyAI : MonoBehaviour {
 	
 	public void Start () {
 		seeker = GetComponent<Seeker>();
-		controller = GetComponent<CharacterController>();
 
 		startingVector = transform.position;
 
