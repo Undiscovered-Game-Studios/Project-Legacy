@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AIListControl.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Core\AI\AIPath.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Core\AI\NavmeshController.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Core\AI\Seeker.cs" />
@@ -107,6 +108,10 @@
      <Compile Include="Assets\AstarPathfindingProject\Utilities\SizeProfiler.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Utilities\UnityReferenceHelper.cs" />
      <Compile Include="Assets\AstarPathfindingProject\changelog.cs" />
+     <Compile Include="Assets\HoldForScene.cs" />
+     <Compile Include="Assets\allyAI.cs" />
+     <Compile Include="Assets\cameraFollow.cs" />
+     <Compile Include="Assets\cameraPositioning.cs" />
      <Compile Include="Assets\character stats\characterA base.cs" />
      <Compile Include="Assets\orbit.cs" />
      <Compile Include="Assets\sripts\Ally_Health_Tracking.cs" />
