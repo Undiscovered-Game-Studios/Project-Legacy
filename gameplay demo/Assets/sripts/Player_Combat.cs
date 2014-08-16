@@ -4,26 +4,34 @@ using System.Collections.Generic;
 
 public class Player_Combat : MonoBehaviour {
 	public List<Transform> targets;
-	public float timer, coolDown1 = 5, coolDown2 = 5, range1, range2, angle1, angle2, tempDamage = 15;
+	public float timer, coolDown1 = 5, coolDown2 = 5, range1, range2, angle1, angle2, damage1 = 15, damage2 = 25;
 	public Vector3 dir;
 	private float direction, curCool1, curCool2;
 
 		void Start(){
+			LoadList ();
+		}
+
+		void LoadList(){
 			GameObject[] go = GameObject.FindGameObjectsWithTag("Enemy");
-		
+			
 			foreach(GameObject enemy in go){
 				targets.Add(enemy.transform);
 			}
 		}
 
 		void Update(){
+			targets = new List<Transform>();
+			LoadList ();
 			SortByDistance ();
-			
-			if (Input.GetKeyDown (KeyCode.F) && curCool1 <= 0f) {
+
+			allyAI ai = (allyAI)gameObject.GetComponent ("allyAI");
+
+			if (Input.GetKeyDown (KeyCode.F) && curCool1 <= 0f && ai.isAIControlled == false) {
 				attackP ();
 			}
 
-			if (Input.GetKeyDown (KeyCode.C) && curCool1 <= 0f) {
+			if (Input.GetKeyDown (KeyCode.C) && curCool1 <= 0f && ai.isAIControlled == false) {
 				attackS ();
 			}
 		
@@ -47,17 +55,17 @@ public class Player_Combat : MonoBehaviour {
 				curCool1 = coolDown1;
 
 				foreach (Transform trans in targets) {
-					enemyHealthTracking eh = (enemyHealthTracking)trans.GetComponent ("enemyHealthTracking");
+					enemyHealthTracking eh = (enemyHealthTracking) trans.GetComponent ("enemyHealthTracking");
 					float dist = Vector3.Distance(transform.position, trans.transform.position);
 		
-					dir = (targets[0].transform.position - transform.position).normalized;
+					dir = (trans.transform.position - transform.position).normalized;
 					direction = Vector3.Dot(dir, transform.forward);
 
 					if(direction >= angle1){
 						if (dist <= range1) {
-								eh.curHealth -= (int) tempDamage;
-						} else if (tempDamage - (dist - range1) <= 0) {
-								eh.curHealth -= (int) (tempDamage - (dist - range1)/2);
+						eh.curHealth -= (int) damage1;
+					} else if (damage1 - (dist - range1) <= 0) {
+						eh.curHealth -= (int) (damage1 - (dist - range1)/2);
 						}
 					}
 				}
@@ -69,14 +77,14 @@ public class Player_Combat : MonoBehaviour {
 				enemyHealthTracking eh = (enemyHealthTracking)trans.GetComponent ("enemyHealthTracking");
 				float dist = Vector3.Distance(transform.position, trans.transform.position);
 				
-				dir = (targets[0].transform.position - transform.position).normalized;
+				dir = (trans.transform.position - transform.position).normalized;
 				direction = Vector3.Dot(dir, transform.forward);
 				
 				if(direction >= angle2){
 					if (dist <= range2) {
-						eh.curHealth -= (int) tempDamage;
-					} else if (tempDamage - (dist - range2) <= 0) {
-						eh.curHealth -= (int) (tempDamage - (dist - range2)/2);
+						eh.curHealth -= (int) damage2;
+					} else if (damage2 - (dist - range2) <= 0) {
+						eh.curHealth -= (int) (damage2 - (dist - range2)/2);
 					}
 				}
 			}
