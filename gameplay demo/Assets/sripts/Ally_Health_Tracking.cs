@@ -5,9 +5,12 @@ public class Ally_Health_Tracking : MonoBehaviour {
 	
 	public int maxHealth = 100, curHealth = 100;
 	
-	public float healthBarLength, healthBarPlace = 10;
+	public float healthBarLength, healthBarVerticalSpaceScale = 1, HealthBarDistanceFromTopOfScreen;
+	public Vector2 healthBarPlace, healthBarSize;
 	
 	public Texture2D horizontalHealthBar, verticalHeathBar, healthBarColor;
+
+	private float myIndex;
 	
 	// Use this for initialization
 	void Start () {
@@ -19,11 +22,12 @@ public class Ally_Health_Tracking : MonoBehaviour {
 	}
 	
 	void OnGUI(){
-		healthBarLength = (Screen.width/2) * (curHealth / (float)maxHealth);
-		healthBarPlace = 10;
-		
-		GUI.DrawTexture(new Rect((Screen.width/2) - healthBarLength + 10,healthBarPlace + 40, healthBarLength - 100, 20), healthBarColor);
-		GUI.DrawTexture(new Rect(0,healthBarPlace, Screen.width / 2, 60), horizontalHealthBar);
+		AIListControl ailc = (AIListControl)gameObject.GetComponent ("AIListControl");
+
+
+
+
+		HealthBars ();
 	}
 	
 	public void AddjustCurentHealth(int adj){
@@ -46,5 +50,36 @@ public class Ally_Health_Tracking : MonoBehaviour {
 		if(col.gameObject.tag == "Fire"){
 			curHealth --;
 		}
+	}
+
+	public void HealthBars(){
+		AIListControl ailc = (AIListControl)transform.parent.GetComponent ("AIListControl");
+		int index,
+			i1 = ailc.players.IndexOf(gameObject),
+			i2 = ailc.activePlayer;
+		index = i1 + i2;
+		if (index >= (ailc.players.Count)) {
+			index -= ailc.players.Count;
+		}
+
+		healthBarLength = (Screen.width/(index+2)) * (curHealth / (float)maxHealth);
+
+		Rect healthBarColorRect = new Rect(healthBarPlace.x, 					//x-position
+		                                   ((healthBarPlace.y * (index + 1)) * healthBarVerticalSpaceScale) 
+		                                   - (healthBarPlace.y * healthBarVerticalSpaceScale) 
+		                                   + HealthBarDistanceFromTopOfScreen, 	//y-position
+		                                   healthBarLength * healthBarSize.x, 	//x-width
+		                                   healthBarSize.y);					//y-height
+
+		Rect healthBarFrameRect = new Rect(healthBarPlace.x, 					//x-position
+		                                   ((healthBarPlace.y * (index + 1)) * healthBarVerticalSpaceScale) 
+		                                   - (healthBarPlace.y * healthBarVerticalSpaceScale) 
+		                                   + HealthBarDistanceFromTopOfScreen, 	//y-position
+		                                   healthBarSize.x * (Screen.width/(index+2)), 	//x-width
+		                                   healthBarSize.y);
+		
+		GUI.DrawTexture(healthBarColorRect, healthBarColor);
+
+		//GUI.DrawTexture(healthBarFrameRect, horizontalHealthBar);
 	}
 }
