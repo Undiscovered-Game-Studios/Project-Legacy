@@ -3,9 +3,10 @@ using System.Collections;
 
 public class audioFollow : MonoBehaviour {
 
-	public GameObject player, listener;
+	public GameObject player;
 	public Vector3 startingSpot;
-	public float range = 500, distance;
+	public float range = 500;
+	private float distance;
 
 	// Use this for initialization
 	void Start () {

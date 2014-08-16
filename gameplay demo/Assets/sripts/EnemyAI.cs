@@ -82,7 +82,6 @@ public class EnemyAI : MonoBehaviour {
 	#region PathFinding
 	
 		public void OnPathComplete (Path p) {
-			Debug.Log ("Yay, we got a path back. Did it have an error? "+p.error);
 			if (!p.error) {
 				path = p;
 				//Reset the waypoint counter
@@ -98,7 +97,6 @@ public class EnemyAI : MonoBehaviour {
 			}
 			
 			if (currentWaypoint >= path.vectorPath.Count) {
-				Debug.Log ("End Of Path Reached");
 				return;
 			}
 			

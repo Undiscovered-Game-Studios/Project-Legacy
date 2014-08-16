@@ -14,14 +14,14 @@ public class Rigid_contorler : MonoBehaviour {
 	public bool canMove, isSprinting, isAirBorn, isJumping, isSwimming, isSliding, isClimbing,
 				isWalkingRope, isStrafingRight, isStrafingLeft, needToBeVertical;
 
-	public Quaternion oldRot;
+		public Quaternion oldRot, toRot;
 
 	public Vector3 startingTightRopeVector, endingTightRopeVector;
+	#endregion
 
-	private Transform myTrans;
-	public Quaternion toRot;
-	
-
+	#region AI-controller variables
+		public bool isAIControlled;
+	#endregion
 	
 	public Vector3 startingSpot;
 	
@@ -33,12 +33,10 @@ public class Rigid_contorler : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		myTrans = transform;
-		
 		LoadNewScene lo = (LoadNewScene) GetComponent ("LoadNewScene");
 
 		if (lo != null) {
-			myTrans.position = lo.startingArea;
+			transform.position = lo.startingArea;
 		}
 	}
 
@@ -67,10 +65,10 @@ public class Rigid_contorler : MonoBehaviour {
 			canMove = false;
 		}
 		if (isStrafingLeft == true) {
-			myTrans.position -= myTrans.right * strafeSpeed;
+			transform.position -= transform.right * strafeSpeed;
 		}
 		if (isStrafingRight == true) {
-			myTrans.position += myTrans.right * strafeSpeed;
+			transform.position += transform.right * strafeSpeed;
 		}
     }
 	
@@ -80,7 +78,7 @@ public class Rigid_contorler : MonoBehaviour {
 
 		if(isClimbing == false){
 			curRunSpeed = curSprintMultiplier * maxSpeedForward * Input.GetAxis("buttonForward");
-			myTrans.position += myTrans.forward * curRunSpeed * Time.deltaTime;
+			transform.position += transform.forward * curRunSpeed * Time.deltaTime;
 
 
 			curTurnSpeed = eulerAngleVelocity.y;
@@ -96,12 +94,12 @@ public class Rigid_contorler : MonoBehaviour {
 				
 				if(isSwimming == true){
 					if(isJumping == true){
-						myTrans.position += myTrans.up * vertSwimSpeed * curSprintMultiplier * Time.deltaTime;
+						transform.position += transform.up * vertSwimSpeed * curSprintMultiplier * Time.deltaTime;
 					}else{
-						myTrans.position -= myTrans.up * vertSwimSpeed * curSprintMultiplier * Time.deltaTime;
+						transform.position -= transform.up * vertSwimSpeed * curSprintMultiplier * Time.deltaTime;
 					}
 				}else{
-					myTrans.position += myTrans.up * curJumpDuration * jumpSpeed * Time.deltaTime;
+					transform.position += transform.up * curJumpDuration * jumpSpeed * Time.deltaTime;
 				}
 			}else{
 				WalkRope();
@@ -184,9 +182,9 @@ public class Rigid_contorler : MonoBehaviour {
 		
 		Ray groundRay, wallRay;
 		
-		groundRay = new Ray (myTrans.position,Vector3.down);
+		groundRay = new Ray (transform.position,Vector3.down);
 		
-		wallRay = new Ray (myTrans.position,myTrans.forward);
+		wallRay = new Ray (transform.position,transform.forward);
 		
 		if(Physics.Raycast(groundRay,out groundOut,2)){
 			isAirBorn = false;
@@ -224,7 +222,7 @@ public class Rigid_contorler : MonoBehaviour {
 
 	public void SlideCalc(){
 		Vector3 slidePlace = transform.position;
-		Vector3 slideDir = (slidePlace - myTrans.position);
+		Vector3 slideDir = (slidePlace - transform.position);
 
 		Debug.Log(slidePlace.ToString());
 		Debug.Log(slideDir.ToString());
@@ -304,8 +302,8 @@ public class Rigid_contorler : MonoBehaviour {
 				temp.z = 0;
 			}
 
-			myTrans.rotation = temp;
+				transform.rotation = temp;
+			}
 		}
-
 	}
 }

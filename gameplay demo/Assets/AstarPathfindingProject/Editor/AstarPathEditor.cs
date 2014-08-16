@@ -455,7 +455,7 @@ public class AstarPathEditor : Editor {
 		
 		AstarProfiler.EndProfile ("OnInspectorGUI");
 		
-		EditorGUIUtility.LookLikeInspector ();
+		//EditorGUIUtility.LookLikeInspector ();
 		//m_object.ApplyModifiedProperties ();
 	}
 	
