@@ -1,22 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Rigid_contorler : MonoBehaviour {
-	
-	public float maxSpeedForward = 20, maxSpeedBack = 15, jumpSpeed = 7, vertSwimSpeed = 5, 
-				horSwimSpeed = 10, climbSpeed = 2, strafeSpeed = 50;
 
-	public float maxSprintMultiplier = 3, maxSprintTime = 5, 
-		maxJumpDuration = 5, maxStrafeTimer = 1.5f;
+	#region player-controlled vaiables
+		public float maxSpeedForward = 20, maxSpeedBack = 15, jumpSpeed = 7, vertSwimSpeed = 5, 
+					horSwimSpeed = 10, climbSpeed = 2, strafeSpeed = 50;
 
-	public float curRunSpeed, curTurnSpeed, curJumpDuration, curSprintTime, curSprintMultiplier, curStrafeTimer;
+		public float maxSprintMultiplier = 3, maxSprintTime = 5, 
+			maxJumpDuration = 5, maxStrafeTimer = 1.5f;
 
-	public bool canMove, isSprinting, isAirBorn, isJumping, isSwimming, isSliding, isClimbing,
-				isWalkingRope, isStrafingRight, isStrafingLeft, needToBeVertical;
+		public float curRunSpeed, curTurnSpeed, curJumpDuration, curSprintTime, curSprintMultiplier, curStrafeTimer;
+
+		public bool canMove, isSprinting, isAirBorn, isJumping, isSwimming, isSliding, isClimbing,
+					isWalkingRope, isStrafingRight, isStrafingLeft, needToBeVertical;
 
 		public Quaternion oldRot, toRot;
 
-	public Vector3 startingTightRopeVector, endingTightRopeVector;
+		public Vector3 startingTightRopeVector, endingTightRopeVector;
 	#endregion
 
 	#region AI-controller variables
@@ -230,77 +232,84 @@ public class Rigid_contorler : MonoBehaviour {
 
 	public void Climb(){
 		ladderTrigger la = (ladderTrigger) GetComponent ("ladderTrigger");
-		myTrans.rotation = Quaternion.Slerp(myTrans.rotation, toRot, Time.deltaTime * 5);
+		transform.rotation = Quaternion.Slerp(transform.rotation, toRot, Time.deltaTime * 5);
 
-		myTrans.position += myTrans.up * climbSpeed * curSprintMultiplier * Input.GetAxis("buttonForward") * Time.deltaTime;
+		transform.position += transform.up * climbSpeed * curSprintMultiplier * Input.GetAxis("buttonForward") * Time.deltaTime;
 
-		myTrans.position += myTrans.right * climbSpeed * curSprintMultiplier * Input.GetAxis("buttonTurn") * Time.deltaTime;
+		transform.position += transform.right * climbSpeed * curSprintMultiplier * Input.GetAxis("buttonTurn") * Time.deltaTime;
 
 		/*if(isTurningLeft == true){
-			myTrans.position -= myTrans.right * climbSpeed * curSprintMultiplier * Time.deltaTime;
+			transform.position -= transform.right * climbSpeed * curSprintMultiplier * Time.deltaTime;
 		}
 		if(isTurningRight == true){
-			myTrans.position += myTrans.right * climbSpeed * curSprintMultiplier * Time.deltaTime;
+			transform.position += transform.right * climbSpeed * curSprintMultiplier * Time.deltaTime;
 		}*/
 	}
 
 	public void WalkRope(){
 		rigidbody.useGravity = false;
-		myTrans.rotation = Quaternion.Slerp(myTrans.rotation,Quaternion.LookRotation(endingTightRopeVector - myTrans.position),Time.deltaTime);
-		//myTrans.position = Vector3.Lerp(myTrans.position, startingTightRopeVector, Time.deltaTime);
-		//myTrans.position = startingTightRopeVector;
+		transform.rotation = Quaternion.Slerp(transform.rotation,Quaternion.LookRotation(endingTightRopeVector - transform.position),Time.deltaTime);
+		//transform.position = Vector3.Lerp(transform.position, startingTightRopeVector, Time.deltaTime);
+		//transform.position = startingTightRopeVector;
 	}
 	
 	// Update is called once per frame
-	void FixedUpdate () {		
-		CheckButtons();
-		
-		FindMovement();
+	void FixedUpdate () {
+		if (isAIControlled == false) {
 
-		Strafe ();
+			CheckButtons ();
 		
-		if(canMove == true){
-			Move();
-		}
-		
-		FindObstacles();
-		
-		SlopeCalc();
-		
-		if(isClimbing == false)if(isAirBorn == true || isJumping == true) isSprinting = false;
-		
-		rigidbody.isKinematic = false;	
+			FindMovement ();
 
-		if(isSwimming == false && isClimbing == false && isWalkingRope == false)rigidbody.useGravity = true;
-
-		if(myTrans.rotation.x == 0 && myTrans.rotation.z == 0) needToBeVertical = false;
-		if(needToBeVertical == true){
-			Quaternion temp = new Quaternion();
-			temp = myTrans.rotation;
-
-			if(temp.x - Time.deltaTime/2 > 0){
-				temp.x -= Time.deltaTime/2;
-			}else if(temp.x > 0 && temp.x - Time.deltaTime/2 < 0){
-				temp.x = 0;
+			Strafe ();
+		
+			if (canMove == true) {
+				Move ();
 			}
+		
+			FindObstacles ();
+		
+			SlopeCalc ();
+		
+			if (isClimbing == false)
+			if (isAirBorn == true || isJumping == true)
+				isSprinting = false;
+		
+			rigidbody.isKinematic = false;	
 
-			if(temp.x + Time.deltaTime/2 < 0){
-				temp.x += Time.deltaTime/2;
-			}else if (temp.x < 0 && temp.x + Time.deltaTime/2 > 0){
-				temp.x = 0;
-			}
+			if (isSwimming == false && isClimbing == false && isWalkingRope == false)
+				rigidbody.useGravity = true;
 
-			if(temp.z - Time.deltaTime/2 > 0){
-				temp.z -= Time.deltaTime/2;
-			}else if(temp.z > 0 && temp.z - Time.deltaTime/2 < 0){
-				temp.z = 0;
-			}
-			
-			if(temp.z + Time.deltaTime/2 < 0){
-				temp.z += Time.deltaTime/2;
-			}else if (temp.z < 0 && temp.z + Time.deltaTime/2 > 0){
-				temp.z = 0;
-			}
+			if (transform.rotation.x == 0 && transform.rotation.z == 0)
+				needToBeVertical = false;
+
+			if (needToBeVertical == true) {
+				Quaternion temp = new Quaternion ();
+				temp = transform.rotation;
+
+				if (temp.x - Time.deltaTime / 2 > 0) {
+					temp.x -= Time.deltaTime / 2;
+				} else if (temp.x > 0 && temp.x - Time.deltaTime / 2 < 0) {
+					temp.x = 0;
+				}
+
+				if (temp.x + Time.deltaTime / 2 < 0) {
+					temp.x += Time.deltaTime / 2;
+				} else if (temp.x < 0 && temp.x + Time.deltaTime / 2 > 0) {
+					temp.x = 0;
+				}
+
+				if (temp.z - Time.deltaTime / 2 > 0) {
+					temp.z -= Time.deltaTime / 2;
+				} else if (temp.z > 0 && temp.z - Time.deltaTime / 2 < 0) {
+					temp.z = 0;
+				}
+				
+				if (temp.z + Time.deltaTime / 2 < 0) {
+					temp.z += Time.deltaTime / 2;
+				} else if (temp.z < 0 && temp.z + Time.deltaTime / 2 > 0) {
+					temp.z = 0;
+				}
 
 				transform.rotation = temp;
 			}
