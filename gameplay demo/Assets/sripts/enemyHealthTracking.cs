@@ -25,6 +25,15 @@ public class enemyHealthTracking : MonoBehaviour {
 			EnemyAI ai = (EnemyAI) GetComponent ("EnemyAI");
 			
 			Player_Combat pc = (Player_Combat) ai.activeTarget.GetComponent ("Player_Combat");
+
+			foreach(GameObject go in ai.targets){
+				allyAI aai = (allyAI) go.GetComponent ("allyAI");
+				float hate = aai.targetHate[aai.targets.IndexOf(transform)];
+				aai.targetHate.Remove(hate);
+				aai.targets.Remove(transform);
+				aai.activeTarget = null;
+				aai.isInCombat = false;
+			}
 			
 			pc.targets.Remove(transform);
 			Destroy(gameObject);		
