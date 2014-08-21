@@ -9,6 +9,8 @@ Project("{44FEADF4-0816-C605-61EE-59A902101138}") = "gameplay demo", "Assembly-C
 EndProject
 Project("{44FEADF4-0816-C605-61EE-59A902101138}") = "gameplay demo", "Assembly-UnityScript-firstpass.unityproj", "{F21BAACF-9BB9-1B82-31A8-1754A89A3171}"
 EndProject
+Project("{44FEADF4-0816-C605-61EE-59A902101138}") = "gameplay demo", "Assembly-UnityScript.unityproj", "{F4FE0E66-0379-A6CF-B022-1B5F685A93AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,11 +33,15 @@ Global
 		{F21BAACF-9BB9-1B82-31A8-1754A89A3171}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F21BAACF-9BB9-1B82-31A8-1754A89A3171}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F21BAACF-9BB9-1B82-31A8-1754A89A3171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4FE0E66-0379-A6CF-B022-1B5F685A93AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4FE0E66-0379-A6CF-B022-1B5F685A93AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4FE0E66-0379-A6CF-B022-1B5F685A93AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4FE0E66-0379-A6CF-B022-1B5F685A93AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																																																				GlobalSection(MonoDevelopProperties) = preSolution
+																																																																																										GlobalSection(MonoDevelopProperties) = preSolution
 =======
 																																		GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> 8971a2f16fd673213068496eb8990b6c748349a5

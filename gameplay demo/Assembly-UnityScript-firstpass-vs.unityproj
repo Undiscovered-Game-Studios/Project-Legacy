@@ -82,10 +82,10 @@
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\AstarPathfindingProject\link.xml" />
  <Reference Include="Ionic.Zip.Reduced">
- <HintPath>C:/Users/Undiscovered/Documents/Project-Legacy/gameplay demo/Assets/AstarPathfindingProject/Plugins/DotNetZip/Ionic.Zip.Reduced.dll</HintPath>
+ <HintPath>C:/Users/rogueHackLab/Documents/GitHub/Project-Legacy/gameplay demo/Assets/AstarPathfindingProject/Plugins/DotNetZip/Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="JsonFx.Json">
- <HintPath>C:/Users/Undiscovered/Documents/Project-Legacy/gameplay demo/Assets/AstarPathfindingProject/Plugins/JsonFx/JsonFx.Json.dll</HintPath>
+ <HintPath>C:/Users/rogueHackLab/Documents/GitHub/Project-Legacy/gameplay demo/Assets/AstarPathfindingProject/Plugins/JsonFx/JsonFx.Json.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
